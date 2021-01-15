@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/toptalent-core.css">
-    <link rel="stylesheet" href="css/toptalent-components.css">
+    <!-- <link rel="stylesheet" href="css/toptalent-components.css"> -->
     <link rel="stylesheet" href="css/toptalent-globals.css">
     <link rel="stylesheet" href="css/custom.css">
 
@@ -21,31 +21,30 @@
         <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-10">
             <nav class="js-mega-menu navbar navbar-expand-lg hs-menu-initialized hs-menu-horizontal">
                 <div class="container">
-                    <!-- Logo -->
-                    <div class="navbar-brand d-flex">
-                        <div class="g-mr-50--md">ggg<img src="img/logo/logo-toptalent.png"></div>
-                        <div class="d-flex align-items-center">
-                            <div class="btn btn-md u-btn-blue rounded-0 border-0"><span class="g-font-size-14">Üye</span></div>
-                            <div class="btn btn-md u-btn-outline-lightgray rounded-0 g-rounded-right-50">İşveren</div>
-                            <div class="g-mx-30 g-color-gray-light-v1">|</div>
-                            <div class="btn btn-md u-btn-primary g-rounded-20">Hızlı İlan Yayınla</div>
-                        </div>
-                    </div>
-                    <!-- End Logo -->
-                    <!-- Navigation -->
-                    <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--lg">
-                        <ul class="navbar-nav text-uppercase g-pos-rel g-font-weight-600 ml-auto">
-                            <li class="nav-item g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-                                <a class="nav-link g-py-7 g-px-0" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features">Y</a>
+                    <a class="navbar-brand" href="#"><img src="img/logo/logo-toptalent.png"></a>
+                    <button class="navbar-toggler link-black" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li>
+                                <div class="btn-group" role="group" aria-label="Member - Employer">
+                                    <a hraf="#" class="btn btn-blue">Üye</a>
+                                    <a hraf="#" class="btn btn-blue-lt">İşveren</a>
+                                </div>
+                                <span class="navbar-seperator">|</span>
+                                <a href="#" class="btn btn-pink">Hızlı İlan Yayınla</a>
                             </li>
-
                         </ul>
-                    </div>
-                    <!-- End Navigation -->
-
-                    <div class="d-inline-block g-hidden-md-down g-pos-rel g-valign-middle g-pl-30 g-pl-0--lg">
-                        <a class="btn u-btn-primary g-font-size-13 text-uppercase g-py-10 g-px-15" href="#">Q</a>
-                    </div>
+                        <!-- End Logo -->
+                        <!-- Navigation -->
+                        <a href="#" class="link-black navbar-seperator">Kariyer araçlarını dene</a>
+                        <a href="#" class="link-black">Kampanyalar</a>
+                        <span class="navbar-seperator">|</span>
+                        <a hraf="#" class="btn btn-ghost">Üye Ol</a>
+                        <a href="#" class="link-black navbar-seperator">Giriş Yap</a>
+                        <!-- End Navigation -->
+                    </div>                
                 </div>
             </nav>
         </div>

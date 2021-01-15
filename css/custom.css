@@ -88,6 +88,21 @@
 }
 
 /*------------------------------------
+	Menu Items
+------------------------------------*/
+
+.navbar-seperator {
+    padding-left:20px;
+    padding-right:20px;
+}
+a.link-black:link, a.link-black:visited {
+    color: #242734;
+}
+a.link-black:hover {
+    color: #12141A;
+}
+
+/*------------------------------------
 	Vertical Direction
 ------------------------------------*/
 
@@ -198,4 +213,64 @@
     -webkit-transform: translate(-50%, 0);
     -ms-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
+}
+
+/*------------------------------------
+	Custom Buttons
+------------------------------------*/
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    font-weight:600;
+}
+.btn-ghost {
+    color: #242734;
+    border: solid 1px #e3e7eb;
+    padding: 10px 30px 10px 30px;
+}
+.btn-ghost:hover, .btn-ghost:focus, .btn-ghost:active, .btn-ghost.active, .open>.dropdown-toggle.btn-ghost {
+    color: #242734;
+    border: solid 1px #8b8b8b;
+    padding: 10px 30px 10px 30px;
+}
+.btn-blue {
+    background-color:#0096d6;
+    color:#fff;
+    padding: 10px 30px 10px 30px;
+}
+.btn-blue:hover, .btn-blue:focus, .btn-blue:active, .btn-blue.active, .open>.dropdown-toggle.btn-blue {
+    background-color: #006c9a;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+}
+.btn-blue-lt {
+    background-color:#eff6fc;
+    color:#242734;
+    padding: 10px 30px 10px 30px;
+}
+.btn-blue-lt:hover, .btn-blue-lt:focus, .btn-blue-lt:active, .btn-blue-lt.active, .open>.dropdown-toggle.btn-blue-lt {
+    background-color: #dbe3ea;
+    color:#242734;
+    padding: 10px 30px 10px 30px;
+}
+.btn-pink {
+    background-color:#c4197f;
+    color:#fff;
+    padding: 10px 30px 10px 30px;
+}
+.btn-pink:hover, .btn-pink:focus, .btn-pink:active, .btn-pink.active, .open>.dropdown-toggle.btn-pink {
+    background-color: #991363;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+}
+.btn-green {
+    background-color:#4fcc59;
+    color:#fff;
+    padding: 10px 30px 10px 30px;
+}
+.btn-green:hover, .btn-green:focus, .btn-green:active, .btn-green.active, .open>.dropdown-toggle.btn-green {
+    background-color: #319639;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
 }
