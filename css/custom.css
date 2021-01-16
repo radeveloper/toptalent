@@ -332,25 +332,27 @@ a.link-black:hover {
     font-size:11px;
     color:#92939a;
 }
+.row-f-bottom {
+    background-color: #1b1d27;
+    padding-top:40px;
+    padding-bottom:15px;
+}
 
 /*------------------------------------
 	Sprite Icons
 ------------------------------------*/
 .icon-try-career {
-    left: 26px;
     width: 18px;
     height: 17px;
     background: url('../img/cmn/icon-sprite.png') -26px -28px;
 }
 .icon-campaigns {
-    left: 76px;
     width: 18px;
     height: 17px;
     background: url('../img/cmn/icon-sprite.png') -76px -28px;
     padding-left:15px;
 }
-.icon-iskur {
-    left: 25px;
+.icon-isk {
     width: 70px;
     height: 37px;
     background: url('../img/cmn/icon-sprite.png') -25px -67px;
