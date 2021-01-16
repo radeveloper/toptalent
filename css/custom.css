@@ -310,6 +310,9 @@ a.link-black:hover {
     .reset-padding-r {
         padding-right: 0px;
     }
+    .secondary-header {
+        padding-top:40px;
+    }
 }
 
 /*------------------------------------
@@ -357,4 +360,22 @@ a.link-black:hover {
     height: 37px;
     background: url('../img/cmn/icon-sprite.png') -25px -67px;
     margin-right:25px;
+}
+.icon-apply-job-posting {
+    width: 26px;
+    height: 33px;
+    background: url('../img/cmn/icon-sprite.png') -122px -19px;
+    margin-right:5px;
+}
+.icon-cv {
+    width: 26px;
+    height: 33px;
+    background: url('../img/cmn/icon-sprite.png') -172px -19px;
+    margin-right:5px;
+}
+.icon-improve-yourself {
+    width: 26px;
+    height: 33px;
+    background: url('../img/cmn/icon-sprite.png') -222px -19px;
+    margin-right:5px;
 }
