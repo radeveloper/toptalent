@@ -221,8 +221,27 @@ a.link-black:link, a.link-black:visited {
 a.link-black:hover {
     color: #12141A;
 }
+.badge-circle-green {
+    font-size:12px;
+    font-weight:600;
+    color: #4fcc59;
+    background-color: transparent;
+    border: 1px solid #00d145;
+    border-radius: 10px;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: .2em;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.g-section-header {
+    font-size:16px;
+}
+.t-white {color:#fff;}
+.t-grey-l {color:#b9bdc0;}
 /*------------------------------------
-
 	Custom Buttons
 ------------------------------------*/
 .btn {
@@ -298,6 +317,12 @@ a.link-black:hover {
     border-left:1px solid #bcb5b9;
     border-bottom:1px solid #bcb5b9;
     border-right:1px solid #bcb5b9;
+}
+.container-blue-lt {
+    background:#eff6fc;
+}
+.container-grey {
+    background:#242734;
 }
 @media (min-width: 1200px) {
     .row-padding {
@@ -378,4 +403,35 @@ a.link-black:hover {
     height: 33px;
     background: url('../img/cmn/icon-sprite.png') -222px -19px;
     margin-right:5px;
+}
+.icon-love {
+    width: 19px;
+    height: 19px;
+    background: url('../img/cmn/icon-sprite.png') -276px -26px;
+}
+.icon-love-position {
+    position:absolute;
+    right:25px;
+    margin-top:10px;
+    z-index: 10;
+}
+.icon-career-tool-1 {
+    width: 219px;
+    height: 120px;
+    background: url('../img/cmn/icon-sprite.png') -10px -110px;
+}
+.icon-career-tool-2 {
+    width: 113px;
+    height: 120px;
+    background: url('../img/cmn/icon-sprite.png') -260px -110px;
+}
+.icon-career-tool-3 {
+    width: 173px;
+    height: 120px;
+    background: url('../img/cmn/icon-sprite.png') -410px -110px;
+}
+.icon-career-tool-4 {
+    width: 158px;
+    height: 120px;
+    background: url('../img/cmn/icon-sprite.png') -610px -110px;
 }
