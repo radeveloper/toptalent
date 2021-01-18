@@ -215,12 +215,17 @@
     padding-left:8px;
     padding-right:8px;
 }
-a.link-black:link, a.link-black:visited {
-    color: #242734;
-}
-a.link-black:hover {
-    color: #12141A;
-}
+.text-white {color: #fff;}
+.text-black {color: #242734;}
+.text-pink {color: #c4197f;}
+
+a.link-white:link, a.link-white:visited {color: #fff;}
+a.link-white:hover {color: #fafafa;}
+a.link-black:link, a.link-black:visited {color: #242734;}
+a.link-black:hover {color: #12141A;}
+a.link-black-inactive:link, a.link-black-inactive:visited {color: #abadb2;}
+a.link-black-inactive:hover {color: #84878c;}
+
 .badge-circle-green {
     font-size:12px;
     font-weight:600;
@@ -235,6 +240,42 @@ a.link-black:hover {
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
+}
+.badge-circle-orange {
+    font-size:12px;
+    font-weight:600;
+    color: #f0b300;
+    background-color: transparent;
+    border: 1px solid #f0b300;
+    border-radius: 10px;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: .2em;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.badge-circle-ghost {
+    font-size:12px;
+    font-weight:600;
+    color: #242734;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: .2em;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.badge-circle-ghost-position {
+    position:absolute;
+    left:25px;
+    margin-top:10px;
+    z-index: 10;
 }
 .g-section-header {
     font-size:16px;
@@ -435,3 +476,9 @@ a.link-black:hover {
     height: 120px;
     background: url('../img/cmn/icon-sprite.png') -610px -110px;
 }
+/*------------------------------------
+	Homepage Customs
+------------------------------------*/
+.date-month {color:#242734; font-size:12px; line-height:12px;}
+.date-day-num {color:#242734; font-size:28px; font-weight:bold; line-height:28px;}
+.date-day {color:#242734; font-size:11px; line-height:11px;}
