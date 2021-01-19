@@ -479,6 +479,6 @@ a.link-black-inactive:hover {color: #84878c;}
 /*------------------------------------
 	Homepage Customs
 ------------------------------------*/
-.date-month {color:#242734; font-size:12px; line-height:12px;}
+.date-month {font-size:12px; line-height:12px;}
 .date-day-num {color:#242734; font-size:28px; font-weight:bold; line-height:28px;}
 .date-day {color:#242734; font-size:11px; line-height:11px;}
