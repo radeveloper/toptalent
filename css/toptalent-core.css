@@ -61,6 +61,8 @@ h1 {
 /*------------------------------------
   Paddings
 ------------------------------------*/
+.p-0 {padding:0px;}
+
 .p-top-0 {padding-top:0px;}
 .p-top-5 {padding-top:5px;}
 .p-top-10 {padding-top:10px;}
@@ -104,6 +106,7 @@ h1 {
 /*------------------------------------
   Margins
 ------------------------------------*/
+.m-0 {margin:0px;}
 .m-top-0 {margin-top:0px;}
 .m-top-5 {margin-top:5px;}
 .m-top-10 {margin-top:10px;}
@@ -154,3 +157,6 @@ h1 {
 .f-16 {font-size:16px;}
 .f-18 {font-size:18px;}
 .f-24 {font-size:24px;}
+.f-28 {font-size:28px;}
+.f-32 {font-size:32px;}
+.f-36 {font-size:36px;}

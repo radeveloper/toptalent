@@ -277,6 +277,9 @@ a.link-black-inactive:hover {color: #84878c;}
     margin-top:10px;
     z-index: 10;
 }
+.target-blue {border:2px solid #0096d6; font-size:18px; padding:8px; font-weight:bold; margin-right:10px; margin-bottom:10px;}
+.target-orange {border:2px solid #f0b300; font-size:18px; padding:8px; font-weight:bold; margin-right:10px;}
+.target-green {border:2px solid #4fcc59; font-size:18px; padding:8px; font-weight:bold; margin-right:10px;}
 .g-section-header {
     font-size:16px;
 }
@@ -297,6 +300,24 @@ a.link-black-inactive:hover {color: #84878c;}
     -moz-border-radius: 999px;
     border-radius: 999px;
 }
+.dot {
+    height: 14px;
+    width: 14px;
+    background-color: #c4197f;
+    border-radius: 7px;
+    display: inline-block;
+  }
+
+.sec{
+    position: relative;
+    right: 9px;
+    top:-6px;
+    color:#fff;
+    font-size:9px;
+    font-weight: bold;
+    text-align: center;
+}
+.dropdown-user {background:none;}
 
 /*------------------------------------
 	Custom Buttons
@@ -361,30 +382,20 @@ a.link-black-inactive:hover {color: #84878c;}
 /*------------------------------------
 	Custom Container
 ------------------------------------*/
-.container-border-top {
-    border-left:1px solid #bcb5b9;
-    border-top:1px solid #bcb5b9;
-    border-right:1px solid #bcb5b9;
-}
-.container-border {
-    border-left:1px solid #bcb5b9;
-    border-right:1px solid #bcb5b9;
-}
-.container-border-bottom {
-    border-left:1px solid #bcb5b9;
-    border-bottom:1px solid #bcb5b9;
-    border-right:1px solid #bcb5b9;
-}
 .container-blue-lt {
     background:#eff6fc;
 }
 .container-grey {
     background:#242734;
 }
+
+/*------------------------------------
+	Responsive Utilities
+------------------------------------*/
 @media (min-width: 1200px) {
     .row-padding {
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
     .reset-padding-l {
         padding-left: 0px;
@@ -395,8 +406,14 @@ a.link-black-inactive:hover {color: #84878c;}
     .secondary-header {
         padding-top:40px;
     }
+    .target-seperator {border-left:1px solid #fff;}
 }
-
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .target-seperator {border-left:1px solid #fff;}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .target-seperator {border-left:1px solid #fff;}
+}
 /*------------------------------------
 	Carousel
 ------------------------------------*/
@@ -465,6 +482,11 @@ a.link-black-inactive:hover {color: #84878c;}
     width: 19px;
     height: 19px;
     background: url('../img/cmn/icon-sprite.png') -276px -26px;
+}
+.icon-notification {
+    width: 16px;
+    height: 19px;
+    background: url('../img/cmn/icon-sprite.png') -327px -26px;
 }
 .icon-love-position {
     position:absolute;
