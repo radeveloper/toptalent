@@ -518,16 +518,16 @@ a.link-black-inactive:hover {color: #84878c;}
     height: 19px;
     background: url('../img/cmn/icon-sprite.png') -276px -26px;
 }
+.icon-love-position {
+    position:absolute;
+    right:45px;
+    margin-top:10px;
+    z-index: 10;
+}
 .icon-notification {
     width: 16px;
     height: 19px;
     background: url('../img/cmn/icon-sprite.png') -327px -26px;
-}
-.icon-love-position {
-    position:absolute;
-    right:25px;
-    margin-top:10px;
-    z-index: 10;
 }
 .icon-career-tool-1 {
     width: 219px;
