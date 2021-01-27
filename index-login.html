@@ -11,6 +11,12 @@
 
     <title>Toptalent</title>
 </head>
+<script>
+    $( '#leftmenu .leftmenu-nav a' ).on( 'click', function () {
+	$( '#leftmenu .leftmenu-nav' ).find( 'li.active' ).removeClass( 'active' );
+	$( this ).parent( 'li' ).addClass( 'active' );
+});
+</script>
 <body>
 <!-- Header Start -->
 <div class="container">
@@ -42,8 +48,23 @@
 <!-- End Header -->
 <div class="container">
     <div class="row">
-        <div class="col-2 reset-padding-l">
-
+        <div class="col-2 reset-padding-l" id="leftmenu">
+            <ul class="list-unstyled leftmenu-nav">
+                <li class="active"><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-star" src="../toptalent/img/cmn/s.gif" width="1" height="1" />Bana Uygun <i class="fas fa-chevron-right fa-sm float-right p-top-10"></i></a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-case" src="../toptalent/img/cmn/s.gif" width="1" height="1" />İş İlanları</a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-edu" src="../toptalent/img/cmn/s.gif" width="1" height="1" />İşe Alım Programları</a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-calendar" src="../toptalent/img/cmn/s.gif" width="1" height="1" />Etkinlikler</a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-certificate" src="../toptalent/img/cmn/s.gif" width="1" height="1" />Sertifika Programları</a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-companies" src="../toptalent/img/cmn/s.gif" width="1" height="1" />Şirketler</a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-academia" src="../toptalent/img/cmn/s.gif" width="1" height="1" />Akademi</a></li>
+                <li class="menu-seperator m-top-30 m-bottom-30"></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-application" src="../toptalent/img/cmn/s.gif" width="1" height="1" />Sertifika Programları</a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-career-goal" src="../toptalent/img/cmn/s.gif" width="1" height="1" />Şirketler</a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-favorites" src="../toptalent/img/cmn/s.gif" width="1" height="1" />Akademi</a></li>
+                <li class="menu-seperator m-top-30 m-bottom-30"></li>
+                <li><a hraf="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-notification-menu" src="../toptalent/img/cmn/s.gif" width="1" height="1" />Bildirimlerim</a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-settings" src="../toptalent/img/cmn/s.gif" width="1" height="1" />Şirketler</a></li>
+            </ul>
         </div>
         <div class="col-10 reset-padding-l reset-padding-r">
             <!-- Secondary Header Start -->

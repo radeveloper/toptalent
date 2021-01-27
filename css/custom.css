@@ -199,7 +199,7 @@
     -ms-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
 }
-
+.menu-seperator {border-bottom:1px solid #ecf6fb;}
 /*------------------------------------
 	Utilities
 ------------------------------------*/
@@ -225,7 +225,22 @@ a.link-black:link, a.link-black:visited {color: #242734;}
 a.link-black:hover {color: #12141A;}
 a.link-black-inactive:link, a.link-black-inactive:visited {color: #abadb2;}
 a.link-black-inactive:hover {color: #84878c;}
+a.menu-link:link, a.menu-link:visited {color: #242734; text-decoration:none;}
+a.menu-link:hover {color: #12141A; text-decoration:none;}
 
+#leftmenu .leftmenu-nav li > a {
+    color: #242734;
+    text-decoration: none;
+}
+#leftmenu .leftmenu-nav li > a:hover, a:focus {
+    color: #c4197f;
+    text-decoration: none;
+}
+
+#leftmenu .leftmenu-nav li.active > a {
+	color: #c4197f;
+    text-decoration: none;
+}
 .badge-circle-green {
     font-size:12px;
     font-weight:600;
@@ -527,7 +542,7 @@ a.link-black-inactive:hover {color: #84878c;}
 .icon-notification {
     width: 16px;
     height: 19px;
-    background: url('../img/cmn/icon-sprite.png') -327px -26px;
+    background: url('../img/cmn/icon-sprite.png') -326px -26px;
 }
 .icon-career-tool-1 {
     width: 219px;
@@ -549,6 +564,139 @@ a.link-black-inactive:hover {color: #84878c;}
     height: 120px;
     background: url('../img/cmn/icon-sprite.png') -610px -110px;
 }
+/* Menu Icons Start */
+.icon-menu-slct {
+    width: 15px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -76px -269px;
+}
+.icon-menu-slct:hover {
+    width: 15px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -76px -269px;
+}
+.icon-star {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -119px -269px;
+}
+.icon-star:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -169px -269px;
+}
+.icon-case {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -219px -269px;
+}
+.icon-case:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -269px -269px;
+}
+.icon-edu {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -319px -269px;
+}
+.icon-edu:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -369px -269px;
+}
+.icon-calendar {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -419px -269px;
+}
+.icon-calendar:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -469px -269px;
+}
+.icon-certificate {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -519px -269px;
+}
+.icon-certificate:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -569px -269px;
+}
+.icon-companies {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -619px -269px;
+}
+.icon-companies:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -669px -269px;
+}
+.icon-academia {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -719px -269px;
+}
+.icon-academia:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -769px -269px;
+}
+.icon-application {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -19px -319px;
+}
+.icon-application:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -69px -319px;
+}
+.icon-career-goal {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -119px -319px;
+}
+.icon-career-goal:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -169px -319px;
+}
+.icon-favorites {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -219px -319px;
+}
+.icon-favorites:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -269px -319px;
+}
+.icon-notification-menu {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -319px -319px;
+}
+.icon-notification-menu:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -369px -319px;
+}
+.icon-settings {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -419px -319px;
+}
+.icon-settings:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -469px -319px;
+}
+/* End Menu Icons */
+
 /*------------------------------------
 	Homepage Customs
 ------------------------------------*/
