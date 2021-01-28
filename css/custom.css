@@ -218,6 +218,7 @@
 .text-white {color: #fff;}
 .text-black {color: #242734;}
 .text-pink {color: #c4197f;}
+.text-grey-l {color: #b9bdc0;}
 
 a.link-white:link, a.link-white:visited {color: #fff;}
 a.link-white:hover {color: #fafafa;}
@@ -369,6 +370,50 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
     content: "\f00c";
     color:#319639;
 }
+.form-control {
+    border-color:#e3e7eb;
+    padding: 1.2rem 1.2rem;
+    margin-bottom:10px;
+}
+.fa-google-color {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.fa-facebook-color {
+    color:#1877f2;
+}
+.fa-linkedin-color {
+    color:#00a3d3;
+}
+.fa-visa-color {
+    color:#0353a5;
+}
+.fa-mastercard-color {
+    color:#242734;
+    background: rgb(255,1,31);
+    background: linear-gradient(90deg, rgba(255,1,31,1) 0%, rgba(255,72,30,1) 45%, rgba(255,142,42,1) 100%);
+    border:none;
+    padding:0px;
+    margin:0px;
+    line-height:.8em;
+}
+/*------------------------------------
+	Custom Modal
+------------------------------------*/
+.modal-dialog-right {
+    margin: 0px;
+    float: right;
+    top: 0px;
+    position: absolute;
+    right: 0px;
+    width: 20%;
+    min-width:300px;
+    height: 100%;
+}
+.modal-content-right {height:100%; border-radius:0px; padding:40px;}
 /*------------------------------------
 	Custom Buttons
 ------------------------------------*/
