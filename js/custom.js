@@ -15,6 +15,9 @@ $(document).ready(function () {
     discoverCompanies.owlCarousel({responsiveClass: true, responsive: {0: {items: 1,}, 600: {items: 2,}, 1000: {items: 3,}}});
     $('.discoverCompaniesNext').click(function () {discoverCompanies.trigger('next.owl.carousel');});
     $('.discoverCompaniesPrev').click(function () {discoverCompanies.trigger('prev.owl.carousel', [300]);});
+    const upcomingEvents = $('.upcoming-events');
+    upcomingEvents.owlCarousel({responsiveClass: true, responsive: {0: {items: 1,}, 600: {items: 2,}, 1000: {items: 3,}}});
+    $('.upcomingEventsNext').click(function () {upcomingEvents.trigger('next.owl.carousel');});
+    $('.upcomingEventsPrev').click(function () {upcomingEvents.trigger('prev.owl.carousel', [300]);});
 
 });
-
