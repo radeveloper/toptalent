@@ -19,5 +19,9 @@ $(document).ready(function () {
     upcomingEvents.owlCarousel({responsiveClass: true, responsive: {0: {items: 1,}, 600: {items: 2,}, 1000: {items: 3,}}});
     $('.upcomingEventsNext').click(function () {upcomingEvents.trigger('next.owl.carousel');});
     $('.upcomingEventsPrev').click(function () {upcomingEvents.trigger('prev.owl.carousel', [300]);});
+    const onlineTrainings = $('.online-trainings');
+    onlineTrainings.owlCarousel({responsiveClass: true, responsive: {0: {items: 1,}, 600: {items: 3,}, 1000: {items: 4,}}});
+    $('.onlineTrainingsNext').click(function () {onlineTrainings.trigger('next.owl.carousel');});
+    $('.onlineTrainingsPrev').click(function () {onlineTrainings.trigger('prev.owl.carousel', [300]);});
 
 });
