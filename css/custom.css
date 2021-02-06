@@ -370,10 +370,11 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
     content: "\f00c";
     color:#319639;
 }
-.form-control {
+.form-control-c {
     border-color:#e3e7eb;
-    padding: 1.2rem 1.2rem;
     margin-bottom:10px;
+    line-height: 50px;
+    height:50px;
 }
 .fa-google-color {
     background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
@@ -400,6 +401,7 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
     margin:0px;
     line-height:.8em;
 }
+.card-blue {background: #eff6fc; border:none;}
 /*------------------------------------
 	Custom Modal
 ------------------------------------*/
