@@ -403,16 +403,6 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
 /*------------------------------------
 	Custom Modal
 ------------------------------------*/
-.modal-dialog-right {
-    margin: 0px;
-    float: right;
-    top: 0px;
-    position: absolute;
-    right: 0px;
-    width: 20%;
-    min-width:300px;
-    height: 100%;
-}
 .modal-content-right {height:100%; border-radius:0px; padding:40px;}
 /*------------------------------------
 	Custom Buttons
@@ -487,6 +477,56 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
 /*------------------------------------
 	Responsive Utilities
 ------------------------------------*/
+@media (max-width: 575.98px) {
+    .modal-dialog-right {
+        margin: 0px;
+        float: right;
+        top: 0px;
+        position: absolute;
+        right: 0px;
+        width: 100%;
+        min-width:300px;
+        height: 100%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .modal-dialog-right {
+        margin: 0px;
+        float: right;
+        top: 0px;
+        position: absolute;
+        right: 0px;
+        width: 60%;
+        min-width:300px;
+        height: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .target-seperator {border-left:1px solid #fff;}
+    .modal-dialog-right {
+        margin: 0px;
+        float: right;
+        top: 0px;
+        position: absolute;
+        right: 0px;
+        width: 50%;
+        min-width:300px;
+        height: 100%;
+    }
+    }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .target-seperator {border-left:1px solid #fff;}
+    .modal-dialog-right {
+        margin: 0px;
+        float: right;
+        top: 0px;
+        position: absolute;
+        right: 0px;
+        width: 40%;
+        min-width:300px;
+        height: 100%;
+    }
+    }
 @media (min-width: 1200px) {
     .row-padding {
         padding-left: 40px;
@@ -502,13 +542,18 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
         padding-top:40px;
     }
     .target-seperator {border-left:1px solid #fff;}
+    .modal-dialog-right {
+        margin: 0px;
+        float: right;
+        top: 0px;
+        position: absolute;
+        right: 0px;
+        width: 30%;
+        min-width:300px;
+        height: 100%;
+    }
 }
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    .target-seperator {border-left:1px solid #fff;}
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .target-seperator {border-left:1px solid #fff;}
-}
+
 /*------------------------------------
 	Carousel
 ------------------------------------*/
