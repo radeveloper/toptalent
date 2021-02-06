@@ -370,6 +370,12 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
     content: "\f00c";
     color:#319639;
 }
+.form-control {
+    border-color:#e3e7eb;
+    margin-bottom:10px;
+    line-height: 50px;
+    height:50px;
+}
 .form-control-c {
     border-color:#e3e7eb;
     margin-bottom:10px;
