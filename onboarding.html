@@ -5,24 +5,16 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/toptalent-core.css">
-    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/toptalent-globals.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/all.min.css"/>
     <!-- Custom -->
     <link rel="stylesheet" href="css/custom.css">
-    <script src="js/jquery-3.5.1.slim.min.js"></script>
 
     <title>Toptalent</title>
 </head>
-<script>
-    $( '#leftmenu .leftmenu-nav a' ).on( 'click', function () {
-	$( '#leftmenu .leftmenu-nav' ).find( 'li.active' ).removeClass( 'active' );
-	$( this ).parent( 'li' ).addClass( 'active' );
-    });
 
-    // onboarding modal onload temporary script
-    $(window).on('load', function() {
-        $('#temporary').modal('show');
-    });
-</script>
 <body>
 <!-- Header Start -->
 <div class="container">
@@ -33,12 +25,12 @@
         </div>
         <div class="col-6 col-sm-8 navbar-height-r text-right reset-padding-r">
             <div class="d-none d-lg-inline d-xl-inline">
-                <a href="#" class="link-black navbar-seperator"><img class="icon-try-career" src="../toptalent/img/cmn/s.gif" width="1" height="1" /> Kariyer araçlarını dene</a>
-                <a href="#" class="link-black"><img class="icon-campaigns" src="../toptalent/img/cmn/s.gif" width="1" height="1" /> Kampanyalar</a>
+                <a href="#" class="link-black navbar-seperator"><img class="icon-try-career" src="../toptalent/img/cmn/s.gif" width="1" height="1"/> Kariyer araçlarını dene</a>
+                <a href="#" class="link-black"><img class="icon-campaigns" src="../toptalent/img/cmn/s.gif" width="1" height="1"/> Kampanyalar</a>
                 <span class="navbar-seperator">|</span>
             </div>
-            <a hraf="#" class="p-left-10 p-right-10"><img class="icon-notification" src="../toptalent/img/cmn/s.gif" width="1" height="1" /><span class="dot sec counter">44</span></a>
-            <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999" />
+            <a hraf="#" class="p-left-10 p-right-10"><img class="icon-notification" src="../toptalent/img/cmn/s.gif" width="1" height="1"/><span class="dot sec counter">44</span></a>
+            <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999"/>
             <div class="dropdown d-inline">
                 <a class="btn dropdown-user" type="button" id="userMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <strong>John Pose</strong><i class="fas fa-chevron-down fa-xs p-left-10"></i>
@@ -49,7 +41,7 @@
                     <a class="dropdown-item" href="#">Menu item 3</a>
                 </div>
             </div>
-    </div>
+        </div>
     </div>
 </div>
 <!-- End Header -->
@@ -57,20 +49,21 @@
     <div class="row">
         <div class="col-sm-2 col-md-2 col-lg-1 col-xl-1 reset-padding-l d-none d-sm-inline" id="leftmenu">
             <ul class="list-unstyled leftmenu-nav">
-                <li class="active"><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-star" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a></li>
-                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-case" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a></li>
-                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-edu" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a></li>
-                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-calendar" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a></li>
-                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-certificate" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a></li>
-                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-companies" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a></li>
-                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-academia" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a></li>
+                <li class="active"><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32"/><img class="icon-star" src="../toptalent/img/cmn/s.gif" width="1" height="1"/></a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32"/><img class="icon-case" src="../toptalent/img/cmn/s.gif" width="1" height="1"/></a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32"/><img class="icon-edu" src="../toptalent/img/cmn/s.gif" width="1" height="1"/></a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32"/><img class="icon-calendar" src="../toptalent/img/cmn/s.gif" width="1" height="1"/></a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32"/><img class="icon-certificate" src="../toptalent/img/cmn/s.gif" width="1" height="1"/></a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32"/><img class="icon-companies" src="../toptalent/img/cmn/s.gif" width="1" height="1"/></a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32"/><img class="icon-academia" src="../toptalent/img/cmn/s.gif" width="1" height="1"/></a></li>
                 <li class="menu-seperator m-top-30 m-bottom-30"></li>
-                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-application" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a></li>
-                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-career-goal" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a></li>
-                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-favorites" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32"/><img class="icon-application" src="../toptalent/img/cmn/s.gif" width="1" height="1"/></a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32"/><img class="icon-career-goal" src="../toptalent/img/cmn/s.gif" width="1" height="1"/></a></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32"/><img class="icon-favorites" src="../toptalent/img/cmn/s.gif" width="1" height="1"/></a></li>
                 <li class="menu-seperator m-top-30 m-bottom-30"></li>
-                <li><a hraf="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-notification-menu" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a><span class="dot sec counter" style="position:absolute; top:445px; right:77%;">44</span></li>
-                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-settings" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a></li>
+                <li><a hraf="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32"/><img class="icon-notification-menu" src="../toptalent/img/cmn/s.gif" width="1" height="1"/></a><span
+                        class="dot sec counter" style="position:absolute; top:445px; right:77%;">44</span></li>
+                <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32"/><img class="icon-settings" src="../toptalent/img/cmn/s.gif" width="1" height="1"/></a></li>
             </ul>
         </div>
         <div class="col-12 col-sm-10 col-md-10 col-lg-11 col-xl-11 reset-padding-l reset-padding-r">
@@ -78,7 +71,8 @@
             <div class="container container-grey">
                 <div class="row row-padding secondary-header">
                     <div class="col-lg-9 reset-padding-l text-white">
-                        <h4><strong style="font-weight: bolder;">Kariyer Hedeflerini Gerçekleştir</strong><br /><span class="f-16">Kariyer hedeflerini gerçekleştirmek seni hayalindeki işe yaklaştırır.</span></h4>
+                        <h4><strong style="font-weight: bolder;">Kariyer Hedeflerini Gerçekleştir</strong><br/><span
+                                class="f-16">Kariyer hedeflerini gerçekleştirmek seni hayalindeki işe yaklaştırır.</span></h4>
                     </div>
                     <div class="col-lg-3 text-lg-right text-sm-right reset-padding-r text-white">
                         <a href="#">Hedeflerime Git <i class="fas fa-chevron-right p-left-10"></i></a>
@@ -86,17 +80,17 @@
                     <div class="col-lg-12 reset-padding-l text-white p-top-20 p-bottom-20">
                         <div class="col-4 float-left text-md-center reset-padding-l">
                             <span class="target-blue r-999">28</span>
-                            <span class="d-lg-none d-xl-none"><br /></span>
+                            <span class="d-lg-none d-xl-none"><br/></span>
                             <span class="f-16">Toplam Hedefler</span>
                         </div>
                         <div class="col-4 float-left text-md-center reset-padding-l target-seperator">
                             <span class="target-orange r-999">28</span>
-                            <span class="d-lg-none d-xl-none"><br /></span>
+                            <span class="d-lg-none d-xl-none"><br/></span>
                             <span class="f-16">Kalan Hedefler</span>
                         </div>
                         <div class="col-4 float-left text-md-center reset-padding-l target-seperator">
                             <span class="target-green r-999">28</span>
-                            <span class="clearfix d-lg-none d-xl-none"><br /></span>
+                            <span class="clearfix d-lg-none d-xl-none"><br/></span>
                             <span class="f-16">Tamamlanan Hedefler</span>
                         </div>
                     </div>
@@ -106,15 +100,15 @@
                     <form class="form-inline" style="position:relative; top:30px;">
                         <div class="card r-15 p-10 p-right-40 m-right-20">
                             <input id="radio-1" class="radio-custom" name="radio-group" type="radio" checked>
-                            <label for="radio-1" class="radio-custom-label">Özgeçmişini<br />Tamamla</label>
+                            <label for="radio-1" class="radio-custom-label">Özgeçmişini<br/>Tamamla</label>
                         </div>
                         <div class="card r-15 p-10 p-right-40 m-right-20">
-                            <input id="radio-2" class="radio-custom"name="radio-group" type="radio">
-                            <label for="radio-2" class="radio-custom-label">Kariyer<br />Testini Çöz</label>
+                            <input id="radio-2" class="radio-custom" name="radio-group" type="radio">
+                            <label for="radio-2" class="radio-custom-label">Kariyer<br/>Testini Çöz</label>
                         </div>
                         <div class="card r-15 p-10 p-right-40 m-right-20">
                             <input id="radio-3" class="radio-custom" name="radio-group" type="radio">
-                            <label for="radio-3" class="radio-custom-label">İş İlanlarına<br />Başvur</label>
+                            <label for="radio-3" class="radio-custom-label">İş İlanlarına<br/>Başvur</label>
                         </div>
                     </form>
                 </div>
@@ -130,7 +124,7 @@
                             <div class="carousel-item active">
                                 <img class="d-block w-100 r-15" src="https://mdbootstrap.com/img/Photos/Slides/img%20(88).jpg" alt="First slide">
                                 <div class="carousel-caption text-left">
-                                    <h1>En İyi Yeteneklerin<br /><strong>Kariyer Platformuna Hoş Geldin</strong></h1>
+                                    <h1>En İyi Yeteneklerin<br/><strong>Kariyer Platformuna Hoş Geldin</strong></h1>
                                     <p class="lead">If you have read this far, we both know you are serious about succeeding, getting the most out of life, and attaining your goals.</p>
                                     <a href="#" class="btn btn-blue btn-lg">İncele<i class="fas fa-chevron-right fa-xs p-left-10"></i></a>
                                 </div>
@@ -138,7 +132,7 @@
                             <div class="carousel-item">
                                 <img class="d-block w-100 r-15" src="https://mdbootstrap.com/img/Photos/Slides/img%20(121).jpg" alt="Second slide">
                                 <div class="carousel-caption text-left">
-                                    <h1>En İyi Yeteneklerin<br /><strong>Kariyer Platformuna Hoş Geldin 222</strong></h1>
+                                    <h1>En İyi Yeteneklerin<br/><strong>Kariyer Platformuna Hoş Geldin 222</strong></h1>
                                     <p class="lead">If you have read this far, we both know you are serious about succeeding, getting the most out of life, and attaining your goals.</p>
                                     <a href="#" class="btn btn-blue btn-lg">İncele<i class="fas fa-chevron-right fa-xs p-left-10"></i></a>
                                 </div>
@@ -146,16 +140,19 @@
                             <div class="carousel-item">
                                 <img class="d-block w-100 r-15" src="https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg" alt="Third slide">
                                 <div class="carousel-caption text-left">
-                                    <h1>En İyi Yeteneklerin<br /><strong>Kariyer Platformuna Hoş Geldin 333</strong></h1>
+                                    <h1>En İyi Yeteneklerin<br/><strong>Kariyer Platformuna Hoş Geldin 333</strong></h1>
                                     <p class="lead">If you have read this far, we both know you are serious about succeeding, getting the most out of life, and attaining your goals.</p>
                                     <a href="#" class="btn btn-blue btn-lg">İncele<i class="fas fa-chevron-right fa-xs p-left-10"></i></a>
                                 </div>
                             </div>
                         </div>
                         <ol class="carousel-indicators">
-                            <li data-target="#carousel-thumb" data-slide-to="0" class="active"> <img class="d-block w-100 r-10" src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(88).jpg"></li>
-                            <li data-target="#carousel-thumb" data-slide-to="1"><img class="d-block w-100 r-10" src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(121).jpg" class="img-fluid"></li>
-                            <li data-target="#carousel-thumb" data-slide-to="2"><img class="d-block w-100 r-10" src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(31).jpg" class="img-fluid"></li>
+                            <li data-target="#carousel-thumb" data-slide-to="0" class="active"><img class="d-block w-100 r-10"
+                                                                                                    src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(88).jpg"></li>
+                            <li data-target="#carousel-thumb" data-slide-to="1"><img class="d-block w-100 r-10" src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(121).jpg"
+                                                                                     class="img-fluid"></li>
+                            <li data-target="#carousel-thumb" data-slide-to="2"><img class="d-block w-100 r-10" src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(31).jpg"
+                                                                                     class="img-fluid"></li>
                         </ol>
                     </div>
                 </div>
@@ -177,54 +174,54 @@
                     <div class="col-4 p-top-15">
                         <ul class="list-unstyled">
                             <li class="media">
-                            <img src="../toptalent/img/logo-company/isbankasi.png" class="mr-3" alt="Türkiye İş Bankası">
-                            <div class="media-body">
-                                <h5 class="g-section-header">DevOps Mühendisi</h5>
-                                Türkiye İş Bankası
-                            </div>
-                            <div class="text-right"><span class="badge-circle-green">Son 20 Gün</span></div>
+                                <img src="../toptalent/img/logo-company/isbankasi.png" class="mr-3" alt="Türkiye İş Bankası">
+                                <div class="media-body">
+                                    <h5 class="g-section-header">DevOps Mühendisi</h5>
+                                    Türkiye İş Bankası
+                                </div>
+                                <div class="text-right"><span class="badge-circle-green">Son 20 Gün</span></div>
                             </li>
                         </ul>
                         <div class="clearfix"></div>
                         <div>
                             <img src="../toptalent/img/img-jobs/1.jpg" class="w-100 r-10" alt="">
-                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1" />
+                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1"/>
                         </div>
                         <div class="p-top-15"><a href="#" class="btn btn-green">Başvur <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
                     </div>
                     <div class="col-4 p-top-15">
                         <ul class="list-unstyled">
                             <li class="media">
-                            <img src="../toptalent/img/logo-company/mercedes.png" class="mr-3" alt="Mercedes Benz">
-                            <div class="media-body">
-                                <h5 class="g-section-header">DevOps Mühendisi</h5>
-                                Mercedes Benz
-                            </div>
-                            <div class="text-right"><span class="badge-circle-green">Son 20 Gün</span></div>
+                                <img src="../toptalent/img/logo-company/mercedes.png" class="mr-3" alt="Mercedes Benz">
+                                <div class="media-body">
+                                    <h5 class="g-section-header">DevOps Mühendisi</h5>
+                                    Mercedes Benz
+                                </div>
+                                <div class="text-right"><span class="badge-circle-green">Son 20 Gün</span></div>
                             </li>
                         </ul>
                         <div class="clearfix"></div>
                         <div>
                             <img src="../toptalent/img/img-jobs/1.jpg" class="w-100 r-10" alt="">
-                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1" />
+                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1"/>
                         </div>
                         <div class="p-top-15"><a href="#" class="btn btn-green">Başvur <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
                     </div>
                     <div class="col-4 p-top-15">
                         <ul class="list-unstyled">
                             <li class="media">
-                            <img src="../toptalent/img/logo-company/yemeksepeti.png" class="mr-3" alt="Yemeksepeti">
-                            <div class="media-body">
-                                <h5 class="g-section-header">DevOps Mühendisi</h5>
-                                Yemeksepeti
-                            </div>
-                            <div class="text-right"><span class="badge-circle-green">Son 20 Gün</span></div>
+                                <img src="../toptalent/img/logo-company/yemeksepeti.png" class="mr-3" alt="Yemeksepeti">
+                                <div class="media-body">
+                                    <h5 class="g-section-header">DevOps Mühendisi</h5>
+                                    Yemeksepeti
+                                </div>
+                                <div class="text-right"><span class="badge-circle-green">Son 20 Gün</span></div>
                             </li>
                         </ul>
                         <div class="clearfix"></div>
                         <div>
                             <img src="../toptalent/img/img-jobs/1.jpg" class="w-100 r-10" alt="">
-                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1" />
+                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1"/>
                         </div>
                         <div class="p-top-15"><a href="#" class="btn btn-green">Başvur <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
                     </div>
@@ -239,7 +236,7 @@
                     <div class="col-12 p-top-30">&nbsp;</div>
                     <div class="clearfix"></div>
                     <div class="col-8">
-                        <h1 class="t-white"><strong>Toptalent</strong><br />Kariyer Araçları</h1>
+                        <h1 class="t-white"><strong>Toptalent</strong><br/>Kariyer Araçları</h1>
                         <p class="t-grey-l">kariyerinde seni başarıya ulaştıracak araçlar burada</p>
                     </div>
                     <div class="col-4 text-right reset-padding-r">
@@ -300,60 +297,61 @@
                     </div>
                     <div class="col-4 text-right reset-padding-r">
                         <div style="padding-top:5px;"><a href="#">Tümünü İncele <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
-                        <div class="p-top-30"><a href="#" class="link-black-inactive"><i class="fas fa-chevron-left fa-lg p-right-10"></i></a><a href="#" class="link-black"><i class="fas fa-chevron-right fa-lg"></i></a></div>
+                        <div class="p-top-30"><a href="#" class="link-black-inactive"><i class="fas fa-chevron-left fa-lg p-right-10"></i></a><a href="#" class="link-black"><i
+                                class="fas fa-chevron-right fa-lg"></i></a></div>
                     </div>
                     <div class="clearfix"></div>
                     <div class="col-4 p-top-15">
                         <ul class="list-unstyled">
                             <li class="media">
-                            <img src="../toptalent/img/logo-company/isbankasi.png" class="mr-3" alt="Türkiye İş Bankası">
-                            <div class="media-body">
-                                <h5 class="g-section-header"><strong>Satış Temsilcisi</strong></h5>
-                                Türkiye İş Bankası
-                            </div>
-                            <div class="text-right"><span class="badge-circle-orange">Son 12 Gün</span></div>
+                                <img src="../toptalent/img/logo-company/isbankasi.png" class="mr-3" alt="Türkiye İş Bankası">
+                                <div class="media-body">
+                                    <h5 class="g-section-header"><strong>Satış Temsilcisi</strong></h5>
+                                    Türkiye İş Bankası
+                                </div>
+                                <div class="text-right"><span class="badge-circle-orange">Son 12 Gün</span></div>
                             </li>
                         </ul>
                         <div class="clearfix"></div>
                         <div>
                             <img src="../toptalent/img/img-jobs/1.jpg" class="w-100 r-10" alt="">
-                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1" />
+                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1"/>
                         </div>
                         <div class="p-top-15"><a href="#" class="btn btn-green">Başvur <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
                     </div>
                     <div class="col-4 p-top-15">
                         <ul class="list-unstyled">
                             <li class="media">
-                            <img src="../toptalent/img/logo-company/mercedes.png" class="mr-3" alt="Mercedes Benz">
-                            <div class="media-body">
-                                <h5 class="g-section-header"><strong>Satış Temsilcisi</strong></h5>
-                                Mercedes Benz
-                            </div>
-                            <div class="text-right"><span class="badge-circle-orange">Son 12 Gün</span></div>
+                                <img src="../toptalent/img/logo-company/mercedes.png" class="mr-3" alt="Mercedes Benz">
+                                <div class="media-body">
+                                    <h5 class="g-section-header"><strong>Satış Temsilcisi</strong></h5>
+                                    Mercedes Benz
+                                </div>
+                                <div class="text-right"><span class="badge-circle-orange">Son 12 Gün</span></div>
                             </li>
                         </ul>
                         <div class="clearfix"></div>
                         <div>
                             <img src="../toptalent/img/img-jobs/1.jpg" class="w-100 r-10" alt="">
-                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1" />
+                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1"/>
                         </div>
                         <div class="p-top-15"><a href="#" class="btn btn-green">Başvur <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
                     </div>
                     <div class="col-4 p-top-15">
                         <ul class="list-unstyled">
                             <li class="media">
-                            <img src="../toptalent/img/logo-company/yemeksepeti.png" class="mr-3" alt="Yemeksepeti">
-                            <div class="media-body">
-                                <h5 class="g-section-header"><strong>Satış Temsilcisi</strong></h5>
-                                Yemeksepeti
-                            </div>
-                            <div class="text-right"><span class="badge-circle-orange">Son 12 Gün</span></div>
+                                <img src="../toptalent/img/logo-company/yemeksepeti.png" class="mr-3" alt="Yemeksepeti">
+                                <div class="media-body">
+                                    <h5 class="g-section-header"><strong>Satış Temsilcisi</strong></h5>
+                                    Yemeksepeti
+                                </div>
+                                <div class="text-right"><span class="badge-circle-orange">Son 12 Gün</span></div>
                             </li>
                         </ul>
                         <div class="clearfix"></div>
                         <div>
                             <img src="../toptalent/img/img-jobs/1.jpg" class="w-100 r-10" alt="">
-                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1" />
+                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1"/>
                         </div>
                         <div class="p-top-15"><a href="#" class="btn btn-green">Başvur <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
                     </div>
@@ -372,7 +370,8 @@
                     </div>
                     <div class="col-4 text-right reset-padding-r">
                         <div style="padding-top:5px;"><a href="#">Tümünü İncele <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
-                        <div class="p-top-30"><a href="#" class="link-black-inactive"><i class="fas fa-chevron-left fa-lg p-right-10"></i></a><a href="#" class="link-black"><i class="fas fa-chevron-right fa-lg"></i></a></div>
+                        <div class="p-top-30"><a href="#" class="link-black-inactive"><i class="fas fa-chevron-left fa-lg p-right-10"></i></a><a href="#" class="link-black"><i
+                                class="fas fa-chevron-right fa-lg"></i></a></div>
                     </div>
                     <div class="clearfix"></div>
                     <div class="col-4 p-top-15">
@@ -389,41 +388,41 @@
                         <div class="clearfix"></div>
                         <div>
                             <img src="../toptalent/img/img-jobs/1.jpg" class="w-100 r-10" alt="">
-                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1" />
+                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1"/>
                         </div>
                     </div>
                     <div class="col-4 p-top-15">
                         <ul class="list-unstyled">
                             <li class="media">
-                            <img src="../toptalent/img/logo-company/mercedes.png" class="mr-3" alt="Mercedes Benz">
-                            <div class="media-body">
-                                <h5 class="g-section-header"><strong>Mercedes-Benz</strong></h5>
-                                HR Department
-                            </div>
-                            <div class="text-right"><a href="#" class="btn btn-ghost">İncele <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
+                                <img src="../toptalent/img/logo-company/mercedes.png" class="mr-3" alt="Mercedes Benz">
+                                <div class="media-body">
+                                    <h5 class="g-section-header"><strong>Mercedes-Benz</strong></h5>
+                                    HR Department
+                                </div>
+                                <div class="text-right"><a href="#" class="btn btn-ghost">İncele <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
                             </li>
                         </ul>
                         <div class="clearfix"></div>
                         <div>
                             <img src="../toptalent/img/img-jobs/1.jpg" class="w-100 r-10" alt="">
-                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1" />
+                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1"/>
                         </div>
                     </div>
                     <div class="col-4 p-top-15">
                         <ul class="list-unstyled">
                             <li class="media">
-                            <img src="../toptalent/img/logo-company/yemeksepeti.png" class="mr-3" alt="Yemeksepeti">
-                            <div class="media-body">
-                                <h5 class="g-section-header"><strong>Yemeksepeti</strong></h5>
-                                HR Department
-                            </div>
-                            <div class="text-right"><a href="#" class="btn btn-ghost">İncele <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
+                                <img src="../toptalent/img/logo-company/yemeksepeti.png" class="mr-3" alt="Yemeksepeti">
+                                <div class="media-body">
+                                    <h5 class="g-section-header"><strong>Yemeksepeti</strong></h5>
+                                    HR Department
+                                </div>
+                                <div class="text-right"><a href="#" class="btn btn-ghost">İncele <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
                             </li>
                         </ul>
                         <div class="clearfix"></div>
                         <div>
                             <img src="../toptalent/img/img-jobs/1.jpg" class="w-100 r-10" alt="">
-                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1" />
+                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1"/>
                         </div>
                     </div>
                     <div class="clearfix"></div>
@@ -441,7 +440,8 @@
                     </div>
                     <div class="col-4 text-right reset-padding-r">
                         <div style="padding-top:5px;"><a href="#">Tümünü İncele <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
-                        <div class="p-top-30"><a href="#" class="link-black-inactive"><i class="fas fa-chevron-left fa-lg p-right-10"></i></a><a href="#" class="link-black"><i class="fas fa-chevron-right fa-lg"></i></a></div>
+                        <div class="p-top-30"><a href="#" class="link-black-inactive"><i class="fas fa-chevron-left fa-lg p-right-10"></i></a><a href="#" class="link-black"><i
+                                class="fas fa-chevron-right fa-lg"></i></a></div>
                     </div>
                     <div class="clearfix"></div>
                     <div class="col-sm-4 p-top-15">
@@ -451,17 +451,17 @@
                         </div>
                         <ul class="list-unstyled">
                             <li class="media">
-                            <img src="../toptalent/img/logo-company/isbankasi-80.png" class="mr-3" alt="Türkiye İş Bankası">
-                            <div class="media-body">
-                                <h5 class="g-section-header m-bottom-0"><strong>DevOps Semineri</strong></h5>
-                                Türkiye İş Bankası<br />
-                                <strong><i class="fas fa-clock"></i> 15:00 - 17:00</strong>
-                            </div>
-                            <div class="text-right">
-                                <div class="date-month text-pink">AĞU</div>
-                                <div class="date-day-num text-black">31</div>
-                                <div class="date-day text-black">PERŞ</div>
-                            </div>
+                                <img src="../toptalent/img/logo-company/isbankasi-80.png" class="mr-3" alt="Türkiye İş Bankası">
+                                <div class="media-body">
+                                    <h5 class="g-section-header m-bottom-0"><strong>DevOps Semineri</strong></h5>
+                                    Türkiye İş Bankası<br/>
+                                    <strong><i class="fas fa-clock"></i> 15:00 - 17:00</strong>
+                                </div>
+                                <div class="text-right">
+                                    <div class="date-month text-pink">AĞU</div>
+                                    <div class="date-day-num text-black">31</div>
+                                    <div class="date-day text-black">PERŞ</div>
+                                </div>
                             </li>
                         </ul>
                         <div class="d-inline"><a href="#" class="btn btn-green">Başvur <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
@@ -474,17 +474,17 @@
                         </div>
                         <ul class="list-unstyled">
                             <li class="media">
-                            <img src="../toptalent/img/logo-company/mercedes-80.png" class="mr-3" alt="Mercedes-Benz">
-                            <div class="media-body">
-                                <h5 class="g-section-header m-bottom-0"><strong>DevOps Semineri</strong></h5>
-                                Mercedes-Benz<br />
-                                <strong><i class="fas fa-clock"></i> 15:00 - 17:00</strong>
-                            </div>
-                            <div class="text-right">
-                                <div class="date-month text-pink">AĞU</div>
-                                <div class="date-day-num text-black">31</div>
-                                <div class="date-day text-black">PERŞ</div>
-                            </div>
+                                <img src="../toptalent/img/logo-company/mercedes-80.png" class="mr-3" alt="Mercedes-Benz">
+                                <div class="media-body">
+                                    <h5 class="g-section-header m-bottom-0"><strong>DevOps Semineri</strong></h5>
+                                    Mercedes-Benz<br/>
+                                    <strong><i class="fas fa-clock"></i> 15:00 - 17:00</strong>
+                                </div>
+                                <div class="text-right">
+                                    <div class="date-month text-pink">AĞU</div>
+                                    <div class="date-day-num text-black">31</div>
+                                    <div class="date-day text-black">PERŞ</div>
+                                </div>
                             </li>
                         </ul>
                         <div class="d-inline"><a href="#" class="btn btn-green">Başvur <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
@@ -497,17 +497,17 @@
                         </div>
                         <ul class="list-unstyled">
                             <li class="media">
-                            <img src="../toptalent/img/logo-company/yemeksepeti-80.png" class="mr-3" alt="Yemeksepeti">
-                            <div class="media-body">
-                                <h5 class="g-section-header m-bottom-0"><strong>DevOps Semineri</strong></h5>
-                                Yemeksepeti<br />
-                                <strong><i class="fas fa-clock"></i> 15:00 - 17:00</strong>
-                            </div>
-                            <div class="text-right">
-                                <div class="date-month text-pink">AĞU</div>
-                                <div class="date-day-num text-black">31</div>
-                                <div class="date-day text-black">PERŞ</div>
-                            </div>
+                                <img src="../toptalent/img/logo-company/yemeksepeti-80.png" class="mr-3" alt="Yemeksepeti">
+                                <div class="media-body">
+                                    <h5 class="g-section-header m-bottom-0"><strong>DevOps Semineri</strong></h5>
+                                    Yemeksepeti<br/>
+                                    <strong><i class="fas fa-clock"></i> 15:00 - 17:00</strong>
+                                </div>
+                                <div class="text-right">
+                                    <div class="date-month text-pink">AĞU</div>
+                                    <div class="date-day-num text-black">31</div>
+                                    <div class="date-day text-black">PERŞ</div>
+                                </div>
                             </li>
                         </ul>
                         <div class="d-inline"><a href="#" class="btn btn-green">Başvur <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
@@ -538,10 +538,10 @@
                         </div>
                         <ul class="list-unstyled">
                             <li class="media">
-                            <div class="media-body">
-                                Supply Chain Specialist<br />
-                                <a href="#">Sertifika Al <i class="fas fa-chevron-right fa-xs p-left-10"></i></a>
-                            </div>
+                                <div class="media-body">
+                                    Supply Chain Specialist<br/>
+                                    <a href="#">Sertifika Al <i class="fas fa-chevron-right fa-xs p-left-10"></i></a>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -552,10 +552,10 @@
                         </div>
                         <ul class="list-unstyled">
                             <li class="media">
-                            <div class="media-body">
-                                Trainee Summit<br />
-                                <a href="#">Sertifika Al <i class="fas fa-chevron-right fa-xs p-left-10"></i></a>
-                            </div>
+                                <div class="media-body">
+                                    Trainee Summit<br/>
+                                    <a href="#">Sertifika Al <i class="fas fa-chevron-right fa-xs p-left-10"></i></a>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -566,10 +566,10 @@
                         </div>
                         <ul class="list-unstyled">
                             <li class="media">
-                            <div class="media-body">
-                                Dijital Kariyer Fuarı<br />
-                                <a href="#">Sertifika Al <i class="fas fa-chevron-right fa-xs p-left-10"></i></a>
-                            </div>
+                                <div class="media-body">
+                                    Dijital Kariyer Fuarı<br/>
+                                    <a href="#">Sertifika Al <i class="fas fa-chevron-right fa-xs p-left-10"></i></a>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -578,10 +578,10 @@
                         <img src="../toptalent/img/training/training4.jpg" class="w-100 r-10 p-bottom-10" alt="">
                         <ul class="list-unstyled">
                             <li class="media">
-                            <div class="media-body">
-                                Supply Chain Specialist<br />
-                                <a href="#">Sertifika Al <i class="fas fa-chevron-right fa-xs p-left-10"></i></a>
-                            </div>
+                                <div class="media-body">
+                                    Supply Chain Specialist<br/>
+                                    <a href="#">Sertifika Al <i class="fas fa-chevron-right fa-xs p-left-10"></i></a>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -598,12 +598,13 @@
         <div class="row row-padding">
             <div class="p-bottom-30 col-sm-12"></div>
             <div class="col-sm-6" style="color:#fff;">
-                <a href="#"><img src="../toptalent/img/logo/logo-toptalent.png"></a><br /><br />
+                <a href="#"><img src="../toptalent/img/logo/logo-toptalent.png"></a><br/><br/>
                 <a href="#" class="link-white"><i class="fab fa-facebook p-right-10"></i></a>
                 <a href="#" class="link-white"><i class="fab fa-instagram-square p-right-10"></i></a>
-                <a href="#" class="link-white"><i class="fab fa-linkedin"></i></a><br /><br />
+                <a href="#" class="link-white"><i class="fab fa-linkedin"></i></a><br/><br/>
                 <a href="#" class="p-right-5"><i class="fab fa-cc-visa fa-2x" style="color:#0353a5; background:#fff; border:none; padding:0px; margin:0px; line-height:.7em;"></i></a>
-                <a href="#" class="link-white"><i class="fab fa-cc-mastercard fa-2x" style="color:#242734;background: rgb(255,1,31); background: linear-gradient(90deg, rgba(255,1,31,1) 0%, rgba(255,72,30,1) 45%, rgba(255,142,42,1) 100%); border:none; padding:0px; margin:0px; line-height:.8em;"></i></a>
+                <a href="#" class="link-white"><i class="fab fa-cc-mastercard fa-2x"
+                                                  style="color:#242734;background: rgb(255,1,31); background: linear-gradient(90deg, rgba(255,1,31,1) 0%, rgba(255,72,30,1) 45%, rgba(255,142,42,1) 100%); border:none; padding:0px; margin:0px; line-height:.8em;"></i></a>
             </div>
             <div class="col-sm-6 d-flex" style="color:#fff;">
                 <div class="col-sm-4">
@@ -640,12 +641,12 @@
     <div class="container">
         <div class="row row-padding row-f-bottom">
             <div class="col-sm-12 col-lg-6 text-center text-lg-left footer-note reset-padding-l">
-                <div class="float-lg-left float-sm-none  float-md-none" style="padding-bottom:15px;"><img src="../toptalent/img/cmn/s.gif" class="icon-isk" width="1" height="1" /></div>
+                <div class="float-lg-left float-sm-none  float-md-none" style="padding-bottom:15px;"><img src="../toptalent/img/cmn/s.gif" class="icon-isk" width="1" height="1"/></div>
                 Toptalent.co Özel İstihdam Bürosu Olarak Türkiye İş Kurumu tarafından 05.05.2015 tarih ve 61647 sayılı karar uyarınca 750 nolu belge ile faaliyet göstermektedir.
                 4904 sayılı kanun uyarınca iş arayanlardan ücret alınması yasaktır.
             </div>
             <div class="col-sm-12 col-lg-6 text-center text-lg-right footer-note reset-padding-r">
-                <br />Toptalent 2020 &copy; Tüm Hakları Saklıdır.
+                <br/>Toptalent 2020 &copy; Tüm Hakları Saklıdır.
             </div>
         </div>
     </div>
@@ -655,19 +656,57 @@
     <div class="modal-dialog">
         <div class="modal-content r-15">
             <div class="modal-body p-30">
-                <h1>Toptalent'a<br />Hoş Geldin John!</h1>
+                <h1>Toptalent'a<br/>Hoş Geldin John!</h1>
                 <p>Sana daha iyi bir deneyim sunabilmemiz için bize yardımcı olmalısın 😊</p>
                 <div class="form-group">
                     <label class="f-16 fw-600">Kariyer Seviyen</label>
+                    <div class="d-flex">
+                        <div class="g-cursor-pointer flex-fill justify-content-between card card-blue r-15 p-10 p-right-40 m-right-20"
+                             data-toggle="collapse" href="#careerCollapse" role="button" aria-expanded="false" aria-controls="careerCollapse">
+                            <div class="d-flex justify-content-between">
+                                <div class="flex-fill"><input type="radio" name="exampleRadios" value="option1"></div>
+                                <div class="flex-fill font-weight-bold">Öğrenci</div>
+                                <div class="justify-end"><i class="fas fa-chevron-down fa-xs"></i></div>
+                            </div>
+                        </div>
+                        <div class="flex-fill justify-content-between card card-blue r-15 p-10 p-right-40 m-right-20"
+                             data-toggle="collapse" href="#yearsCollapse" role="button" aria-expanded="false" aria-controls="yearsCollapse">
+                            <div class="d-flex justify-content-between">
+                                <div class="flex-fill"><input type="radio" name="exampleRadios" value="option1"></div>
+                                <div class="flex-fill font-weight-bold">3-5 Yıl</div>
+                                <div class="flex-fill"><i class="fas fa-chevron-down fa-xs"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="collapse" id="careerCollapse">
+                            <div class="card card-body">
+                                <a href="#">1. Sınıf</a>
+                                <a href="#">3. Sınıf</a>
+                                <a href="#">4. Sınıf</a>
+                            </div>
+                        </div>
+                        <div class="collapse" id="yearsCollapse">
+                            <div class="card card-body">
+                                <a href="#">1-2 Yıl</a>
+                                <a href="#">6-8 Yıl</a>
+                                <a href="#">9 Yıl ve Üzeri</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr/>
+
+
                     <div class="form-row">
-                        <div class="card card-blue r-15 p-10 p-right-40 m-right-20">
+                        <!--<div class="flex-none card card-blue r-15 p-10 p-right-40 m-right-20">
                             <div class="form-check m-left-15">
                                 <input class="form-check-input m-top-8" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                <div class="dropdown">
-                                    <a class="btn dropdown-user" type="button" id="userMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <strong>Öğrenci</strong><i class="fas fa-chevron-down fa-xs p-left-20"></i>
+                                <div>
+                                    <a class="btn dropdown-user" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                                        <strong>Öğrenci111</strong><i class="fas fa-chevron-down fa-xs p-left-20"></i>
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="userMenu">
+                                    <div class="collapse" id="collapseExample1">
                                         <a class="dropdown-item" href="#">1. Sınıf</a>
                                         <a class="dropdown-item" href="#">3. Sınıf</a>
                                         <a class="dropdown-item" href="#">4. Sınıf</a>
@@ -677,65 +716,91 @@
                         </div>
                         <div class="card card-blue r-15 p-10 p-right-40 m-right-20" style="background: #eff6fc;">
                             <div class="form-check m-left-15">
-                                <input class="form-check-input m-top-8" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                <div class="dropdown">
-                                    <a class="btn dropdown-user" type="button" id="userMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <input class="form-check-input m-top-8" type="radio" name="exampleRadios" id="exampleRadios2" value="option1" checked>
+                                <div>
+                                    <a class="btn dropdown-user" type="button">
                                         <strong>3-5 Yıl</strong><i class="fas fa-chevron-down fa-xs p-left-20"></i>
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="userMenu">
+                                    <div class="collapse" id="collapseExample2">
                                         <a class="dropdown-item" href="#">1-2 Yıl</a>
                                         <a class="dropdown-item" href="#">6-8 Yıl</a>
                                         <a class="dropdown-item" href="#">9 Yıl ve Üzeri</a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="university" class="f-16 fw-600">Üniversite <span class="fw-500">(Lisans)</span></label>
-                    <select id="university" class="form-control r-999 form-control-lg form-control-c f-14">
+                    <select id="university" class="custom-select g-rounded-20 form-control-lg g-font-size-18">
                         <option selected="selected">Seçiniz</option>
                         <option>Üniversite 1</option>
                         <option>Üniversite 2</option>
                         <option>Üniversite 3</option>
                     </select>
+
+                    <!--<select id="university" class="form-control r-999 form-control-lg form-control-c f-14">
+                        <option selected="selected">Seçiniz</option>
+                        <option>Üniversite 1</option>
+                        <option>Üniversite 2</option>
+                        <option>Üniversite 3</option>
+                    </select>-->
                     <span class="form-text text-muted">*YL ve Doktora için özgeçmişten bilgilerinizi ekleyebilirsiniz.</span>
                 </div>
                 <div class="form-group">
                     <label for="section" class="f-16 fw-600">Bölüm</label>
-                    <select id="section" class="form-control r-999 form-control-lg form-control-c f-14">
+                    <select id="section" class="custom-select g-rounded-20 form-control-lg g-font-size-18">
                         <option selected="selected">Seçiniz</option>
                         <option>Üniversite 1</option>
                         <option>Üniversite 2</option>
                         <option>Üniversite 3</option>
                     </select>
+                    <!--<select id="section" class="form-control r-999 form-control-lg form-control-c f-14">
+                        <option selected="selected">Seçiniz</option>
+                        <option>Üniversite 1</option>
+                        <option>Üniversite 2</option>
+                        <option>Üniversite 3</option>
+                    </select>-->
                 </div>
                 <div class="form-group">
                     <label for="phone" class="f-16 fw-600">Telefon</label>
                     <input type="tel" id="phone" class="container form-control form-control-lg form-control-c r-999 btn-block f-14" placeholder="0(XXX)XXX XX XX"/>
                 </div>
                 <div class="form-group">
-                    <label class="f-16 fw-600">Çalışmak İstediği Alanlar</label><br />
-                    <input type="button" class="btn btn-blue p-left-15 p-right-15 m-right-10 m-bottom-10" value="Proje Çizimi" />
-                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
-                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
-                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Yönetim" />
-                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İdari Birimler" />
-                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Satış" />
-                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
-                    <input type="button" class="btn btn-blue p-left-15 p-right-15 m-right-10 m-bottom-10" value="Proje Çizimi" />
-                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Yönetim" />
-                    <br />
+                    <label class="f-16 fw-600">Çalışmak İstediği Alanlar</label><br/>
+                    <input type="button" class="btn btn-blue p-left-15 p-right-15 m-right-10 m-bottom-10" value="Proje Çizimi"/>
+                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik"/>
+                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi"/>
+                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Yönetim"/>
+                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İdari Birimler"/>
+                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Satış"/>
+                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi"/>
+                    <input type="button" class="btn btn-blue p-left-15 p-right-15 m-right-10 m-bottom-10" value="Proje Çizimi"/>
+                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Yönetim"/>
+                    <br/>
                     <p class="p-top-15"><a href="#">Daha fazla göster +</a></p>
                 </div>
-                <div class="text-right"><button class="btn btn-pink btn-lg p-left-40 p-right-40 p-top-15 p-bottom-15 fw-600">Başla <i class="fas fa-chevron-right fa-xs p-left-10"></i></button></div>
+                <div class="text-right">
+                    <button class="btn btn-pink btn-lg p-left-40 p-right-40 p-top-15 p-bottom-15 fw-600">Başla <i class="fas fa-chevron-right fa-xs p-left-10"></i></button>
+                </div>
             </div>
         </div>
     </div>
 </div>
 <!-- End Login Modal -->
-
+<script src="js/jquery-1.9.1.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
+<script>
+    $('#leftmenu .leftmenu-nav a').on('click', function () {
+        $('#leftmenu .leftmenu-nav').find('li.active').removeClass('active');
+        $(this).parent('li').addClass('active');
+    });
+
+    // onboarding modal onload temporary script
+    $(window).on('load', function () {
+        $('#temporary').modal('show');
+    });
+</script>
 </body>
 </html>
