@@ -546,5 +546,16 @@
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/custom.js"></script>
+<script>
+    $('#leftmenu .leftmenu-nav a').on('click', function () {
+        $('#leftmenu .leftmenu-nav').find('li.active').removeClass('active');
+        $(this).parent('li').addClass('active');
+    });
+
+    // onboarding modal onload temporary script
+    $(window).on('load', function () {
+        $('#temporary').modal('show');
+    });
+</script>
 </body>
 </html>

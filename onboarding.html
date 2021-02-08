@@ -660,44 +660,35 @@
                 <p>Sana daha iyi bir deneyim sunabilmemiz için bize yardımcı olmalısın 😊</p>
                 <div class="form-group">
                     <label class="f-16 fw-600">Kariyer Seviyen</label>
-                    <div class="d-flex">
-                        <div class="g-cursor-pointer flex-fill justify-content-between card card-blue r-15 p-10 p-right-40 m-right-20"
-                             data-toggle="collapse" href="#careerCollapse" role="button" aria-expanded="false" aria-controls="careerCollapse">
-                            <div class="d-flex justify-content-between">
-                                <div class="flex-fill"><input type="radio" name="exampleRadios" value="option1"></div>
-                                <div class="flex-fill font-weight-bold">Öğrenci</div>
-                                <div class="justify-end"><i class="fas fa-chevron-down fa-xs"></i></div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="dropdown">
+                                <button class="btn btn-blue-dropdown dropdown w-100 p-3 r-10" type="button" id="careerCollapse" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="0,-153">
+                                    <input type="radio" name="exampleRadios" value="option1" class="mr-3">
+                                    Öğrenci<i class="fas fa-chevron-down fa-xs pl-3"></i>
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-custom w-100 pt-3" id="careerCollapse">
+                                    <a class="dropdown-item" href="#">1. Sınıf</a>
+                                    <a class="dropdown-item" href="#">3. Sınıf</a>
+                                    <a class="dropdown-item" href="#">4. Sınıf</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="flex-fill justify-content-between card card-blue r-15 p-10 p-right-40 m-right-20"
-                             data-toggle="collapse" href="#yearsCollapse" role="button" aria-expanded="false" aria-controls="yearsCollapse">
-                            <div class="d-flex justify-content-between">
-                                <div class="flex-fill"><input type="radio" name="exampleRadios" value="option1"></div>
-                                <div class="flex-fill font-weight-bold">3-5 Yıl</div>
-                                <div class="flex-fill"><i class="fas fa-chevron-down fa-xs"></i></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="collapse" id="careerCollapse">
-                            <div class="card card-body">
-                                <a href="#">1. Sınıf</a>
-                                <a href="#">3. Sınıf</a>
-                                <a href="#">4. Sınıf</a>
-                            </div>
-                        </div>
-                        <div class="collapse" id="yearsCollapse">
-                            <div class="card card-body">
-                                <a href="#">1-2 Yıl</a>
-                                <a href="#">6-8 Yıl</a>
-                                <a href="#">9 Yıl ve Üzeri</a>
-                            </div>
+                        <div class="col-6">
+                            <div class="dropdown">
+                                <button class="btn btn-blue-dropdown dropdown w-100 p-3 r-10" type="button" id="careerCollapse2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="0,-153">
+                                    <input type="radio" name="exampleRadios" value="option1" class="mr-3">
+                                    3-5 Yıl<i class="fas fa-chevron-down fa-xs pl-3"></i>
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-custom w-100 pt-3" id="careerCollapse2">
+                                    <a class="dropdown-item" href="#">1-2 Yıl</a>
+                                    <a class="dropdown-item" href="#">6-8 Yıl</a>
+                                    <a class="dropdown-item" href="#">9 Yıl ve Üzeri</a>
+                                </div>
+                                </div>
                         </div>
                     </div>
-
                     <hr/>
-
-
                     <div class="form-row">
                         <!--<div class="flex-none card card-blue r-15 p-10 p-right-40 m-right-20">
                             <div class="form-check m-left-15">
@@ -733,7 +724,7 @@
                 </div>
                 <div class="form-group">
                     <label for="university" class="f-16 fw-600">Üniversite <span class="fw-500">(Lisans)</span></label>
-                    <select id="university" class="custom-select g-rounded-20 form-control-lg g-font-size-18">
+                    <select id="university" class="custom-select r-999 g-height-45">
                         <option selected="selected">Seçiniz</option>
                         <option>Üniversite 1</option>
                         <option>Üniversite 2</option>
@@ -750,7 +741,7 @@
                 </div>
                 <div class="form-group">
                     <label for="section" class="f-16 fw-600">Bölüm</label>
-                    <select id="section" class="custom-select g-rounded-20 form-control-lg g-font-size-18">
+                    <select id="section" class="custom-select r-999 g-height-45">
                         <option selected="selected">Seçiniz</option>
                         <option>Üniversite 1</option>
                         <option>Üniversite 2</option>

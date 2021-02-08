@@ -442,19 +442,19 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
 .t-white {color:#fff;}
 .t-grey-l {color:#b9bdc0;}
 .r-10 {
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    border-radius: 10px !important;
 }
 .r-15 {
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    border-radius: 15px !important;
 }
 .r-999 {
-    -webkit-border-radius: 999px;
-    -moz-border-radius: 999px;
-    border-radius: 999px;
+    -webkit-border-radius: 999px !important;
+    -moz-border-radius: 999px !important;
+    border-radius: 999px !important;
 }
 .dot {
     height: 14px;
@@ -647,7 +647,11 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
 .custom-control-input:focus: 
 not(:checked) ~ .custom-control-label::before { 
       border-color: #0096d6 !important; 
-} 
+}
+.dropdown-menu-custom {
+    background-color:#eff6fc !important;
+    border:none;
+}
 /*------------------------------------
 	Custom Modal
 ------------------------------------*/
@@ -684,6 +688,16 @@ not(:checked) ~ .custom-control-label::before {
     padding: 5px 10px 5px 10px;
 }
 .btn-blue-lt {
+    background-color:#eff6fc;
+    color:#242734;
+    padding: 5px 10px 5px 10px;
+}
+.btn-blue-dropdown:hover, .btn-blue-dropdown:focus, .btn-blue-dropdown:active, .btn-blue-dropdown.active, .open>.dropdown-toggle.btn-blue-dropdown {
+    background-color: #eff6fc;
+    color:#242734;
+    padding: 5px 10px 5px 10px;
+}
+.btn-blue-dropdown {
     background-color:#eff6fc;
     color:#242734;
     padding: 5px 10px 5px 10px;
