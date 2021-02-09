@@ -761,8 +761,8 @@
                     <button class="btn btn-ghost btn-lg btn-block p-15"><i class="fab fa-google fa-google-color float-left m-top-2 m-left-5"></i>Google ile giriş yap</button>
                     <p class="m-top-15"><span class="text-grey-l">ya da</span></p>
                     <input type="text" class="form-control r-999 p-20" placeholder="E-mail adresin"/>
-                    <input type="password" class="container form-control r-999 btn-block p-20" name="password" id="password" placeholder="Şifre"/>
-                    <i class="far fa-eye field-icon" id="togglePassword"></i>
+                    <input type="password" class="container form-control r-999 btn-block p-20" name="password" id="pwdLogin" placeholder="Şifre"/>
+                    <i class="far fa-eye field-icon g-cursor-pointer" id="toggleLoginPassword"></i>
                     <p><a href="#" class="link-black" data-toggle="modal" data-target="#forgotPassword">Şifremi unuttum</a></p>
                     <button class="btn btn-pink btn-lg btn-block p-10 fw-700">Giriş yap</button>
                     <br/><br/>
@@ -790,8 +790,8 @@
                             <div class="col-6"><input type="text" class="form-control r-999 p-20" placeholder="Soyad"></div>
                         </div>
                         <input type="text" class="form-control r-999 p-20" placeholder="E-mail adresin"/>
-                        <input type="password" class="container form-control r-999 btn-block p-20" name="password" id="password" placeholder="Şifre"/>
-                        <i class="far fa-eye field-icon" id="togglePassword"></i>
+                        <input type="password" class="container form-control r-999 btn-block p-20" name="password" id="pwdSign" placeholder="Şifre"/>
+                        <i class="far fa-eye field-icon g-cursor-pointer" id="toggleSignPassword"></i>
                         <p><a href="#" class="link-black" data-toggle="modal" data-target="#forgotPassword">Şifremi unuttum</a></p>
                         <div class="form-check text-left p-bottom-10">
                             <input class="form-check-input" type="checkbox" value="" id="check1">
@@ -839,12 +839,21 @@
 <!-- End Forgot Password Modal -->
 <script>
     // Password show hide script
-    const togglePassword = document.querySelector('#togglePassword');
-    const password = document.querySelector('#password');
-    togglePassword.addEventListener('click', function (e) {
+    const toggleLoginPassword = document.querySelector('#toggleLoginPassword');
+    const toggleSignPassword = document.querySelector('#toggleSignPassword');
+    const pwdLogin = document.querySelector('#pwdLogin');
+    const pwdSign = document.querySelector('#pwdSign');
+    toggleLoginPassword.addEventListener('click', function (e) {
         // toggle the type attribute
-        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-        password.setAttribute('type', type);
+        const type = pwdLogin.getAttribute('type') === 'password' ? 'text' : 'password';
+        pwdLogin.setAttribute('type', type);
+        // toggle the eye slash icon
+        this.classList.toggle('fa-eye-slash');
+    });
+    toggleSignPassword.addEventListener('click', function (e) {
+        // toggle the type attribute
+        const type = pwdSign.getAttribute('type') === 'password' ? 'text' : 'password';
+        pwdSign.setAttribute('type', type);
         // toggle the eye slash icon
         this.classList.toggle('fa-eye-slash');
     });
