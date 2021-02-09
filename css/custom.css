@@ -363,12 +363,12 @@ a.link-blue:link, a.link-blue:visited {color: #0096d6;}
 a.link-blue:hover {color: #157ca8; text-decoration:none;}
 a.link-gray-l:link, a.link-gray-l:visited {color: #b9bdc0;}
 a.link-gray-l:hover {color: #9ba1a5; text-decoration:none;}
-a.link-white:link, a.link-white:visited {color: #fff;}
-a.link-white:hover {color: #fafafa;}
-a.link-black:link, a.link-black:visited {color: #242734;}
-a.link-black:hover {color: #12141A;}
-a.link-black-inactive:link, a.link-black-inactive:visited {color: #abadb2;}
-a.link-black-inactive:hover {color: #84878c;}
+a.link-white:link, a.link-white:visited {color: #fff; text-decoration:none;}
+a.link-white:hover {color: #fafafa; text-decoration:none;}
+a.link-black:link, a.link-black:visited {color: #242734; text-decoration:none;}
+a.link-black:hover {color: #12141A; text-decoration:none;}
+a.link-black-inactive:link, a.link-black-inactive:visited {color: #abadb2; text-decoration:none;}
+a.link-black-inactive:hover {color: #84878c; text-decoration:none;}
 a.menu-link:link, a.menu-link:visited {color: #242734; text-decoration:none;}
 a.menu-link:hover {color: #12141A; text-decoration:none;}
 
@@ -565,6 +565,39 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
     margin-bottom:10px;
     line-height: 50px;
     height:50px;
+}
+.form-group-custom {
+    height: 3em;
+    margin: 1.5em 0;
+    position: relative;
+    width: 100%;
+}
+.form-group-custom input,
+.form-group-custom label {
+    cursor: text;
+    font-weight: 200;
+    position: absolute;
+    transition: all 0.15s ease;
+    width: 100%;
+}
+.form-group-custom input {
+    border: 1px solid #e3e7eb;
+    height: 50px;
+    padding: 20px 20px 0;
+    outline: none;
+}
+.form-group-custom label {
+color: #b9bdc0;
+font-weight: 400;
+line-height: 50px;
+padding: 0 20px;
+}
+.form-group-custom input.filled ~ label,
+.form-group-custom input:focus ~ label {
+    font-size: .9em;
+    position: absolute;
+    margin-top: -12px;
+    color:#c4197f;
 }
 .fa-google-color {
     background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;

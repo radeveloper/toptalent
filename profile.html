@@ -561,80 +561,94 @@
     <div class="modal-dialog">
         <div class="modal-content r-15">
             <div class="modal-body p-30">
-                <h1>Kişisel bilgiler</h1>
-                <div class="form-group">
-                    <label class="f-16 fw-600">Kariyer Seviyen</label>
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="dropdown">
-                                <button class="btn btn-blue-dropdown dropdown w-100 p-3 r-10" type="button" id="careerCollapse" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="0,-150">
-                                    <input type="radio" name="exampleRadios" value="option1" class="mr-3">
-                                    Öğrenci<i class="fas fa-chevron-down fa-xs pl-3"></i>
-                                </button>
-                                <div class="dropdown-menu dropdown-menu-custom w-100 pt-3" id="careerCollapse">
-                                    <a class="dropdown-item" href="#">1. Sınıf</a>
-                                    <a class="dropdown-item" href="#">3. Sınıf</a>
-                                    <a class="dropdown-item" href="#">4. Sınıf</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="dropdown">
-                                <button class="btn btn-blue-dropdown dropdown w-100 p-3 r-10" type="button" id="careerCollapse2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="0,-150">
-                                    <input type="radio" name="exampleRadios" value="option1" class="mr-3">
-                                    3-5 Yıl<i class="fas fa-chevron-down fa-xs pl-3"></i>
-                                </button>
-                                <div class="dropdown-menu dropdown-menu-custom w-100 pt-3" id="careerCollapse2">
-                                    <a class="dropdown-item" href="#">1-2 Yıl</a>
-                                    <a class="dropdown-item" href="#">6-8 Yıl</a>
-                                    <a class="dropdown-item" href="#">9 Yıl ve Üzeri</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <h1>
+                    Kişisel bilgiler
+                    <button type="button" class="close float-right pt-2 f-32" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </h1>
+                <div class="clearfix"></div><br />
+                <div class="row">
+                    <div class="col-3"><a href="" class="btn btn-blue-lt p-5 r-999" style="border:1px dashed #0096d6;"><i class="fas fa-plus" style="padding:30px;"></i></a></div>
+                    <div class="col-9">Profil Fotoğranızı buraya yükleyebilirsin. CV fotoğrafları için daha detaylı bilgiye <a href="#">buradan</a> ulaşabilirsin.</div>
+                </div>
+                <div class="form-group form-group-custom">
+                    <input type="text" id="name" class="r-999 p-20"/>
+                    <label for="name" class="f-16 fw-600">Adın</label>
+                </div>
+                <div class="form-group form-group-custom">
+                    <input type="text" id="surname" class="r-999 p-20"/>
+                    <label for="surname" class="f-16 fw-600">Soyadın</label>
+                </div>
+                <div class="form-group form-group-custom">
+                    <input type="text" id="email" class="r-999 p-20"/>
+                    <label for="email" class="f-16 fw-600">E-posta Adresi</label>
+                </div>
+                <div class="form-group form-group-custom">
+                    <input type="text" id="phone" class="r-999 p-20"/>
+                    <label for="phone" class="f-16 fw-600">Telefon Numarası</label>
                 </div>
                 <div class="form-group">
-                    <label for="university" class="f-16 fw-600">Üniversite <span class="fw-500">(Lisans)</span></label>
-                    <select id="university" class="custom-select r-999 g-height-45">
-                        <option selected="selected">Seçiniz</option>
-                        <option>Üniversite 1</option>
-                        <option>Üniversite 2</option>
-                        <option>Üniversite 3</option>
-                    </select>
-                    <span class="form-text text-muted">*YL ve Doktora için özgeçmişten bilgilerinizi ekleyebilirsiniz.</span>
-                </div>
-                <div class="form-group">
-                    <label for="section" class="f-16 fw-600">Bölüm</label>
-                    <select id="section" class="custom-select r-999 g-height-45">
-                        <option selected="selected">Seçiniz</option>
-                        <option>Üniversite 1</option>
-                        <option>Üniversite 2</option>
-                        <option>Üniversite 3</option>
+                    <select id="birthDate" class="custom-select r-999 g-height-50">
+                        <option selected="selected">Doğum Tarihi</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="phone" class="f-16 fw-600">Telefon</label>
-                    <input type="tel" id="phone" class="container form-control form-control-lg form-control-c r-999 btn-block f-14" placeholder="0(XXX)XXX XX XX"/>
+                    <select id="country" class="custom-select r-999 g-height-50">
+                        <option selected="selected">Ülke</option>
+                        <option>ABD</option>
+                        <option>Türkiye</option>
+                        <option>Yeni Zelanda</option>
+                    </select>
                 </div>
                 <div class="form-group">
-                    <label class="f-16 fw-600">Çalışmak İstediği Alanlar</label><br/>
-                    <input type="button" class="btn btn-blue p-left-15 p-right-15 m-right-10 m-bottom-10" value="Proje Çizimi"/>
-                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik"/>
-                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi"/>
-                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Yönetim"/>
-                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İdari Birimler"/>
-                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Satış"/>
-                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi"/>
-                    <input type="button" class="btn btn-blue p-left-15 p-right-15 m-right-10 m-bottom-10" value="Proje Çizimi"/>
-                    <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Yönetim"/>
-                    <br/>
-                    <p class="p-top-15"><a href="#">Daha fazla göster +</a></p>
+                    <select id="city" class="custom-select r-999 g-height-50">
+                        <option selected="selected">Şehir</option>
+                        <option>Adana</option>
+                        <option>Ankara</option>
+                        <option>Antalya</option>
+                    </select>
                 </div>
-                <div class="text-right">
-                    <button class="btn btn-pink btn-lg p-left-40 p-right-40 p-top-15 p-bottom-15 fw-600">Başla <i class="fas fa-chevron-right fa-xs p-left-10"></i></button>
+                <div class="form-group">
+                    <select id="drivingLicense" class="custom-select r-999 g-height-50">
+                        <option selected="selected">Sürücü Belgesi</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select id="gender" class="custom-select r-999 g-height-50">
+                        <option selected="selected">Cinsiyet</option>
+                        <option>Kadın</option>
+                        <option>Erkek</option>
+                    </select>
+                </div>
+                <div class="form-group form-group-custom">
+                    <input type="text" id="maritalStatus" class="r-999 p-20"/>
+                    <label for="maritalStatus" class="f-16 fw-600">Medeni Durumu</label>
+                </div>
+                <div class="form-group form-group-custom">
+                    <input type="text" id="militaryStatus" class="r-999 p-20"/>
+                    <label for="militaryStatus" class="f-16 fw-600">Askerlik Durumu</label>
+                </div>
+                <div class="form-group">
+                    <select id="careerDegree" class="custom-select r-999 g-height-50">
+                        <option selected="selected">Kariyer Seviyesi</option>
+                        <option>Seviye 1</option>
+                        <option>Seviye 2</option>
+                        <option>Seviye 3</option>
+                    </select>
+                </div>
+                <div class="form-group form-group-custom">
+                    <input type="text" id="workStatus" class="r-999 p-20"/>
+                    <label for="workStatus" class="f-16 fw-600">Çalışma Durumu</label>
                 </div>
             </div>
-            <div class="modal-footer p-0 m-0 bg-pink rb-15"><a href="#" class="btn btn-pink w-100 p-3">Devam Et</a></div>
+            <div class="modal-footer p-0 m-0 bg-pink rb-15"><a href="#" class="link-white text-center f-16 fw-600 w-100 p-3">Devam Et <i class="fas fa-chevron-right fa-xs pr-4 pt-2 float-right"></i></a></div>
         </div>
     </div>
 </div>
@@ -654,6 +668,14 @@
     $(window).on('load', function () {
         $('#temporary').modal('show');
     });
+
+    $(".form-group input").change(function() {
+        if ($(this).val() != "") {
+            $(this).addClass('filled');
+        } else {
+            $(this).removeClass('filled');
+        }
+    })
 </script>
 </body>
 </html>
