@@ -337,26 +337,5 @@
 	$( this ).parent( 'li' ).addClass( 'active' );
 });
 </script>
-<script>
-    // Password show hide script
-    const toggleLoginPassword = document.querySelector('#toggleLoginPassword');
-    const toggleSignPassword = document.querySelector('#toggleSignPassword');
-    const pwdLogin = document.querySelector('#pwdLogin');
-    const pwdSign = document.querySelector('#pwdSign');
-    toggleLoginPassword.addEventListener('click', function (e) {
-        // toggle the type attribute
-        const type = pwdLogin.getAttribute('type') === 'password' ? 'text' : 'password';
-        pwdLogin.setAttribute('type', type);
-        // toggle the eye slash icon
-        this.classList.toggle('fa-eye-slash');
-    });
-    toggleSignPassword.addEventListener('click', function (e) {
-        // toggle the type attribute
-        const type = pwdSign.getAttribute('type') === 'password' ? 'text' : 'password';
-        pwdSign.setAttribute('type', type);
-        // toggle the eye slash icon
-        this.classList.toggle('fa-eye-slash');
-    });
-</script>
 </body>
 </html>

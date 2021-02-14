@@ -14,12 +14,6 @@
 
     <title>Toptalent</title>
 </head>
-<script>
-    $( '#leftmenu .leftmenu-nav a' ).on( 'click', function () {
-	$( '#leftmenu .leftmenu-nav' ).find( 'li.active' ).removeClass( 'active' );
-	$( this ).parent( 'li' ).addClass( 'active' );
-});
-</script>
 <body>
 <!-- Header Start -->
 <div class="container">
@@ -714,6 +708,12 @@
             $(this).removeClass('filled');
         }
     })
+</script>
+<script>
+    $( '#leftmenu .leftmenu-nav a' ).on( 'click', function () {
+	$( '#leftmenu .leftmenu-nav' ).find( 'li.active' ).removeClass( 'active' );
+	$( this ).parent( 'li' ).addClass( 'active' );
+});
 </script>
 </body>
 </html>
