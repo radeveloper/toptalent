@@ -491,6 +491,11 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+.r-10 {
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    border-radius: 10px !important;
+}
 .r-15 {
     -webkit-border-radius: 15px !important;
     -moz-border-radius: 15px !important;
