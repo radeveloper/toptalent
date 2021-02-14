@@ -14,15 +14,9 @@
 
     <title>Toptalent</title>
 </head>
-<script>
-    $( '#leftmenu .leftmenu-nav a' ).on( 'click', function () {
-	$( '#leftmenu .leftmenu-nav' ).find( 'li.active' ).removeClass( 'active' );
-	$( this ).parent( 'li' ).addClass( 'active' );
-});
-</script>
 <body>
 <!-- Header Start -->
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-6 col-sm-4 navbar-height-l reset-padding-l">
             <a href="#" class="link-black m-right-10"><i class="fas fa-equals d-sm-none"></i></a>
@@ -50,7 +44,7 @@
     </div>
 </div>
 <!-- End Header -->
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-sm-2 col-md-2 col-lg-1 col-xl-1 reset-padding-l d-none d-sm-inline" id="leftmenu">
             <ul class="list-unstyled leftmenu-nav">
@@ -72,7 +66,7 @@
         </div>
         <div class="col-12 col-sm-10 col-md-10 col-lg-11 col-xl-11 pr-0 pl-0">
             <!-- Job Post Form Start -->
-            <div class="container container-blue-lt">
+            <div class="container-fluid container-blue-lt">
                 <div class="row row-padding">
                     <div class="col-lg-12">
                         <h1 class="f-24 pt-5"><strong>İş İlanları</strong></h1>
@@ -96,7 +90,7 @@
             </div>
             <!-- End Job Post Form -->
             <!-- Jobs Card Start -->
-            <div class="container container-blue-lt">
+            <div class="container-fluid container-blue-lt">
                 <div class="row row-padding">
                     <div class="card card-noborder mb-4 w-100">
                         <div class="row no-gutters">
@@ -222,7 +216,7 @@
     </div>
 </div>
 <footer>
-    <div class="container container-grey">
+    <div class="container-fluid container-grey">
         <div class="row row-padding">
             <div class="p-bottom-30 col-sm-12"></div>
             <div class="col-sm-6" style="color:#fff;">
@@ -265,7 +259,7 @@
             <div class="p-bottom-30 col-sm-12"></div>
         </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row row-padding row-f-bottom">
             <div class="col-sm-12 col-lg-6 text-center text-lg-left footer-note reset-padding-l">
                 <div class="float-lg-left float-sm-none  float-md-none" style="padding-bottom:15px;"><img src="../toptalent/img/cmn/s.gif" class="icon-isk" width="1" height="1" /></div>
@@ -278,6 +272,16 @@
         </div>
     </div>
 </footer>
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/custom.js"></script>
+<script>
+    $( '#leftmenu .leftmenu-nav a' ).on( 'click', function () {
+	$( '#leftmenu .leftmenu-nav' ).find( 'li.active' ).removeClass( 'active' );
+	$( this ).parent( 'li' ).addClass( 'active' );
+});
+</script>
 <script>
     // Password show hide script
     const toggleLoginPassword = document.querySelector('#toggleLoginPassword');
@@ -299,10 +303,5 @@
         this.classList.toggle('fa-eye-slash');
     });
 </script>
-
-<script src="js/jquery-1.9.1.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/custom.js"></script>
 </body>
 </html>
