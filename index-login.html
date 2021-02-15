@@ -11,15 +11,9 @@
 
     <title>Toptalent</title>
 </head>
-<script>
-    $( '#leftmenu .leftmenu-nav a' ).on( 'click', function () {
-	$( '#leftmenu .leftmenu-nav' ).find( 'li.active' ).removeClass( 'active' );
-	$( this ).parent( 'li' ).addClass( 'active' );
-});
-</script>
 <body>
 <!-- Header Start -->
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-6 col-sm-4 navbar-height-l reset-padding-l">
             <a href="#" class="link-black m-right-10"><i class="fas fa-equals d-sm-none"></i></a>
@@ -47,9 +41,9 @@
     </div>
 </div>
 <!-- End Header -->
-<div class="container">
+<div class="container-fluid p-0">
     <div class="row">
-        <div class="col-sm-2 col-md-2 col-lg-1 col-xl-1 reset-padding-l d-none d-sm-inline" id="leftmenu">
+        <div class="col-sm-2 col-md-1 col-lg-1 d-none d-sm-inline pr-0" id="leftmenu">
             <ul class="list-unstyled leftmenu-nav">
                 <li class="active"><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-star" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a></li>
                 <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-case" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a></li>
@@ -63,13 +57,13 @@
                 <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-career-goal" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a></li>
                 <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-favorites" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a></li>
                 <li class="menu-seperator m-top-30 m-bottom-30"></li>
-                <li><a hraf="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-notification-menu" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a><span class="dot sec counter" style="position:absolute; top:445px; right:77%;">44</span></li>
+                <li><a hraf="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-notification-menu" src="../toptalent/img/cmn/s.gif" width="1" height="1" /><span class="dot dot-leftm sec-leftm">44</span></a></li>
                 <li><a href="#"><img src="../toptalent/img/cmn/s.gif" width="15" height="32" /><img class="icon-settings" src="../toptalent/img/cmn/s.gif" width="1" height="1" /></a></li>
             </ul>
         </div>
-        <div class="col-12 col-sm-10 col-md-10 col-lg-11 col-xl-11 reset-padding-l reset-padding-r">
+        <div class="col-12 col-sm-10 col-md-11 col-lg-11">
             <!-- Secondary Header Start -->
-            <div class="container container-grey">
+            <div class="container-fluid container-grey">
                 <div class="row row-padding secondary-header">
                     <div class="col-lg-9 reset-padding-l text-white">
                         <h4><strong style="font-weight: bolder;">Kariyer Hedeflerini Gerçekleştir</strong><br /><span class="f-16">Kariyer hedeflerini gerçekleştirmek seni hayalindeki işe yaklaştırır.</span></h4>
@@ -116,7 +110,7 @@
             </div>
             <!-- End Secondary Header -->
             <!-- Carousel Start -->
-            <div class="container container-blue-lt">
+            <div class="container-fluid container-blue-lt">
                 <div class="row row-padding">
                     <h1 class="p-top-60"><strong>İlgini Çekebilecek</strong> İş İlanları</h1>
                     <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
@@ -156,7 +150,7 @@
             </div>
             <!-- End Carousel -->
             <!-- Job Posting Interest Start -->
-            <div class="container container-blue-lt">
+            <div class="container-fluid container-blue-lt">
                 <div class="row row-padding">
                     <div class="col-12 p-top-30">&nbsp;</div>
                     <div class="clearfix"></div>
@@ -168,7 +162,7 @@
                         <div class="p-top-30"><a href="#"><i class="fas fa-chevron-left fa-lg p-right-10"></i></a><a href="#"><i class="fas fa-chevron-right fa-lg"></i></a></div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="col-4 p-top-15">
+                    <div class="col-4 col-xl-3 p-top-15">
                         <ul class="list-unstyled">
                             <li class="media">
                             <img src="../toptalent/img/logo-company/isbankasi.png" class="mr-3" alt="Türkiye İş Bankası">
@@ -186,7 +180,7 @@
                         </div>
                         <div class="p-top-15"><a href="#" class="btn btn-green">Başvur <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
                     </div>
-                    <div class="col-4 p-top-15">
+                    <div class="col-4 col-xl-3 p-top-15">
                         <ul class="list-unstyled">
                             <li class="media">
                             <img src="../toptalent/img/logo-company/mercedes.png" class="mr-3" alt="Mercedes Benz">
@@ -204,7 +198,25 @@
                         </div>
                         <div class="p-top-15"><a href="#" class="btn btn-green">Başvur <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
                     </div>
-                    <div class="col-4 p-top-15">
+                    <div class="col-4 col-xl-3 p-top-15">
+                        <ul class="list-unstyled">
+                            <li class="media">
+                            <img src="../toptalent/img/logo-company/yemeksepeti.png" class="mr-3" alt="Yemeksepeti">
+                            <div class="media-body">
+                                <h5 class="g-section-header">DevOps Mühendisi</h5>
+                                Yemeksepeti
+                            </div>
+                            <div class="text-right"><span class="badge-circle-green">Son 20 Gün</span></div>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <div>
+                            <img src="../toptalent/img/img-jobs/1.jpg" class="w-100 r-10" alt="">
+                            <img src="../toptalent/img/cmn/s.gif" class="icon-love icon-love-position" width="1" height="1" />
+                        </div>
+                        <div class="p-top-15"><a href="#" class="btn btn-green">Başvur <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
+                    </div>
+                    <div class="col-4 col-xl-3 p-top-15">
                         <ul class="list-unstyled">
                             <li class="media">
                             <img src="../toptalent/img/logo-company/yemeksepeti.png" class="mr-3" alt="Yemeksepeti">
@@ -228,7 +240,7 @@
             </div>
             <!-- End Job Posting Interest -->
             <!-- Career Tools Start -->
-            <div class="container container-grey">
+            <div class="container-fluid container-grey">
                 <div class="row row-padding">
                     <div class="col-12 p-top-30">&nbsp;</div>
                     <div class="clearfix"></div>
@@ -285,7 +297,7 @@
             </div>
             <!-- End Career Tools -->
             <!-- Recruitment Program Start -->
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row row-padding">
                     <div class="col-12 p-top-30">&nbsp;</div>
                     <div class="clearfix"></div>
@@ -357,7 +369,7 @@
             </div>
             <!-- End Recruitment Program -->
             <!-- Discover Company Start -->
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row row-padding">
                     <div class="col-12 p-top-30">&nbsp;</div>
                     <div class="clearfix"></div>
@@ -426,7 +438,7 @@
             </div>
             <!-- End Discover Company -->
             <!-- Incoming Activities Start -->
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row row-padding">
                     <div class="col-12 p-top-30">&nbsp;</div>
                     <div class="clearfix"></div>
@@ -513,7 +525,7 @@
             </div>
             <!-- End Incoming Activities -->
             <!-- Online Training Start -->
-            <div class="container container-blue-lt">
+            <div class="container-fluid container-blue-lt">
                 <div class="row row-padding">
                     <div class="col-12 p-top-30">&nbsp;</div>
                     <div class="clearfix"></div>
@@ -588,7 +600,7 @@
     </div>
 </div>
 <footer>
-    <div class="container container-grey">
+    <div class="container-fluid container-grey">
         <div class="row row-padding">
             <div class="p-bottom-30 col-sm-12"></div>
             <div class="col-sm-6" style="color:#fff;">
@@ -631,7 +643,7 @@
             <div class="p-bottom-30 col-sm-12"></div>
         </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row row-padding row-f-bottom">
             <div class="col-sm-12 col-lg-6 text-center text-lg-left footer-note reset-padding-l">
                 <div class="float-lg-left float-sm-none  float-md-none" style="padding-bottom:15px;"><img src="../toptalent/img/cmn/s.gif" class="icon-isk" width="1" height="1" /></div>
@@ -644,7 +656,16 @@
         </div>
     </div>
 </footer>
-<script src="js/jquery-3.5.1.slim.min.js"></script>
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/custom.js"></script>
+<script>
+    $( '#leftmenu .leftmenu-nav a' ).on( 'click', function () {
+	$( '#leftmenu .leftmenu-nav' ).find( 'li.active' ).removeClass( 'active' );
+	$( this ).parent( 'li' ).addClass( 'active' );
+});
+</script>
+
 </body>
 </html>

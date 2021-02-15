@@ -523,17 +523,28 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
     border-radius: 999px !important;
 }
 .dot {
-    height: 14px;
-    width: 14px;
+    height: 15px;
+    width: 15px;
     background-color: #c4197f;
     border-radius: 7px;
     display: inline-block;
-  }
-
+    padding-top:1px;
+}
+.dot-leftm {
+    position:absolute;
+    top:445px;
+    left:44px;
+}
 .sec{
     position: relative;
     right: 9px;
     top:-6px;
+    color:#fff;
+    font-size:9px;
+    font-weight: bold;
+    text-align: center;
+}
+.sec-leftm{
     color:#fff;
     font-size:9px;
     font-weight: bold;
@@ -886,6 +897,10 @@ padding: 0 20px;
     }
     }
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .row-padding {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .target-seperator {border-left:1px solid #fff;}
     .modal-dialog-right {
         margin: 0px;
