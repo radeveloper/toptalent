@@ -355,6 +355,7 @@
 .text-black {color: #242734;}
 .text-pink {color: #c4197f;}
 .bg-pink {background: #c4197f;}
+.bg-blue {background: #0096d6;}
 .text-green {color: #4fcc59;}
 .text-grey {color: #92939a;}
 .text-grey-l {color: #b9bdc0;}
@@ -868,8 +869,9 @@ padding: 0 20px;
         right: 0px;
         width: 100%;
         min-width:300px;
-        height: 100%;
+        height: 100% !important;
     }
+    .modal-dialog-height {max-height: 100% !important;}
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
     .modal-dialog-right {
@@ -880,8 +882,9 @@ padding: 0 20px;
         right: 0px;
         width: 60%;
         min-width:300px;
-        height: 100%;
+        height: 100% !important;
     }
+    .modal-dialog-height {max-height: 100% !important;}
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
     .target-seperator {border-left:1px solid #fff;}
@@ -893,9 +896,10 @@ padding: 0 20px;
         right: 0px;
         width: 50%;
         min-width:300px;
-        height: 100%;
+        height: 100% !important;
     }
-    }
+    .modal-dialog-height {max-height: 100% !important;}
+}
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .row-padding {
         padding-left: 10px;
@@ -910,9 +914,10 @@ padding: 0 20px;
         right: 0px;
         width: 40%;
         min-width:300px;
-        height: 100%;
+        height: 100% !important;
     }
-    }
+    .modal-dialog-height {max-height: 100% !important;}
+}
 @media (min-width: 1200px) {
     .row-padding {
         padding-left: 40px;
@@ -936,8 +941,9 @@ padding: 0 20px;
         right: 0px;
         width: 30%;
         min-width:300px;
-        height: 100%;
+        height: 100% !important;
     }
+    .modal-dialog-height {max-height: 100% !important;}
 }
 
 /*------------------------------------
