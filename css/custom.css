@@ -375,6 +375,10 @@ a.link-black-inactive:hover {color: #84878c; text-decoration:none;}
 a.menu-link:link, a.menu-link:visited {color: #242734; text-decoration:none;}
 a.menu-link:hover {color: #12141A; text-decoration:none;}
 
+.btg-1 {border-top:1px solid #979797;}
+.brg-1 {border-right:1px solid #979797;}
+.bbg-1 {border-bottom:1px solid #979797;}
+.blg-1 {border-left:1px solid #979797;}
 #leftmenu .leftmenu-nav li > a {
     color: #242734;
     text-decoration: none;
@@ -648,8 +652,17 @@ padding: 0 20px;
 .fa-facebook-color {
     color:#1877f2;
 }
+.fa-twitter-color {
+    color:#0096d6;
+}
 .fa-linkedin-color {
     color:#00a3d3;
+}
+.fa-whatsapp-color {
+    color:#4fcc59;
+}
+.fa-envelope-color {
+    color:#242734;
 }
 .fa-visa-color {
     color:#0353a5;
@@ -779,7 +792,11 @@ padding: 0 20px;
     -webkit-border-radius: 999px;
     -moz-border-radius: 999px;
     border-radius: 999px;
-    font-size:13px;
+}
+.btn-xl {
+    padding: .8rem 3rem !important;
+    font-size: 1.2rem !important;
+    line-height: 1.5 !important;
 }
 .btn-ghost {
     color: #242734;
