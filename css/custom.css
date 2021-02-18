@@ -359,6 +359,7 @@
 .text-green {color: #4fcc59;}
 .text-grey {color: #92939a;}
 .text-grey-l {color: #b9bdc0;}
+.text-underline {text-decoration: underline;}
 
 a.link-blue:link, a.link-blue:visited {color: #0096d6;}
 a.link-blue:hover {color: #157ca8; text-decoration:none;}
