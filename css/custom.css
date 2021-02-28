@@ -10,7 +10,6 @@
   Paddings
 ------------------------------------*/
 .p-0 {padding:0px !important;}
-.p-5 {padding:5px !important;}
 .p-10 {padding:10px !important;}
 .p-15 {padding:15px !important;}
 .p-20 {padding:20px !important;}
@@ -144,6 +143,7 @@
 .f-20 {font-size:20px;}
 .f-24 {font-size:24px;}
 .f-28 {font-size:28px;}
+.f-30 {font-size:30px;}
 .f-32 {font-size:32px;}
 .f-36 {font-size:36px;}
 
@@ -379,6 +379,7 @@
 .bg-pink {background: #c4197f;}
 .bg-blue {background: #0096d6;}
 .bg-white {background: #fff;}
+.bg-grey {background:#242734;}
 .text-green {color: #4fcc59;}
 .text-grey {color: #92939a;}
 .text-grey-l {color: #b9bdc0;}
@@ -730,6 +731,20 @@ padding: 0 20px;
     -webkit-border-radius:0px !important;
     -moz-border-radius:0px !important;
     border-radius:0px !important;
+}
+.bg-company {
+    background-image: url("../../toptalent/img/cmn/bg-company-home.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    height:601px;
+}
+.bg-company-sample {
+    background-image: url("../../toptalent/img/cmn/bg-company-firm.gif");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: left;
+    height:564px;
 }
 /*------------------------------------
 	Custom Switch Size & Color
