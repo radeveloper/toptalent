@@ -146,6 +146,7 @@
 .f-30 {font-size:30px;}
 .f-32 {font-size:32px;}
 .f-36 {font-size:36px;}
+.f-64 {font-size:64px;}
 
 /*------------------------------------
   Font Weights
@@ -378,6 +379,7 @@
 .text-pink {color: #c4197f;}
 .bg-pink {background: #c4197f;}
 .bg-blue {background: #0096d6;}
+.bg-blue-lt {background: #eff6fc;}
 .bg-white {background: #fff;}
 .bg-grey {background:#242734;}
 .text-green {color: #4fcc59;}
@@ -391,8 +393,8 @@ a.link-pink:link, a.link-pink:visited {color: #c4197f;}
 a.link-pink:hover {color: #c4197f; text-decoration:none;}
 a.link-gray-l:link, a.link-gray-l:visited {color: #b9bdc0;}
 a.link-gray-l:hover {color: #9ba1a5; text-decoration:none;}
-a.link-white:link, a.link-white:visited {color: #fff; text-decoration:none;}
-a.link-white:hover {color: #fafafa; text-decoration:none;}
+a.link-white:link, a.link-white:visited {color: #fff !important; text-decoration:none;}
+a.link-white:hover {color: #fafafa !important; text-decoration:none;}
 a.link-black:link, a.link-black:visited {color: #242734; text-decoration:none;}
 a.link-black:hover {color: #12141A; text-decoration:none;}
 a.link-black-inactive:link, a.link-black-inactive:visited {color: #abadb2; text-decoration:none;}
@@ -955,6 +957,8 @@ padding: 0 20px;
         height:50px;
         line-height:40px;
     }    
+    .card-position-150 {position:relative; top:-150px;}
+    .card-position-190 {position:relative; top:-150px;}
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
     .modal-dialog-right {
@@ -973,6 +977,8 @@ padding: 0 20px;
         height:50px;
         line-height:40px;
     }    
+    .card-position-150 {position:relative; top:-150px;}
+    .card-position-190 {position:relative; top:-190px;}
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
     .target-seperator {border-left:1px solid #fff;}
@@ -992,6 +998,8 @@ padding: 0 20px;
         height:50px;
         line-height:40px;
     }
+    .card-position-150 {position:relative; top:-150px;}
+    .card-position-190 {position:relative; top:-190px;}
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .row-padding {
@@ -1015,6 +1023,8 @@ padding: 0 20px;
         height:50px;
         line-height:40px;
     }    
+    .card-position-150 {position:relative; top:-150px;}
+    .card-position-190 {position:relative; top:-190px;}
 }
 @media (min-width: 1200px) and (max-width: 1599.98px) {
     .row-padding {
@@ -1047,6 +1057,8 @@ padding: 0 20px;
         height:60px;
         line-height:50px;
     }
+    .card-position-150 {position:relative; top:-150px;}
+    .card-position-190 {position:relative; top:-190px;}
 }
 @media (min-width: 1600px) {
     .row-padding {
@@ -1079,6 +1091,8 @@ padding: 0 20px;
         height:60px;
         line-height:50px;
     }
+    .card-position-150 {position:relative; top:-150px;}
+    .card-position-190 {position:relative; top:-190px;}
 }
   
 /*------------------------------------
