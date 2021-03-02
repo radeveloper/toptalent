@@ -179,6 +179,95 @@
     </div>
 </div>
 <!-- End Footer -->
+<!-- Login Modal Start -->
+<div class="modal fade" id="login"" tabindex="-1" aria-labelledby="login" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-right">
+        <div class="modal-content modal-content-right">
+            <div class="modal-body">
+                <h1>Giriş Yap</h1>
+                <div class="text-center">
+                    <button class="btn btn-ghost btn-lg btn-block p-15"><i class="fab fa-linkedin float-left fa-linkedin-color m-top-2 m-left-5"></i>Linkedin ile giriş yap</button>
+                    <button class="btn btn-ghost btn-lg btn-block p-15"><i class="fab fa-facebook-f fa-facebook-color float-left m-top-2 m-left-5"></i>Facebook ile giriş yap</button>
+                    <button class="btn btn-ghost btn-lg btn-block p-15"><i class="fab fa-google fa-google-color float-left m-top-2 m-left-5"></i>Google ile giriş yap</button>
+                    <p class="m-top-15"><span class="text-grey-l">ya da</span></p>
+                    <input type="text" class="form-control r-999 p-20" placeholder="E-mail adresin"/>
+                    <input type="password" class="container form-control r-999 btn-block p-20" name="password" id="pwdLogin" placeholder="Şifre"/>
+                    <i class="far fa-eye field-icon g-cursor-pointer" id="toggleLoginPassword"></i>
+                    <p><a href="#" class="link-black" data-toggle="modal" data-target="#forgotPassword">Şifremi unuttum</a></p>
+                    <button class="btn btn-pink btn-lg btn-block p-10 fw-700">Giriş yap</button>
+                    <br/><br/>
+                    <p><span class="p-right-15">Üye değil misin?</span> <a href="#" data-toggle="modal" data-target="#registration">Üye ol <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Login Modal -->
+<!-- Registeration Modal Start -->
+<div class="modal fade" id="registration" tabindex="-1" aria-labelledby="registration" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-right">
+        <div class="modal-content modal-content-right">
+            <div class="modal-body">
+                <h1>Üye Ol</h1>
+                <div class="text-center">
+                    <button class="btn btn-ghost btn-lg btn-block p-15"><i class="fab fa-linkedin float-left fa-linkedin-color m-top-2 m-left-5"></i>Linkedin ile giriş yap</button>
+                    <button class="btn btn-ghost btn-lg btn-block p-15"><i class="fab fa-facebook-f fa-facebook-color float-left m-top-2 m-left-5"></i>Facebook ile giriş yap</button>
+                    <button class="btn btn-ghost btn-lg btn-block p-15"><i class="fab fa-google fa-google-color float-left m-top-2 m-left-5"></i>Google ile giriş yap</button>
+                    <p class="m-top-15"><span class="text-grey-l">ya da</span></p>
+                    <form>
+                        <div class="form-row">
+                            <div class="col-6"><input type="text" class="form-control r-999 p-20" placeholder="Ad"></div>
+                            <div class="col-6"><input type="text" class="form-control r-999 p-20" placeholder="Soyad"></div>
+                        </div>
+                        <input type="text" class="form-control r-999 p-20" placeholder="E-mail adresin"/>
+                        <input type="password" class="container form-control r-999 btn-block p-20" name="password" id="pwdSign" placeholder="Şifre"/>
+                        <i class="far fa-eye field-icon g-cursor-pointer" id="toggleSignPassword"></i>
+                        <p><a href="#" class="link-black" data-toggle="modal" data-target="#forgotPassword">Şifremi unuttum</a></p>
+                        <div class="form-check text-left p-bottom-10">
+                            <input class="form-check-input" type="checkbox" value="" id="check1">
+                            <label class="form-check-label" for="check1">
+                                <a href="#" class="link-underline">Hizmet sözleşmesini</a> onaylıyorum.
+                            </label>
+                        </div>
+                        <div class="form-check text-left p-bottom-10">
+                            <input class="form-check-input" type="checkbox" value="" id="check2">
+                            <label class="form-check-label" for="check2">
+                                İetişim bilgilerime e-ileti gönderilmesine izin veriyorum.
+                            </label>
+                        </div>
+                        <div class="form-check text-left p-bottom-15">
+                            <input class="form-check-input" type="checkbox" value="" id="check3">
+                            <label class="form-check-label" for="check3">
+                                Verilerimin <a href="#" class="link-underline">Açık Rıza Metni'nde</a> belirtilen şekilde işlenmesine onay veriyorum.
+                            </label>
+                        </div>
+                        <button class="btn btn-pink btn-lg btn-block p-10 fw-700">Üye Ol</button>
+                        <br/>
+                        <p><span class="p-right-15">Zaten üye misin?</span> <a href="#">Giriş yap <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Registration Modal -->
+<!-- Forgot Password Modal Start -->
+<div class="modal fade" id="forgotPassword" tabindex="-1" aria-labelledby="forgotPassword" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-right">
+        <div class="modal-content modal-content-right">
+            <div class="modal-body">
+                <h1>Şifremi Unuttum</h1>
+                <div class="text-center">
+                    <input type="text" class="form-control r-999 p-20" placeholder="E-mail adresin"/>
+                    <p class="m-top-15"><span class="text-grey-l">Mail adresinize gelen aktivasyon linkinden<br />Şifreızı değiştirebilirsiniz.</span></p>
+                    <button class="btn btn-pink btn-lg btn-block p-10 fw-700">Gönder</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Forgot Password Modal -->
+<!-- Payment Success Modal Start -->
 <div class="modal fade" id="temporary" tabindex="-1" aria-labelledby="login" aria-hidden="true">
     <div class="modal-dialog modal-sm">
         <div class="modal-content r-15">
@@ -191,6 +280,7 @@
         </div>
     </div>
 </div>
+<!-- End Payment Success Modal -->
 
 
 <script src="js/jquery-1.9.1.js"></script>
