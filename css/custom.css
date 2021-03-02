@@ -146,6 +146,7 @@
 .f-30 {font-size:30px;}
 .f-32 {font-size:32px;}
 .f-36 {font-size:36px;}
+.f-42 {font-size:42px;}
 .f-64 {font-size:64px;}
 
 /*------------------------------------
@@ -373,6 +374,12 @@
 .navbar-seperator {
     padding-left:8px;
     padding-right:8px;
+}
+.hr-seperator {
+    width:40px;
+    display:inline-block;
+    position:relative;
+    top:8px;
 }
 .text-white {color: #fff;}
 .text-black {color: #242734;}
