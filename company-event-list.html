@@ -130,7 +130,7 @@
                                     <div class="col-4 align-self-center text-right"><span class="badge-circle-red">Son 2 Gün</span></div>
                                 </div>
                                 <div class="row col-12 pt-3">
-                                    <div class="col-6 pl-0"><a href="#" class="btn btn-green p-2 pl-4 pr-4">Katıl <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
+                                    <div class="col-6 pl-0"><a href="#" data-toggle="modal" data-target="#eventSlot" class="btn btn-green p-2 pl-4 pr-4">Katıl <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
                                     <div class="col-6 text-right align-self-center"><i class="fas fa-chevron-down fa-lg"></i></div>
                                 </div>
                             </div>
@@ -204,27 +204,27 @@
                             <div class="row">
                                 <div class="col-12">
                                     <img src="../toptalent/img/img-jobs/jobs-big-1.jpg" class="img-fluid rt-15 rounded-top" alt="">
-                                    <div class="position-absolute float-right text-white" style="bottom:30px; left:30px;"><span class="f-20">İş Bankası</span><br />HR Department</div>
-                                    <div class="position-absolute float-right" style="bottom:30px; right:15px;"><img src="../toptalent/img/logo-company/isbankasi-80.png" class="mr-3" alt="Türkiye İş Bankası"></div>
+                                    <div class="position-absolute float-right text-white event-counter-left"><span class="f-20">İş Bankası</span><br />HR Department</div>
+                                    <div class="position-absolute float-right event-counter-right"><img src="../toptalent/img/logo-company/isbankasi-80.png" class="mr-3" alt="Türkiye İş Bankası"></div>
                                 </div>
                             </div>
                         </div>
                         <div class="card card-noborder rounded-0 rb-15 m-bottom-15 pt-5">
                             <div class="row mb-4">
                                 <div class="col-3 text-center">
-                                    <div class="rounded-circle border border-dark pt-2 ml-4" style="width:50px; height:50px;"><span class="f-20 fw-600" style="height:50px;">06</span></div>
+                                    <div class="rounded-circle border border-dark event-counter-badge pt-2 ml-4"><span class="f-20 fw-600">06</span></div>
                                 </div>
                                 <div class="col-9 align-self-center">İş İlanı Hakkı</div>
                             </div>
                             <div class="row mb-4">
                                 <div class="col-3 text-center">
-                                    <div class="rounded-circle border border-dark pt-2 ml-4" style="width:50px; height:50px;"><span class="f-20 fw-600" style="height:50px;">03</span></div>
+                                    <div class="rounded-circle border border-dark event-counter-badge pt-2 ml-4"><span class="f-20 fw-600">03</span></div>
                                 </div>
                                 <div class="col-9 align-self-center">İş İlanı Ek Süre</div>
                             </div>
                             <div class="row mb-4">
                                 <div class="col-3 text-center">
-                                    <div class="rounded-circle border border-dark pt-2 ml-4" style="width:50px; height:50px;"><span class="f-20 fw-600" style="height:50px;">00</span></div>
+                                    <div class="rounded-circle border border-dark event-counter-badge pt-2 ml-4"><span class="f-20 fw-600">00</span></div>
                                 </div>
                                 <div class="col-9 align-self-center">Etkinlik Hakkı <a href="#" class="link-pink float-right pr-4">Satın al</a></div>
                             </div>
@@ -294,7 +294,75 @@
         </div>
     </div>
 </footer>
-    
+<!-- Event Slot Start -->
+<div class="modal fade" id="eventSlot" tabindex="-1" aria-labelledby="login" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content r-15">
+            <div class="modal-body p-30">
+                <h1 class="f-24 fw-600">
+                    Etkinlik Slotunuzu Seçin
+                    <button type="button" class="close float-right f-32" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </h1>
+                <div class="clearfix"></div><br />
+                <div class="row pl-4 pr-4">
+                    <div class="col-1">&nbsp;</div>
+                    <div class="col-4"><strong>Saat Arası</strong></div>
+                    <div class="col-3"><strong>Bölümler</strong></div>
+                    <div class="col-4"><strong>Firma Adı</strong></div>
+                </div>
+                <div class="card rounded-pill p-3 pl-4 pr-4 m-3 fw-600">
+                    <div class="row">
+                        <div class="col-1"><input type="radio"></div>
+                        <div class="col-4">11:00 - 11:50</div>
+                        <div class="col-3">1.Session</div>
+                        <div class="col-4">BSH</div>
+                    </div>
+                </div>
+                <div class="card rounded-pill p-3 pl-4 pr-4 m-3 fw-600 bg-blue text-white">
+                    <div class="row">
+                        <div class="col-1"><input type="radio"></div>
+                        <div class="col-4">12:00 - 13:50</div>
+                        <div class="col-3">1.Session</div>
+                        <div class="col-4">Borusan</div>
+                    </div>
+                </div>
+                <div class="card rounded-pill p-3 pl-4 pr-4 m-3 fw-600">
+                    <div class="row">
+                        <div class="col-1"><input type="radio"></div>
+                        <div class="col-4">11:00 - 11:50</div>
+                        <div class="col-3">1.Session</div>
+                        <div class="col-4">BSH</div>
+                    </div>
+                </div>
+                <div class="card rounded-pill p-3 pl-4 pr-4 m-3 fw-600">
+                    <div class="row">
+                        <div class="col-1"><input type="radio"></div>
+                        <div class="col-4">11:00 - 11:50</div>
+                        <div class="col-3">1.Session</div>
+                        <div class="col-4">BSH</div>
+                    </div>
+                </div>
+                <div class="card rounded-pill p-3 pl-4 pr-4 m-3 fw-600">
+                    <div class="row">
+                        <div class="col-1"><input type="radio"></div>
+                        <div class="col-4">11:00 - 11:50</div>
+                        <div class="col-3">1.Session</div>
+                        <div class="col-4">BSH</div>
+                    </div>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-8 fw-600 align-self-center">Slotu sonra belirleyeceğim</div>
+                    <div class="col-4"><a href="" class="btn btn-pink btn-lg btn-block p-10 fw-700">Seçimi Tamamla <i class="fas fa-chevron-right fa-xs p-left-10"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Event Slot -->
+
+
 <script src="js/jquery-1.9.1.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
