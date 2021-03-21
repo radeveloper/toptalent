@@ -70,204 +70,221 @@
                     <div class="col-12 p-top-30">&nbsp;</div>
                     <div class="clearfix"></div>
                     <!-- Profile Left Start -->
-                    <div class="col-12 mb-4">
-                        <div class="row">
-                            <div class="col-12">
-                                <span class="f-16"><i class="fas fa-chevron-left fa-xs p-3"></i>İş İlanları</span>
-                                <h1 class="f-24 fw-600">Etkinlik Oluştur</h1>
+                    <div class="col-lg-8">
+                        <div class="row mb-3">
+                            <div class="col-4">
+                                <span class="f-16"><i class="fas fa-chevron-left fa-xs p-3"></i>Etkinlik Listesi</span>
+                                <h1 class="f-24 fw-600">Etkinlik</h1>
+                            </div>
+                            <div class="col-8 text-right">
+                                <br /><br />
+                                <a href="#" class="btn btn-blue fw-600">Aksiyon 01</a>
+                                <a href="#" class="btn btn-blue fw-600">Aksiyon 01</a>
+                                <a href="#" class="btn btn-blue fw-600">Aksiyon 01</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <div class="card card-noborder r-15 m-bottom-15">
-                            <div class="row">
-                                <div class="col-12">
-                                    <img src="../toptalent/img/img-jobs/jobs-big-1.jpg" class="img-fluid w-100 rt-15 rounded-top" alt="">
-                                    <div class="position-absolute text-white event-edit"><a href="#" class="btn btn-ghost r-999"><i class="fas fa-pen"></i></a></div>
-                                </div>
+                        <div class="row">
+                            <span class="align-self-center"><i class="fas fa-filter"></i> Filtrele (6)</span>
+                            <div class="input-group col-md-4">
+                                <input class="form-control border-right-0 rl-999" type="search" value="search" id="filter">
+                                <span class="input-group-append">
+                                    <button class="btn btn-ghost border-left-0 border" type="button">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                  </span>
                             </div>
-                            <div class="row">
-                                <div class="col-12 p-5">
-                                    <h3 class="f-20 fw-600">Etkinlik Adı</h3>
-                                    <input type="text" class="container form-control r-999 btn-block p-20" name="eventName" id="eventName" placeholder="Yazınız..."/>
-                                </div>
+                            <a href="#" class="text-underline fw-600 link-black align-self-center">Temizle</a>
+                            <div class="col-md-6 text-right align-self-center">
+                                <span class="badge-circle-ghost-border f-14 p-2 pl-3 pr-3 r-999">Aksiyon 03</span>
+                                <span class="badge-circle-ghost-border f-14 p-2 pl-3 pr-3 r-999">Aksiyon 04</span>
+                                <span class="badge-circle-ghost-border f-14 p-2 pl-3 pr-3 r-999">Aksiyon 05</span>
+                                <a href="#" class="btn btn-ghost">Seçenekler<i class="fas fa-ellipsis-h pl-2"></i></a>
                             </div>
-                            <div class="row">
-                                <div class="col-12 pl-5 pr-5">
-                                    <h3 class="f-20 fw-600">Etkinlik Hakkında<a href="#" class="f-14 link-black float-right text-underline">Temizle</a></h3>
-                                    Bu alana dinamik Texk Editör Gelecektir.
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 p-5">
-                                    <h3 class="f-20 fw-600">Etkinlik Programı Oluştur</h3>
-                                    <div class="form-row">
-                                        <div class="form-inline">
-                                            <input type="time" class="form-control r-999 mb-2 mr-sm-2 pl-4" style="letter-spacing: 3px;" id="eventTimeStart" value="13:45:00">
-                                            <span style="letter-spacing: 5px;">&nbsp;-&nbsp;</span>
-                                            <input type="time" class="form-control r-999 mb-2 mr-sm-2 pl-4" style="letter-spacing: 3px;" id="eventTimeEnd" value="18:00:00">
-                                        </div>
-                                        <div class="col-8">
-                                            <input type="text" class="form-control r-999 mb-2 mr-sm-2 pl-4" id="eventTimeEnd" placeholder="Yazınız...">
-                                        </div>
-                                    </div>
-                                    <div class="pt-3 pb-5"><a href="#" class="link-blue fw-600 text-underline">Satır Ekle +</a></div>
-                                    <h3 class="f-20 fw-600">Katılımcı Ekle</h3>
-                                    <div class="form-row">
-                                        <div class="form-inline">
-                                            <a href="" class="btn btn-ghost link-blue p-4 mr-3 r-999 rounded-circle f-12">Fotoğraf<br />Ekle</a>
-                                            <input type="text" class="form-control r-999 mb-2 mr-sm-2 pl-4" id="name" placeholder="Ad">
-                                            <input type="text" class="form-control r-999 mb-2 mr-sm-2 pl-4" id="surname" placeholder="Soyad">
-                                            <select id="brand" class="custom-select r-999 g-height-50 mb-2 mr-sm-2">
-                                                <option selected="selected">Marka</option>
-                                                <option>Türkiye İş Bankası</option>
-                                                <option>1999</option>
-                                                <option>2000</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="pt-3"><a href="#" class="link-blue fw-600 text-underline">+ Başka Katılımcı Ekle</a></div>
-                                    <h3 class="f-20 fw-600 pt-5 pb-4">
-                                        Buluşma Yeri
-                                        <div class="btn-group float-right" role="group" aria-label="Member - Employer">
-                                            <a hraf="#" class="btn btn-blue-lt p-2 pl-4 pr-4">Online</a>
-                                            <a hraf="#" class="btn btn-blue p-2 pl-4 pr-4">Yüzyüze</a>
-                                        </div>
-                                    </h3>
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.374820934987!2d29.009715065480194!3d41.08265642279332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab66f4dde395f%3A0x101387f90cd76f4c!2zTGV2ZW50LCDEsMWfIEJhbmthc8SxIEt1bGVsZXJpLCAzNDMzMCBCZcWfaWt0YcWfL8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1615923694262!5m2!1str!2str" class="w-100 r-10" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                                    <div class="pt-3"><input type="text" class="form-control r-999 mb-2 mr-sm-2 pl-4" id="eventTimeEnd" placeholder="Yazınız..."></div>
-                                </div>
-                            </div>
-                            <div class="row p-5">
-                                <div class="col-6">
-                                    <h3 class="f-20 fw-600">İlan Başlangıç Tarihi</h3>
-                                    <div class="row">
-                                        <div class="col-auto">
+                        </div>
+                        <div class="table-responsive">
+                            <table id="table-card" class="table table-borderless border-space-0">
+                                <thead class="text-muted f-12">
+                                    <tr>
+                                        <th class="text-center">Tarih</th>
+                                        <th>Saat</th>
+                                        <th>Etkinlik Adı</th>
+                                        <th>Başvuru Sayısı</th>
+                                        <th>Başvuru Başlangıç</th>
+                                        <th>Başvuru Bitiş</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="bg-white">
+                                    <tr>
+                                        <td class="rlb-0 text-center">
                                             <div class="date-month text-pink">AĞU</div>
                                             <div class="date-day-num text-black">31</div>
                                             <div class="date-day text-black">PERŞ</div>
-                                        </div>
-                                        <div class="col-auto align-self-center"><i class="fas fa-chevron-down fa-lg"></i></div>
-                                        <div class="col-auto"><input type="time" class="form-control r-999 mb-2 mr-sm-2 pl-4" style="letter-spacing: 3px;" id="eventTimeStart" value="13:45:00"></div>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <h3 class="f-20 fw-600">İlan Bitiş Tarihi</h3>
-                                    <div class="row">
-                                        <div class="col-auto">
-                                            <div class="date-month text-pink">AĞU</div>
-                                            <div class="date-day-num text-black">31</div>
-                                            <div class="date-day text-black">PERŞ</div>
-                                        </div>
-                                        <div class="col-auto align-self-center"><i class="fas fa-chevron-down fa-lg"></i></div>
-                                        <div class="col-auto"><input type="time" class="form-control r-999 mb-2 mr-sm-2 pl-4" style="letter-spacing: 3px;" id="eventTimeStart" value="13:45:00"></div>
-                                    </div>
-                                </div>
+                                        </td>
+                                        <td>
+                                            09:00<br />
+                                             - <br />
+                                            17:00 
+                                        </td>
+                                        <td>
+                                            <span class="f-16 fw-600">Genç Kariyer Buluşması</span><br />
+                                            <span class="f-12 text-muted">Networking</span>
+                                        </td>
+                                        <td>
+                                            <span class="text-blue fw-600 pr-3">352</span><span class="f-12">Toplam</span>
+                                        </td>
+                                        <td>
+                                            <span class="text-blue fw-600">22.10.2020</span><br />
+                                            22:30
+                                        </td>
+                                        <td class="rrb-0">
+                                            <span class="text-blue fw-600">22.10.2020</span><br />
+                                            22:30
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tfoot class="bg-white">
+                                    <tr>
+                                        <td colspan="3" class="rlt-0"><i class="fas fa-map-marker-alt pr-2"></i>PnG Merkez Bina, Ümraniye-İstanbul</td>
+                                        <td colspan="3" class="rrt-0 text-right"><strong class="badge badge-green-lt f-11 p-2 pr-3 pl-3">Son 20 Gün</strong></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                        <div class="row mb-2 mt-4">
+                            <div class="col-12">
+                                <h1 class="f-24 fw-600">Başvurular</h1>
                             </div>
-                            <div class="row p-5">
-                                <div class="col-6">
-                                    <h3 class="f-20 fw-600">Başvuru Başlangıç Tarihi</h3>
-                                    <div class="row">
-                                        <div class="col-auto">
-                                            <div class="date-month text-pink">AĞU</div>
-                                            <div class="date-day-num text-black">31</div>
-                                            <div class="date-day text-black">PERŞ</div>
-                                        </div>
-                                        <div class="col-auto align-self-center"><i class="fas fa-chevron-down fa-lg"></i></div>
-                                        <div class="col-auto"><input type="time" class="form-control r-999 mb-2 mr-sm-2 pl-4" style="letter-spacing: 3px;" id="eventTimeStart" value="13:45:00"></div>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <h3 class="f-20 fw-600">Başvuru Bitiş Tarihi</h3>
-                                    <div class="row">
-                                        <div class="col-auto">
-                                            <div class="date-month text-pink">AĞU</div>
-                                            <div class="date-day-num text-black">31</div>
-                                            <div class="date-day text-black">PERŞ</div>
-                                        </div>
-                                        <div class="col-auto align-self-center"><i class="fas fa-chevron-down fa-lg"></i></div>
-                                        <div class="col-auto"><input type="time" class="form-control r-999 mb-2 mr-sm-2 pl-4" style="letter-spacing: 3px;" id="eventTimeStart" value="13:45:00"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row p-5">
-                                <div class="col-12"><h3 class="f-20 fw-600">Kimler Başvurabilir</h3></div>
-                                <div class="col-6">
-                                    <h3 class="f-15 fw-600">Profesyonel</h3>
-                                    <div class="row">
-                                        <a href="#" class="btn btn-blue-lt p-2 pl-4 pr-4 mb-2 mr-2">0-1 Yıl Tecrübeli</a>
-                                        <a href="#" class="btn btn-blue-lt p-2 pl-4 pr-4 mb-2 mr-2">1-3 Yıl Tecrübeli</a>
-                                        <a href="#" class="btn btn-blue p-2 pl-4 pr-4 mb-2 mr-2">3-5 Yıl Tecrübeli</a>
-                                        <a href="#" class="btn btn-blue-lt p-2 pl-4 pr-4 mb-2 mr-2">5 Yıl Üzeri Tecrübeli</a>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <h3 class="f-15 fw-600">Öğrenci</h3>
-                                    <div class="row">
-                                        <a href="#" class="btn btn-blue-lt p-2 pl-4 pr-4 mb-2 mr-2">Master Öğrencisi</a>
-                                        <a href="#" class="btn btn-blue-lt p-2 pl-4 pr-4 mb-2 mr-2">Doktora Öğrencisi</a>
-                                        <a href="#" class="btn btn-blue-lt p-2 pl-4 pr-4 mb-2 mr-2">4. Sınıf</a>
-                                        <a href="#" class="btn btn-blue-lt p-2 pl-4 pr-4 mb-2 mr-2">3. Sınıf</a>
-                                        <a href="#" class="btn btn-blue-lt p-2 pl-4 pr-4 mb-2 mr-2">2. Sınıf</a>
-                                        <a href="#" class="btn btn-blue-lt p-2 pl-4 pr-4 mb-2 mr-2">1. Sınıf</a>
-                                        <a href="#" class="btn btn-blue-lt p-2 pl-4 pr-4 mb-2 mr-2">Hazırlık</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row p-5">
-                                <div class="col-4">
-                                    <h3 class="f-20 fw-600">Öncelikli Üniversiteler</h3>
-                                    <select id="university" class="custom-select r-999 g-height-50 mb-2 mr-sm-2">
-                                        <option selected="selected">Seçiniz...</option>
-                                        <option>Marmara Üniversitesi</option>
-                                        <option>İTÜ</option>
-                                        <option>ODTÜ</option>
-                                    </select>
-                                    <a href="#" class="btn btn-grey-lt pl-4 pr-4 mb-2 mr-2">Marmara Üniversitesi&nbsp;&nbsp;<span class="badge badge-dark r-999"><i class="fas fa-times fa-sm"></i></span></a>
-                                    <a href="#" class="btn btn-grey-lt pl-4 pr-4 mb-2 mr-2">İTÜ&nbsp;&nbsp;<span class="badge badge-dark r-999"><i class="fas fa-times fa-sm"></i></span></a>
-                                </div>
-                                <div class="col-4">
-                                    <h3 class="f-20 fw-600">Öncelikli Bölümler</h3>
-                                    <div class="row">
-                                        <select id="class" class="custom-select r-999 g-height-50 mb-2 mr-sm-2">
-                                            <option selected="selected">Seçiniz...</option>
-                                            <option>Bilgisayar Mühendisliği</option>
-                                            <option>Elektrik Elektronik</option>
-                                            <option>Uçak Mühendisliği</option>
-                                        </select>
-                                        <a href="#" class="btn btn-grey-lt pl-4 pr-4 mb-2 mr-2">Bilgisayar Mühendisliği&nbsp;&nbsp;<span class="badge badge-dark r-999"><i class="fas fa-times fa-sm"></i></span></a>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <h3 class="f-20 fw-600">Öncelikli Şehirler</h3>
-                                    <div class="row">
-                                        <select id="city" class="custom-select r-999 g-height-50 mb-2 mr-sm-2">
-                                            <option selected="selected">Seçiniz...</option>
-                                            <option>İstanbul</option>
-                                            <option>Ankara</option>
-                                            <option>İzmir</option>
-                                        </select>
-                                        <a href="#" class="btn btn-grey-lt pl-4 pr-4 mb-2 mr-2">İstanbul&nbsp;&nbsp;<span class="badge badge-dark r-999"><i class="fas fa-times fa-sm"></i></span></a>
-                                        <a href="#" class="btn btn-grey-lt pl-4 pr-4 mb-2 mr-2">İzmir&nbsp;&nbsp;<span class="badge badge-dark r-999"><i class="fas fa-times fa-sm"></i></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bg-blue rb-15 p-4"><div class="float-left align-self-centerpt-3 pt-3"><a href="#" class="text-underline fw-600 link-white">Kaydet ve Çık</a></div><div class="float-right"><a href="#" class="btn btn-ghost p-3 pl-5 pr-5 fw-600">Yayınla</a></div></div>
+                        </div>
+                        <div class="table-responsive">
+                            <table id="table-card" class="table table-borderless">
+                                <thead class="text-muted f-12">
+                                    <tr>
+                                        <th><input type="checkbox" class="mr-2"> Tümü</th>
+                                        <th>&nbsp;</th>
+                                        <th class="text-center">Okul</th>
+                                        <th class="text-center">Bölüm</th>
+                                        <th class="text-center">Kariyer Seviyesi</th>
+                                        <th class="text-center">Başvuru Tarihi</th>
+                                        <th>&nbsp;</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center"><input type="checkbox" class="mt-3"></td>
+                                        <td>
+                                            <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999 float-left mr-2" />
+                                            <span class="f-16 fw-600">Jane Doe</span><br />
+                                            <span class="f-11 text-muted">Kadın</span>
+                                        </td>
+                                        <td class="text-center">İstanbul Teknik Üniversitesi</td>
+                                        <td class="text-center">Endüstri Mühendisliği</td>
+                                        <td class="text-center">0-1 Yıl Tecrübeli</td>
+                                        <td class="text-center">
+                                            <span class="text-blue fw-600">22.10.2020</span><br />
+                                            22:30
+                                        </td>
+                                        <td class="text-center"><i class="fas fa-chevron-down mt-3"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><input type="checkbox" class="mt-3"></td>
+                                        <td>
+                                            <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999 float-left mr-2" />
+                                            <span class="f-16 fw-600">Jane Doe</span><br />
+                                            <span class="f-11 text-muted">Kadın</span>
+                                        </td>
+                                        <td class="text-center">İstanbul Teknik Üniversitesi</td>
+                                        <td class="text-center">Endüstri Mühendisliği</td>
+                                        <td class="text-center">0-1 Yıl Tecrübeli</td>
+                                        <td class="text-center">
+                                            <span class="text-blue fw-600">22.10.2020</span><br />
+                                            22:30
+                                        </td>
+                                        <td class="text-center"><i class="fas fa-chevron-down mt-3"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><input type="checkbox" class="mt-3"></td>
+                                        <td>
+                                            <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999 float-left mr-2" />
+                                            <span class="f-16 fw-600">Jane Doe</span><br />
+                                            <span class="f-11 text-muted">Kadın</span>
+                                        </td>
+                                        <td class="text-center">İstanbul Teknik Üniversitesi</td>
+                                        <td class="text-center">Endüstri Mühendisliği</td>
+                                        <td class="text-center">0-1 Yıl Tecrübeli</td>
+                                        <td class="text-center">
+                                            <span class="text-blue fw-600">22.10.2020</span><br />
+                                            22:30
+                                        </td>
+                                        <td class="text-center"><i class="fas fa-chevron-down mt-3"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><input type="checkbox" class="mt-3"></td>
+                                        <td>
+                                            <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999 float-left mr-2" />
+                                            <span class="f-16 fw-600">Jane Doe</span><br />
+                                            <span class="f-11 text-muted">Kadın</span>
+                                        </td>
+                                        <td class="text-center">İstanbul Teknik Üniversitesi</td>
+                                        <td class="text-center">Endüstri Mühendisliği</td>
+                                        <td class="text-center">0-1 Yıl Tecrübeli</td>
+                                        <td class="text-center">
+                                            <span class="text-blue fw-600">22.10.2020</span><br />
+                                            22:30
+                                        </td>
+                                        <td class="text-center"><i class="fas fa-chevron-down mt-3"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><input type="checkbox" class="mt-3"></td>
+                                        <td>
+                                            <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999 float-left mr-2" />
+                                            <span class="f-16 fw-600">Jane Doe</span><br />
+                                            <span class="f-11 text-muted">Kadın</span>
+                                        </td>
+                                        <td class="text-center">İstanbul Teknik Üniversitesi</td>
+                                        <td class="text-center">Endüstri Mühendisliği</td>
+                                        <td class="text-center">0-1 Yıl Tecrübeli</td>
+                                        <td class="text-center">
+                                            <span class="text-blue fw-600">22.10.2020</span><br />
+                                            22:30
+                                        </td>
+                                        <td class="text-center"><i class="fas fa-chevron-down mt-3"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><input type="checkbox" class="mt-3"></td>
+                                        <td>
+                                            <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999 float-left mr-2" />
+                                            <span class="f-16 fw-600">Jane Doe</span><br />
+                                            <span class="f-11 text-muted">Kadın</span>
+                                        </td>
+                                        <td class="text-center">İstanbul Teknik Üniversitesi</td>
+                                        <td class="text-center">Endüstri Mühendisliği</td>
+                                        <td class="text-center">0-1 Yıl Tecrübeli</td>
+                                        <td class="text-center">
+                                            <span class="text-blue fw-600">22.10.2020</span><br />
+                                            22:30
+                                        </td>
+                                        <td class="text-center"><i class="fas fa-chevron-down mt-3"></i></td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <!-- Event Detail Right Start -->
                     <div class="col-lg-4 pr-xl-0">
-                        <div class="row">
-                            <div class="col-2"><img src="../toptalent/img/cmn/company-event-icon-list.png" alt=""></div>
-                            <div class="col-10 align-self-center"><strong class="f-12">Başvuruları değerlendirip<br />listeler oluşturabilirsiniz.</strong></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2"><img src="../toptalent/img/cmn/company-event-icon-calendar.png" alt=""></div>
-                            <div class="col-10 align-self-center"><strong class="f-12">İlanınız 45 Gün<br />boyunca Yayında!</strong></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2"><img src="../toptalent/img/cmn/company-event-icon-online.png" alt=""></div>
-                            <div class="col-10 align-self-center"><strong class="f-12">Ücretsiz<br />Online Mülakat</strong></div>
+                        <div class="card card-noborder r-15 m-bottom-15 pt-5">
+                                <div class="ml-5"><h1 class="f-20 fw-600">Etkinlik Yönetim Adımları</h1></div>
+                                <div class="col-10 card r-15 ml-5 mr-5 mb-3">
+                                    <div class="row">
+                                        <div class="col-10 p-3">
+                                            <span class="text-blue f-16 fw-600">Tüm Başvurular</span><br />
+                                            <strong>312</strong> Yetenek
+                                        </div>
+                                        <div class="col-2 align-self-center"><i class="fas fa-chevron-right float-right"></i></div>
+                                    </div>
+                                </div>
+                                <div class="col-10 ml-5 mr-5 mb-5">
+                                    <a href="#" class="link-pink text-underline">+Yeni adım ekle</a>
+                                </div>
                         </div>
                     </div>
                     <div class="clearfix"></div>
