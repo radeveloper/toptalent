@@ -383,7 +383,8 @@
 }
 .text-white {color: #fff;}
 .text-black {color: #242734;}
-.text-blue {color:#0096d6;}
+.text-blue {color:#0096d6 !important;}
+.text-blue-lt {color:#d2e9f5 !important;}
 .text-pink {color: #c4197f;}
 .text-green {color: #4fcc59;}
 .text-grey {color: #92939a;}
@@ -664,8 +665,8 @@ table {
 }
 .dot-leftm {
     position:absolute;
-    top:445px;
-    left:44px;
+    top:560px;
+    left:30px;
 }
 .sec{
     position: relative;
