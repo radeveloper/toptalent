@@ -395,6 +395,13 @@
 .bg-blue-lt {background: #eff6fc;}
 .bg-white {background: #fff !important;}
 .bg-grey {background:#242734;}
+.border-pink {border-color: #c4197f !important;}
+.border-blue {border-color: #0096d6;}
+.border-blue-lt {border-color: #eff6fc;}
+.border-grey {border-color:#242734;}
+.border-1x {border-width:1px; border-style: solid;}
+.border-2x {border-width:2px; border-style: solid;}
+.border-3x {border-width:2px; border-style: solid;}
 
 a.link-blue:link, a.link-blue:visited {color: #0096d6;}
 a.link-blue:hover {color: #157ca8; text-decoration:none;}
@@ -735,8 +742,9 @@ table {
 .form-control-c {
     border-color:#e3e7eb;
     margin-bottom:10px;
-    line-height: 50px;
+    line-height: 45px;
     height:50px;
+    padding-left:15px;
 }
 .form-group-custom {
     height: 3em;
@@ -1371,6 +1379,11 @@ padding: 0 20px;
     right:45px;
     margin-top:10px;
     z-index: 10;
+}
+.icon-rocket-position {
+    position:relative;
+    top:-175px;
+    left:-15px;
 }
 .icon-notification {
     width: 16px;
