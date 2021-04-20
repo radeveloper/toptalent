@@ -684,6 +684,7 @@ table {
     border-top-right-radius: 10px;
 }
 .table-dot-position {bottom:0px; right:0px;}
+.table-panel-position {top:-10px;}
 .border-dashed {border:2px dashed #b9bdc0;}
 .dot {
     height: 15px;
