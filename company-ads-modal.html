@@ -78,8 +78,8 @@
                     <div class="col-lg-8">
                         <div class="row mb-3">
                             <div class="col-4">
-                                <span class="f-16"><i class="fas fa-chevron-left fa-xs p-3"></i>Etkinlik Listesi</span>
-                                <h1 class="f-24 fw-600">Etkinlik</h1>
+                                <span class="f-16"><i class="fas fa-chevron-left fa-xs p-3"></i>Tüm İlanlar</span>
+                                <h1 class="f-24 fw-600">İş İlanları</h1>
                             </div>
                             <div class="col-8 text-right">
                                 <br /><br />
@@ -88,8 +88,77 @@
                                 <a href="#" class="btn btn-blue fw-600">Aksiyon 01</a>
                             </div>
                         </div>
-                        <div class="row">
-                            <span class="align-self-center"><i class="fas fa-filter"></i> Filtrele (6)</span>
+                        <div class="table-responsive">
+                            <table id="table-card" class="table table-borderless">
+                                <thead class="text-muted f-12">
+                                    <tr>
+                                        <th colspan="2"></th>
+                                        <th>Başvuru Sayısı</th>
+                                        <th>Görüntülenme Sayısı</th>
+                                        <th>Oluşturulma Tarihi</th>
+                                        <th>Bitiş Tarihi</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-right"><span class="dot-simple bg-green"></span></td>
+                                        <td>
+                                            <span class="f-16 fw-600">DevOps Mühendisi</span><br />
+                                            <span class="f-11 text-muted">İSTANBUL</span>
+                                        </td>
+                                        <td class="text-blue fw-600">352</td>
+                                        <td class="text-blue fw-600">
+                                            16
+                                            <span class="fa-stack fa-sm">
+                                                <i class="fas fa-circle fa-stack-2x"></i>
+                                                <i class="fas fa-star fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span class="text-blue fw-600">22.10.2020</span><br />
+                                            22:30
+                                        </td>
+                                        <td>
+                                            <span class="text-blue fw-600">23.10.2020</span><br />
+                                            22:30
+                                        </td>
+                                        <td style="min-width:105px !important;"><span class="btn btn-green-lt d-block f-11 fw-600 p-2 pl-3 pr-3">Son 2 Gün</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-right"><span class="dot-simple bg-green"></span></td>
+                                        <td>
+                                            <span class="f-16 fw-600">DevOps Mühendisi</span><br />
+                                            <span class="f-11 text-muted">İSTANBUL</span>
+                                        </td>
+                                        <td class="text-blue fw-600">352</td>
+                                        <td class="text-blue fw-600">
+                                            16
+                                            <span class="fa-stack fa-sm">
+                                                <i class="fas fa-circle fa-stack-2x"></i>
+                                                <i class="fas fa-star fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span class="text-blue fw-600">22.10.2020</span><br />
+                                            22:30
+                                        </td>
+                                        <td>
+                                            <span class="text-blue fw-600">23.10.2020</span><br />
+                                            22:30
+                                        </td>
+                                        <td style="min-width:105px !important;"><span class="btn btn-green-lt d-block f-11 fw-600 p-2 pl-3 pr-3">Son 2 Gün</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="row mb-2 mt-4">
+                            <div class="col-12">
+                                <h1 class="f-24 fw-600">Başvurular</h1>
+                            </div>
+                        </div>
+                        <div class="row pb-4">
+                            <a href="" class="align-self-center link-black" data-toggle="modal" data-target="#adsModal"><i class="fas fa-filter"></i> Filtrele (6)</a>
                             <div class="input-group col-md-4">
                                 <input class="form-control border-right-0 rl-999" type="search" placeholder="Ara" id="filter">
                                 <span class="input-group-append">
@@ -106,67 +175,11 @@
                                 <a href="#" class="btn btn-ghost">Seçenekler<i class="fas fa-ellipsis-h pl-2"></i></a>
                             </div>
                         </div>
-                        <br />
                         <div class="table-responsive">
                             <table id="table-card" class="table table-borderless">
                                 <thead class="text-muted f-12">
                                     <tr>
-                                        <th class="text-center">Tarih</th>
-                                        <th>Saat</th>
-                                        <th>Etkinlik Adı</th>
-                                        <th>Başvuru Sayısı</th>
-                                        <th>Başvuru Başlangıç</th>
-                                        <th>Başvuru Bitiş</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="bg-white">
-                                    <tr>
-                                        <td class="rlb-0 text-center">
-                                            <div class="date-month text-pink">AĞU</div>
-                                            <div class="date-day-num text-black">31</div>
-                                            <div class="date-day text-black">PERŞ</div>
-                                        </td>
-                                        <td>
-                                            09:00<br />
-                                             - <br />
-                                            17:00 
-                                        </td>
-                                        <td>
-                                            <span class="f-16 fw-600">Genç Kariyer Buluşması</span><br />
-                                            <span class="f-12 text-muted">Networking</span>
-                                        </td>
-                                        <td>
-                                            <span class="text-blue fw-600 pr-3">352</span><span class="f-12">Toplam</span>
-                                        </td>
-                                        <td>
-                                            <span class="text-blue fw-600">22.10.2020</span><br />
-                                            22:30
-                                        </td>
-                                        <td class="rrb-0">
-                                            <span class="text-blue fw-600">22.10.2020</span><br />
-                                            22:30
-                                        </td>
-                                    </tr>
-                                </tbody>
-                                <tfoot class="bg-white">
-                                    <tr>
-                                        <td colspan="3" class="position-relative rlt-0 table-panel-position"><i class="fas fa-map-marker-alt pr-2"></i>PnG Merkez Bina, Ümraniye-İstanbul</td>
-                                        <td colspan="3" class="position-relative rrt-0 text-right table-panel-position"><strong class="badge badge-green-lt f-11 p-2 pr-3 pl-3">Son 20 Gün</strong></td>
-                                    </tr>
-                                </tfoot>
-                            </table>
-                        </div>
-                        <div class="row mb-2 mt-4">
-                            <div class="col-12">
-                                <h1 class="f-24 fw-600">Başvurular</h1>
-                            </div>
-                        </div>
-                        <div class="table-responsive">
-                            <table id="table-card" class="table table-borderless">
-                                <thead class="text-muted f-12">
-                                    <tr>
-                                        <th><input type="checkbox" class="mr-2"> Tümü</th>
-                                        <th>&nbsp;</th>
+                                        <th colspan="3" class="pl-4"><input type="checkbox" class="mr-2"> Tümü</th>
                                         <th class="text-center">Okul</th>
                                         <th class="text-center">Bölüm</th>
                                         <th class="text-center">Kariyer Seviyesi</th>
@@ -176,14 +189,40 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="text-center"><input type="checkbox" class="mt-3"></td>
+                                        <td class="text-center" width="70"><input type="checkbox" class="mt-3"></td>
+                                        <td width="50">
+                                            <div class="position-relative">
+                                                <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999" />
+                                                <span class="dot-simple bg-green position-absolute table-dot-position"></span>
+                                            </div>
+                                        </td>
                                         <td>
-                                            <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999 float-left mr-2" />
                                             <span class="f-16 fw-600">Jane Doe</span><br />
                                             <span class="f-11 text-muted">Kadın</span>
                                         </td>
-                                        <td class="text-center">İstanbul Teknik Üniversitesi</td>
-                                        <td class="text-center">Endüstri Mühendisliği</td>
+                                        <td class="text-center">İstanbul Teknik<br />Üniversitesi</td>
+                                        <td class="text-center">Endüstri<br />Mühendisliği</td>
+                                        <td class="text-center">0-1 Yıl Tecrübeli</td>
+                                        <td class="text-center">
+                                            <span class="text-blue fw-600">22.10.2020</span><br />
+                                            22:30
+                                        </td>
+                                        <td class="text-center">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><input type="checkbox" class="mt-3"></td>
+                                        <td width="50">
+                                            <div class="position-relative">
+                                                <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999" />
+                                                <span class="dot-simple bg-green position-absolute table-dot-position"></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span class="f-16 fw-600">Jane Doe</span><br />
+                                            <span class="f-11 text-muted">Kadın</span>
+                                        </td>
+                                        <td class="text-center">İstanbul Teknik<br />Üniversitesi</td>
+                                        <td class="text-center">Endüstri<br />Mühendisliği</td>
                                         <td class="text-center">0-1 Yıl Tecrübeli</td>
                                         <td class="text-center">
                                             <span class="text-blue fw-600">22.10.2020</span><br />
@@ -193,83 +232,45 @@
                                     </tr>
                                     <tr>
                                         <td class="text-center"><input type="checkbox" class="mt-3"></td>
+                                        <td width="50">
+                                            <div class="position-relative">
+                                                <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999" />
+                                                <span class="dot-simple bg-green position-absolute table-dot-position"></span>
+                                            </div>
+                                        </td>
                                         <td>
-                                            <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999 float-left mr-2" />
                                             <span class="f-16 fw-600">Jane Doe</span><br />
                                             <span class="f-11 text-muted">Kadın</span>
                                         </td>
-                                        <td class="text-center">İstanbul Teknik Üniversitesi</td>
-                                        <td class="text-center">Endüstri Mühendisliği</td>
+                                        <td class="text-center">İstanbul Teknik<br />Üniversitesi</td>
+                                        <td class="text-center">Endüstri<br />Mühendisliği</td>
                                         <td class="text-center">0-1 Yıl Tecrübeli</td>
                                         <td class="text-center">
                                             <span class="text-blue fw-600">22.10.2020</span><br />
                                             22:30
                                         </td>
-                                        <td class="text-center"><i class="fas fa-chevron-down mt-3"></i></td>
+                                        <td class="text-center">&nbsp;</td>
                                     </tr>
                                     <tr>
                                         <td class="text-center"><input type="checkbox" class="mt-3"></td>
+                                        <td width="50">
+                                            <div class="position-relative">
+                                                <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999" />
+                                                <span class="dot-simple bg-green position-absolute table-dot-position"></span>
+                                            </div>
+                                        </td>
                                         <td>
-                                            <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999 float-left mr-2" />
                                             <span class="f-16 fw-600">Jane Doe</span><br />
                                             <span class="f-11 text-muted">Kadın</span>
                                         </td>
-                                        <td class="text-center">İstanbul Teknik Üniversitesi</td>
-                                        <td class="text-center">Endüstri Mühendisliği</td>
+                                        <td class="text-center">İstanbul Teknik<br />Üniversitesi</td>
+                                        <td class="text-center">Endüstri<br />Mühendisliği</td>
                                         <td class="text-center">0-1 Yıl Tecrübeli</td>
                                         <td class="text-center">
                                             <span class="text-blue fw-600">22.10.2020</span><br />
                                             22:30
                                         </td>
-                                        <td class="text-center"><i class="fas fa-chevron-down mt-3"></i></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center"><input type="checkbox" class="mt-3"></td>
-                                        <td>
-                                            <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999 float-left mr-2" />
-                                            <span class="f-16 fw-600">Jane Doe</span><br />
-                                            <span class="f-11 text-muted">Kadın</span>
-                                        </td>
-                                        <td class="text-center">İstanbul Teknik Üniversitesi</td>
-                                        <td class="text-center">Endüstri Mühendisliği</td>
-                                        <td class="text-center">0-1 Yıl Tecrübeli</td>
-                                        <td class="text-center">
-                                            <span class="text-blue fw-600">22.10.2020</span><br />
-                                            22:30
-                                        </td>
-                                        <td class="text-center"><i class="fas fa-chevron-down mt-3"></i></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center"><input type="checkbox" class="mt-3"></td>
-                                        <td>
-                                            <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999 float-left mr-2" />
-                                            <span class="f-16 fw-600">Jane Doe</span><br />
-                                            <span class="f-11 text-muted">Kadın</span>
-                                        </td>
-                                        <td class="text-center">İstanbul Teknik Üniversitesi</td>
-                                        <td class="text-center">Endüstri Mühendisliği</td>
-                                        <td class="text-center">0-1 Yıl Tecrübeli</td>
-                                        <td class="text-center">
-                                            <span class="text-blue fw-600">22.10.2020</span><br />
-                                            22:30
-                                        </td>
-                                        <td class="text-center"><i class="fas fa-chevron-down mt-3"></i></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-center"><input type="checkbox" class="mt-3"></td>
-                                        <td>
-                                            <img src="../toptalent/img/profile-pictures/dummy-1.jpg" width="40" height="40" class="r-999 float-left mr-2" />
-                                            <span class="f-16 fw-600">Jane Doe</span><br />
-                                            <span class="f-11 text-muted">Kadın</span>
-                                        </td>
-                                        <td class="text-center">İstanbul Teknik Üniversitesi</td>
-                                        <td class="text-center">Endüstri Mühendisliği</td>
-                                        <td class="text-center">0-1 Yıl Tecrübeli</td>
-                                        <td class="text-center">
-                                            <span class="text-blue fw-600">22.10.2020</span><br />
-                                            22:30
-                                        </td>
-                                        <td class="text-center"><i class="fas fa-chevron-down mt-3"></i></td>
+                                        <td class="text-center">&nbsp;</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -278,11 +279,20 @@
                     <!-- Event Detail Right Start -->
                     <div class="col-lg-4 pr-xl-0">
                         <div class="card card-noborder r-15 m-bottom-15 pt-5">
-                            <div class="ml-5"><h1 class="f-20 fw-600">Etkinlik Yönetim Adımları</h1></div>
-                            <div class="col-10 card r-15 ml-5 mr-5 mb-3">
+                            <div class="ml-5"><h1 class="f-20 fw-600">İlan Yönetim Adımları</h1></div>
+                            <div class="col-10 card r-15 ml-5 mr-5 mb-3 border-dashed">
                                 <div class="row">
                                     <div class="col-10 p-3">
-                                        <span class="text-blue f-16 fw-600">Tüm Başvurular</span><br />
+                                        <span class="text-blue f-16 fw-600">Tüm Listeler</span><br />
+                                        <strong>312</strong> Yetenek
+                                    </div>
+                                    <div class="col-2 align-self-center"><i class="fas fa-chevron-right float-right"></i></div>
+                                </div>
+                            </div>
+                            <div class="col-10 card r-15 ml-5 mr-5 mb-3 border-dashed">
+                                <div class="row">
+                                    <div class="col-10 p-3">
+                                        <span class="text-blue f-16 fw-600">Toptalent Listesi</span><br />
                                         <strong>312</strong> Yetenek
                                     </div>
                                     <div class="col-2 align-self-center"><i class="fas fa-chevron-right float-right"></i></div>
@@ -357,6 +367,62 @@
         </div>
     </div>
 </footer>
+<!-- Ads Modal Start -->
+<div class="modal fade" id="temporary" tabindex="-1" aria-labelledby="temporary" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-right modal-dialog-height">
+        <div class="modal-content modal-content-right modal-dialog-height p-0">
+            <div class="modal-body p-30">
+                <h5 class="f-16 fw-600 mb-4">Uzmanlık Alanları</h5>
+                <input type="button" class="btn btn-blue p-left-15 p-right-15 m-right-10 m-bottom-10" value="Proje Çizimi" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
+                <p class="mb-5"><a href="#" class="f-12 link-blue">Daha fazla göster +</a></p>
+                <h5 class="f-16 fw-600 mb-4">Kariyer Seviyesi</h5>
+                <input type="button" class="btn btn-blue p-left-15 p-right-15 m-right-10 m-bottom-10" value="Proje Çizimi" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
+                <p><a href="#" class="f-12 link-blue">Daha fazla göster +</a></p>
+                <h5 class="f-16 fw-600 mb-4">Departman</h5>
+                <input type="button" class="btn btn-blue p-left-15 p-right-15 m-right-10 m-bottom-10" value="Proje Çizimi" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
+                <p><a href="#" class="f-12 link-blue">Daha fazla göster +</a></p>
+                <h5 class="f-16 fw-600 mb-4">Şehir</h5>
+                <input type="button" class="btn btn-blue p-left-15 p-right-15 m-right-10 m-bottom-10" value="Proje Çizimi" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
+                <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
+                <p><a href="#" class="f-12 link-blue">Daha fazla göster +</a></p>
+                <p class="text-center"><a href="#" class="link-gray-l fw-600">Temizle</a></p>
+            </div>
+            <div class="modal-footer p-0 m-0 bg-blue"><a href="#" class="link-white text-center f-16 fw-600 w-100 p-3">Uygula</a></div>
+        </div>
+    </div>
+</div>
+<!-- End Ads Modal -->
 <script src="js/jquery-1.9.1.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
@@ -365,6 +431,10 @@
     $('#leftmenu .leftmenu-nav a').on('click', function () {
         $('#leftmenu .leftmenu-nav').find('li.active').removeClass('active');
         $(this).parent('li').addClass('active');
+    });
+
+    $(window).on('load', function () {
+        $('#temporary').modal('show');
     });
 
     $(".form-group input").change(function() {
