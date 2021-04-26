@@ -428,6 +428,11 @@ a.link-white:hover {color: #fafafa !important; text-decoration:none;}
 a.menu-link:link, a.menu-link:visited {color: #242734; text-decoration:none;}
 a.menu-link:hover {color: #12141A; text-decoration:none;}
 
+.w-50px {width:50px !important;}
+.w-75px {width:75px !important;}
+.w-100px {width:100px !important;}
+.w-125px {width:125px !important;}
+.w-150px {width:150px !important;}
 .btg-1 {border-top:1px solid #979797;}
 .brg-1 {border-right:1px solid #979797;}
 .bbg-1 {border-bottom:1px solid #979797;}
@@ -1551,6 +1556,11 @@ padding: 0 20px;
     background: url('../img/cmn/icon-sprite.png') -119px -319px;
 }
 .icon-career-goal:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -169px -319px;
+}
+.icon-career-goal-selected {
     width: 32px;
     height: 32px;
     background: url('../img/cmn/icon-sprite.png') -169px -319px;
