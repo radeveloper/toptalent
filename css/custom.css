@@ -433,6 +433,15 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
 .w-100px {width:100px !important;}
 .w-125px {width:125px !important;}
 .w-150px {width:150px !important;}
+
+.pagination-lg .page-item:nth-child(2) .page-link {
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+}
+.pagination-lg .page-item:last-child .page-link {
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
 .btg-1 {border-top:1px solid #979797;}
 .brg-1 {border-right:1px solid #979797;}
 .bbg-1 {border-bottom:1px solid #979797;}
