@@ -405,6 +405,7 @@
 .bg-white {background: #fff !important;}
 .bg-grey {background:#242734;}
 .bg-grey-m {background:#2e3242;}
+.bg-grey-l {background:#e3e7eb;}
 .border-pink {border-color: #c4197f !important;}
 .border-blue {border-color: #0096d6;}
 .border-blue-lt {border-color: #eff6fc;}
@@ -434,14 +435,6 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
 .w-125px {width:125px !important;}
 .w-150px {width:150px !important;}
 
-.pagination-lg .page-item:nth-child(2) .page-link {
-    border-top-left-radius: .5rem;
-    border-bottom-left-radius: .5rem;
-}
-.pagination-lg .page-item:last-child .page-link {
-    border-top-right-radius: .5rem;
-    border-bottom-right-radius: .5rem;
-}
 .btg-1 {border-top:1px solid #979797;}
 .brg-1 {border-right:1px solid #979797;}
 .bbg-1 {border-bottom:1px solid #979797;}
@@ -549,6 +542,38 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
     margin-top:15px;
     z-index: 10;
 }
+.arrow-circle {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 8px 13px 8px 13px;
+    background: transparent;
+    border: 1px solid #242734;
+    color: #242734;
+    text-align: center;
+    font-weight: 600;
+}
+.letter-circle {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px 13px 10px 13px;
+    background: #fff;
+    border: 1px solid #e3e7eb;
+    color: #242734;
+    text-align: center;
+    font-weight: 600;
+}
+.letter-circle-selected {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px 13px 10px 13px;
+    background: #0096d6;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+}
 .target-blue {border:2px solid #0096d6; font-size:18px; padding:8px; font-weight:bold; margin-right:10px; margin-bottom:10px;}
 .target-orange {border:2px solid #f0b300; font-size:18px; padding:8px; font-weight:bold; margin-right:10px;}
 .target-green {border:2px solid #4fcc59; font-size:18px; padding:8px; font-weight:bold; margin-right:10px;}
@@ -643,6 +668,11 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
     -moz-border-radius-bottomleft: 15px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;    
+}
+.rlt-15 {
+    -webkit-border-top-left-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    border-top-left-radius: 15px;
 }
 .rr-15 {
     -webkit-border-top-right-radius: 15px;
