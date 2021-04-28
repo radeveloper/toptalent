@@ -868,6 +868,9 @@ padding: 0 20px;
 .fa-envelope-color {
     color:#242734;
 }
+.fa-instagram-color {
+    color:#b12a9d;
+}
 .card-blue {background: #eff6fc; border:none;}
 .card-noborder {border:none;}
 .card-dashed {border-style: dashed;}
@@ -1423,8 +1426,9 @@ padding: 0 20px;
 }
 
 /*------------------------------------
-	Sprite Icons
+	Leftmenu Icons
 ------------------------------------*/
+.chevron-position {padding-top:10px;}
 .icon-try-career {
     width: 18px;
     height: 17px;
