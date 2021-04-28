@@ -1127,6 +1127,9 @@ padding: 0 20px;
 /*------------------------------------
 	Custom Container
 ------------------------------------*/
+.container-white {
+    background:#fff;
+}
 .container-blue-lt {
     background:#eff6fc;
 }
@@ -1575,6 +1578,11 @@ padding: 0 20px;
     background: url('../img/cmn/icon-sprite.png') -719px -269px;
 }
 .icon-academia:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -769px -269px;
+}
+.icon-academia-selected {
     width: 32px;
     height: 32px;
     background: url('../img/cmn/icon-sprite.png') -769px -269px;
