@@ -1,4 +1,8 @@
 $(document).ready(function () {
+    const meetTeam = $('.meet-team');
+    meetTeam.owlCarousel({responsiveClass: true, responsive: {0: {items: 1,}, 600: {items: 2,}, 1000: {items: 3,}}});
+    $('.meetTeamNext').click(function () {meetTeam.trigger('next.owl.carousel');});
+    $('.meetTeamPrev').click(function () {meetTeam.trigger('prev.owl.carousel', [300]);});
     const jobPostings = $('.job-postings');
     jobPostings.owlCarousel({responsiveClass: true, responsive: {0: {items: 1,}, 600: {items: 2,}, 1000: {items: 3,}}});
     $('.jobPostingsNext').click(function () {jobPostings.trigger('next.owl.carousel');});

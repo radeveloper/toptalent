@@ -1526,12 +1526,22 @@ padding: 0 20px;
     height: 32px;
     background: url('../img/cmn/icon-sprite.png') -169px -269px;
 }
+.icon-star-selected {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -169px -269px;
+}
 .icon-case {
     width: 32px;
     height: 32px;
     background: url('../img/cmn/icon-sprite.png') -219px -269px;
 }
 .icon-case:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -269px -269px;
+}
+.icon-case-selected {
     width: 32px;
     height: 32px;
     background: url('../img/cmn/icon-sprite.png') -269px -269px;
@@ -1546,12 +1556,22 @@ padding: 0 20px;
     height: 32px;
     background: url('../img/cmn/icon-sprite.png') -369px -269px;
 }
+.icon-edu-selected {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -369px -269px;
+}
 .icon-calendar {
     width: 32px;
     height: 32px;
     background: url('../img/cmn/icon-sprite.png') -419px -269px;
 }
 .icon-calendar:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -469px -269px;
+}
+.icon-calendar-selected {
     width: 32px;
     height: 32px;
     background: url('../img/cmn/icon-sprite.png') -469px -269px;
@@ -1566,12 +1586,22 @@ padding: 0 20px;
     height: 32px;
     background: url('../img/cmn/icon-sprite.png') -569px -269px;
 }
+.icon-certificate-selected {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -569px -269px;
+}
 .icon-companies {
     width: 32px;
     height: 32px;
     background: url('../img/cmn/icon-sprite.png') -619px -269px;
 }
 .icon-companies:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -669px -269px;
+}
+.icon-companies-selected {
     width: 32px;
     height: 32px;
     background: url('../img/cmn/icon-sprite.png') -669px -269px;
@@ -1601,6 +1631,11 @@ padding: 0 20px;
     height: 32px;
     background: url('../img/cmn/icon-sprite.png') -69px -319px;
 }
+.icon-application-selected {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -69px -319px;
+}
 .icon-career-goal {
     width: 32px;
     height: 32px;
@@ -1626,6 +1661,11 @@ padding: 0 20px;
     height: 32px;
     background: url('../img/cmn/icon-sprite.png') -269px -319px;
 }
+.icon-favorites-selected {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -269px -319px;
+}
 .icon-notification-menu {
     width: 32px;
     height: 32px;
@@ -1636,12 +1676,22 @@ padding: 0 20px;
     height: 32px;
     background: url('../img/cmn/icon-sprite.png') -369px -319px;
 }
+.icon-notification-menu-selected {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -369px -319px;
+}
 .icon-settings {
     width: 32px;
     height: 32px;
     background: url('../img/cmn/icon-sprite.png') -419px -319px;
 }
 .icon-settings:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -469px -319px;
+}
+.icon-settings-selected {
     width: 32px;
     height: 32px;
     background: url('../img/cmn/icon-sprite.png') -469px -319px;
