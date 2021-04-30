@@ -141,6 +141,7 @@
 .f-16 {font-size:16px;}
 .f-18 {font-size:18px;}
 .f-20 {font-size:20px;}
+.f-23 {font-size:23px;}
 .f-24 {font-size:24px;}
 .f-28 {font-size:28px;}
 .f-30 {font-size:30px;}
@@ -540,7 +541,7 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
 }
 .badge-circle-ghost-position {
     position:absolute;
-    left:15px;
+    left:25px;
     margin-top:15px;
     z-index: 10;
 }
@@ -1413,7 +1414,7 @@ padding: 0 20px;
     right:5% !important;
     left:5% !important;
 }
-
+.c-indicator-wh {width:70px; height:70px !important;}
 /*------------------------------------
 	Footer
 ------------------------------------*/
