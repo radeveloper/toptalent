@@ -139,6 +139,7 @@
 .f-14 {font-size:14px;}
 .f-15 {font-size:15px;}
 .f-16 {font-size:16px;}
+.f-17 {font-size:17px;}
 .f-18 {font-size:18px;}
 .f-20 {font-size:20px;}
 .f-23 {font-size:23px;}
@@ -147,7 +148,7 @@
 .f-30 {font-size:30px;}
 .f-32 {font-size:32px;}
 .f-36 {font-size:36px;}
-.f-42 {font-size:42px;}
+.f-42 {font-size:42px !important;}
 .f-64 {font-size:64px;}
 
 /*------------------------------------
@@ -597,6 +598,7 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
 .event-counter-right {bottom:30px; right:15px;}
 .event-edit {top:20px; right:35px;}
 .event-counter-badge {width:50px; height:50px;}
+.event-schedule-border {border-left:2px dotted #323232; margin-left:-7px; margin-top:-5px; height:30px;}
 .r-0 {
     -webkit-border-radius: 0px !important;
     -moz-border-radius: 0px !important;
