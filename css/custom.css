@@ -1482,6 +1482,12 @@ padding: 0 20px;
     margin-top:10px;
     z-index: 10;
 }
+.icon-love-position-md {
+    position:absolute;
+    right:60px;
+    top:55px;
+    z-index: 10;
+}
 .icon-rocket-position {
     position:relative;
     top:-175px;
