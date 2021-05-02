@@ -31,5 +31,9 @@ $(document).ready(function () {
     videoList.owlCarousel({responsiveClass: true, responsive: {0: {items: 1,}, 600: {items: 3,}, 1000: {items: 4,}}});
     $('.videoListNext').click(function () {videoList.trigger('next.owl.carousel');});
     $('.videoListPrev').click(function () {videoList.trigger('prev.owl.carousel', [300]);});
+    const cvTemplate = $('.cv-template');
+    cvTemplate.owlCarousel({responsiveClass: true, responsive: {0: {items: 2,}, 600: {items: 3,}, 900: {items: 4,}, 1100: {items: 5,}, 1200: {items: 7,}}});
+    $('.cvTemplateNext').click(function () {cvTemplate.trigger('next.owl.carousel');});
+    $('.cvTemplatePrev').click(function () {cvTemplate.trigger('prev.owl.carousel', [300]);});
 
 });

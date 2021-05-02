@@ -1518,7 +1518,7 @@ padding: 0 20px;
     height: 120px;
     background: url('../img/cmn/icon-sprite.png') -610px -110px;
 }
-/* Menu Icons Start */
+/* ---Menu Icons Start--- */
 .icon-menu-slct {
     width: 15px;
     height: 32px;
@@ -1709,7 +1709,55 @@ padding: 0 20px;
     height: 32px;
     background: url('../img/cmn/icon-sprite.png') -469px -319px;
 }
-/* End Menu Icons */
+
+/* Blue Icons */
+.icon-menu-slct-bl {
+    width: 15px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -26px -369px;
+}
+.icon-envelope {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -69px -369px;
+}
+.icon-envelope-bl:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -119px -369px;
+}
+.icon-envelope-bl-selected {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -119px -369px;
+}
+.icon-academia-bl:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -269px -369px;
+}
+.icon-academia-bl-selected {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -269px -369px;
+}
+.icon-brands {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -169px -369px;
+}
+.icon-brands-bl:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -219px -369px;
+}
+.icon-brands-bl-selected {
+    width: 32px;
+    height: 32px;
+    background: url('../img/cmn/icon-sprite.png') -219px -369px;
+}
+
+/* ---End Menu Icons--- */
 
 /*------------------------------------
 	Homepage Customs
