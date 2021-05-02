@@ -27,5 +27,9 @@ $(document).ready(function () {
     onlineTrainings.owlCarousel({responsiveClass: true, responsive: {0: {items: 1,}, 600: {items: 3,}, 1000: {items: 4,}}});
     $('.onlineTrainingsNext').click(function () {onlineTrainings.trigger('next.owl.carousel');});
     $('.onlineTrainingsPrev').click(function () {onlineTrainings.trigger('prev.owl.carousel', [300]);});
+    const videoList = $('.video-list');
+    videoList.owlCarousel({responsiveClass: true, responsive: {0: {items: 1,}, 600: {items: 3,}, 1000: {items: 4,}}});
+    $('.videoListNext').click(function () {videoList.trigger('next.owl.carousel');});
+    $('.videoListPrev').click(function () {videoList.trigger('prev.owl.carousel', [300]);});
 
 });
