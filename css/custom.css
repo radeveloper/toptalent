@@ -687,6 +687,14 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;    
 }
+.rr-999 {
+    -webkit-border-top-right-radius: 999px !important;
+    -webkit-border-bottom-right-radius: 999px !important;
+    -moz-border-radius-topright: 999px !important;
+    -moz-border-radius-bottomright: 999px !important;
+    border-top-right-radius: 999px !important;
+    border-bottom-right-radius: 999px !important;
+}
 .r-999 {
     -webkit-border-radius: 999px !important;
     -moz-border-radius: 999px !important;
@@ -1041,6 +1049,12 @@ padding: 0 20px;
     border: solid 1px #8b8b8b;
     padding: 5px 10px 5px 10px;
 }
+.btn-ghost-search {
+    color: #242734;
+    background: #fff;
+    border: solid 1px #e3e7eb;
+    padding: 0px 5px 0px 5px;
+}
 .btn-blue {
     background-color:#0096d6;
     color:#fff;
@@ -1171,6 +1185,8 @@ padding: 0 20px;
     .card-position-150 {position:relative; top:-150px;}
     .card-position-190 {position:relative; top:-150px;}
     .carousel-img-height {height:400px;}
+    .blg-1-xs {border-left:1px solid #fff !important;}
+
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
     .modal-dialog-right {

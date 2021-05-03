@@ -73,7 +73,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-12 col-sm-10 col-md-11 col-lg-11 container-blue-lt">
+        <div class="col-12 col-sm-10 col-md-11 col-lg-11 container-blue-lt pl-0 pr-0">
             <!-- Job Post Form Start -->
             <div class="container-fluid">
                 <div class="row row-padding">
@@ -87,20 +87,33 @@
                 <div class="row row-padding">
                     <div class="col-lg-12 form-group row w-100 pt-3">
                         <label for="email" class="col-sm-auto col-form-label fw-600 pb-2 pr-4">Sırala</label>
-                        <div class="col-sm-7"><input type="text" id="email" placeholder="İş ilanları arasında ara" class="form-control form-control-slim r-999"/></div>
+                        <div class="col-sm-7">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <button class="btn btn-ghost-search" type="button" id="button-addon1" style="border-right:0px;"><i class="fas fa-search pl-3"></i></button>
+                                </div>
+                                <input type="text" class="form-control rr-999" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                            </div>
+                        </div>
                         <div class="col-sm-auto pt-2">
                             <a href="#" class="link-black pl-4 pr-4"><i class="fas fa-pause pr-1"></i> Kart</a>
                             <a href="#" class="link-pink pr-4"><i class="fas fa-th-list pr-1"></i> Liste</a>
-                            <a href="#" class="link-black" data-toggle="modal" data-target="#jobsFilter"><i class="fas fa-filter pr-1"></i> Filtrele</a>
+                            <a href="#" class="link-black d-none d-sm-inline" data-toggle="modal" data-target="#jobsFilter"><i class="fas fa-filter pr-1"></i> Filtrele</a>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- End Job Post Form -->
             <!-- Jobs List Start -->
-            <div class="container-fluid container-blue-lt">
+            <div class="container-fluid container-blue-lt pl-0 pr-0">
                 <div class="row row-padding">
                     <div class="card card-noborder mb-4 w-100">
+                        <div class="d-block d-sm-none">
+                            <div class="row border-bottom mb-3">
+                                <div class="col-6 text-center p-3 mb-2 mt-3"><a href="#" class="link-black fw-600">Sırala</a></div>
+                                <div class="col-6 text-center p-3 mb-2 mt-3 bllg-1"><a href="#" class="link-black fw-600">Filtrele</a></div>
+                            </div>
+                        </div>
                         <div class="row no-gutters p-4">
                             <div class="col-2 col-sm-1 text-center align-self-center"><img src="../toptalent/img/logo-company/isbankasi-100.png" alt="Türkiye İş Bankası" class="r-10 img-fluid ml-2"></div>
                             <div class="col-10 col-sm-11">
