@@ -35,5 +35,9 @@ $(document).ready(function () {
     cvTemplate.owlCarousel({responsiveClass: true, responsive: {0: {items: 2,}, 600: {items: 3,}, 900: {items: 4,}, 1100: {items: 5,}, 1200: {items: 7,}}});
     $('.cvTemplateNext').click(function () {cvTemplate.trigger('next.owl.carousel');});
     $('.cvTemplatePrev').click(function () {cvTemplate.trigger('prev.owl.carousel', [300]);});
+    const eventMonth = $('.event-month');
+    eventMonth.owlCarousel({responsiveClass: true, responsive: {0: {items: 1,},  600: {items: 2,}, 900: {items: 3,}}});
+    $('.eventMonthNext').click(function () {eventMonth.trigger('next.owl.carousel');});
+    $('.eventMonthPrev').click(function () {eventMonth.trigger('prev.owl.carousel', [300]);});
 
 });
