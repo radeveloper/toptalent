@@ -52,63 +52,71 @@
     <div class="row row-padding">
         <div class="col-12 p-top-30">&nbsp;</div>
         <div class="clearfix"></div>
-        <div class="col-5">
+        <div class="col-md-5 mb-4">
             <div class="justify-content-sm-center">
-                <div class="col-11">
-                    <nav class="nav nav-pills flex-column flex-sm-row pb-5">
-                        <a class="flex-sm-fill text-sm-center nav-link nav-pills-passive" href="#">Şirket Hesabına<br />Giriş Yap</a>
-                        <a class="flex-sm-fill text-sm-center nav-link nav-pills-active" href="#">Şirket Hesabı<br />Oluştur</a>
-                    </nav>
-                    <div class="text-center">
-                        <input type="text" class="form-control r-999 p-20" placeholder="Ad"/>
-                        <input type="text" class="form-control r-999 p-20" placeholder="Soyad"/>
-                        <input type="text" class="form-control r-999 p-20" placeholder="Cep Telefonu"/>
-                        <input type="text" class="form-control r-999 p-20" placeholder="Şirket e-mail adresi"/>
-                        <input type="text" class="form-control r-999 p-20" placeholder="Şirket Adı"/>
-                        <input type="password" class="container form-control r-999 btn-block p-20" name="password" id="pwdLogin" placeholder="Şifre"/>
-                        <i class="far fa-eye field-icon g-cursor-pointer" id="toggleLoginPassword"></i>
-                        <div class="seperator-gray">&nbsp;</div><br />
-                        <h4 class="f-16 fw-600 text-left">Fatura Bilgileri</h4>
-                        <input type="text" class="form-control r-999 p-20" placeholder="Şirket Ünvanı"/>
-                        <select id="city" class="custom-select r-999 g-height-48 pl-4 mb-3">
-                            <option selected="selected">İl Seçiniz</option>
-                            <option>Üniversite 1</option>
-                            <option>Üniversite 2</option>
-                            <option>Üniversite 3</option>
-                        </select>
-                        <select id="town" class="custom-select r-999 g-height-48 pl-4 mb-3">
-                            <option selected="selected">İlçe Seçiniz</option>
-                            <option>Üniversite 1</option>
-                            <option>Üniversite 2</option>
-                            <option>Üniversite 3</option>
-                        </select>
-                        <select id="taxOfficeCity" class="custom-select r-999 g-height-48 pl-4 mb-3">
-                            <option selected="selected">Vergi Dairesi İli Seçiniz</option>
-                            <option>Üniversite 1</option>
-                            <option>Üniversite 2</option>
-                            <option>Üniversite 3</option>
-                        </select>
-                        <select id="taxOffice" class="custom-select r-999 g-height-48 pl-4 mb-3">
-                            <option selected="selected">Vergi Dairesi Seçiniz</option>
-                            <option>Üniversite 1</option>
-                            <option>Üniversite 2</option>
-                            <option>Üniversite 3</option>
-                        </select>
-                        <input type="text" class="form-control r-999 p-20" placeholder="Vergi Numarası"/>
-                        <div class="custom-control custom-checkbox mt-4 mb-4 text-left">
-                            <input type="checkbox" class="custom-control-input" id="validation1">
-                            <label class="custom-control-label f-12 text-muted" for="validation1">İletişim bilgilerime E-Posta gönderilmesini kabul ediyorum</label>
-                        </div>
-                        <div class="custom-control custom-checkbox mt-4 mb-4 text-left">
-                            <input type="checkbox" class="custom-control-input" id="validation2">
-                            <label class="custom-control-label f-12 text-muted" for="validation2">Kişisel verilerimin işlenmesine dair KVKK aydınlatma metnini okudum.</label>
-                        </div>
-                        <button class="btn btn-pink btn-lg btn-block p-10 fw-700">Kayıt ol</button>
+                <div class="d-none d-sm-block">
+                    <div class="col-11">
+                        <nav class="nav nav-pills flex-column flex-sm-row pb-5">
+                            <a class="flex-sm-fill text-sm-center nav-link active nav-pills-active" href="#">Şirket Hesabına<br />Giriş Yap</a>
+                            <a class="flex-sm-fill text-sm-center nav-link nav-pills-passive" href="#">Şirket Hesabı<br />Oluştur</a>
+                        </nav>
                     </div>
+                </div>
+                <div class="d-block d-sm-none">
+                    <div class="row mb-5">
+                        <div class="col-6 pr-0"><a class="text-center nav-link active nav-pills-active" href="#">Şirket Hesabına<br />Giriş Yap</a></div>
+                        <div class="col-6 pl-0"><a class="text-center nav-link nav-pills-passive" href="#">Şirket Hesabı<br />Oluştur</a></div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <input type="text" class="form-control r-999 p-20" placeholder="Ad"/>
+                    <input type="text" class="form-control r-999 p-20" placeholder="Soyad"/>
+                    <input type="text" class="form-control r-999 p-20" placeholder="Cep Telefonu"/>
+                    <input type="text" class="form-control r-999 p-20" placeholder="Şirket e-mail adresi"/>
+                    <input type="text" class="form-control r-999 p-20" placeholder="Şirket Adı"/>
+                    <input type="password" class="container form-control r-999 btn-block p-20" name="password" id="pwdLogin" placeholder="Şifre"/>
+                    <i class="far fa-eye field-icon g-cursor-pointer" id="toggleLoginPassword"></i>
+                    <div class="seperator-gray">&nbsp;</div><br />
+                    <h4 class="f-16 fw-600 text-left">Fatura Bilgileri</h4>
+                    <input type="text" class="form-control r-999 p-20" placeholder="Şirket Ünvanı"/>
+                    <select id="city" class="custom-select r-999 g-height-48 pl-4 mb-3">
+                        <option selected="selected">İl Seçiniz</option>
+                        <option>Üniversite 1</option>
+                        <option>Üniversite 2</option>
+                        <option>Üniversite 3</option>
+                    </select>
+                    <select id="town" class="custom-select r-999 g-height-48 pl-4 mb-3">
+                        <option selected="selected">İlçe Seçiniz</option>
+                        <option>Üniversite 1</option>
+                        <option>Üniversite 2</option>
+                        <option>Üniversite 3</option>
+                    </select>
+                    <select id="taxOfficeCity" class="custom-select r-999 g-height-48 pl-4 mb-3">
+                        <option selected="selected">Vergi Dairesi İli Seçiniz</option>
+                        <option>Üniversite 1</option>
+                        <option>Üniversite 2</option>
+                        <option>Üniversite 3</option>
+                    </select>
+                    <select id="taxOffice" class="custom-select r-999 g-height-48 pl-4 mb-3">
+                        <option selected="selected">Vergi Dairesi Seçiniz</option>
+                        <option>Üniversite 1</option>
+                        <option>Üniversite 2</option>
+                        <option>Üniversite 3</option>
+                    </select>
+                    <input type="text" class="form-control r-999 p-20" placeholder="Vergi Numarası"/>
+                    <div class="custom-control custom-checkbox mt-4 mb-4 text-left">
+                        <input type="checkbox" class="custom-control-input" id="validation1">
+                        <label class="custom-control-label f-12 text-muted" for="validation1">İletişim bilgilerime E-Posta gönderilmesini kabul ediyorum</label>
+                    </div>
+                    <div class="custom-control custom-checkbox mt-4 mb-4 text-left">
+                        <input type="checkbox" class="custom-control-input" id="validation2">
+                        <label class="custom-control-label f-12 text-muted" for="validation2">Kişisel verilerimin işlenmesine dair KVKK aydınlatma metnini okudum.</label>
+                    </div>
+                    <button class="btn btn-pink btn-lg btn-block p-10 fw-700">Kayıt ol</button>
                 </div>
             </div>
         </div>
-        <div class="col-7 reset-padding-r">
+        <div class="col-md-7 reset-padding-r">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

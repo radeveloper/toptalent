@@ -76,14 +76,30 @@
         <div class="col-12 col-sm-10 col-md-10 col-lg-11 col-xl-11 pr-0 pl-0">
             <!-- Secondary Header Start -->
             <div class="container-fluid container-grey">
-                <div class="row row-padding secondary-header">
+                <div class="row row-padding p-3 pt-4">
                     <div class="col-lg-9 text-white">
                         <h4><strong style="font-weight: bolder;">Kariyer Hedeflerini Gerçekleştir</strong><br /><span class="f-16">Kariyer hedeflerini gerçekleştirmek seni hayalindeki işe yaklaştırır.</span></h4>
                     </div>
                     <div class="col-lg-3 text-lg-right text-sm-right reset-padding-r text-white">
                         <a href="#">Hedeflerime Git <i class="fas fa-chevron-right p-left-10"></i></a>
                     </div>
-                    <div class="col-12 text-white p-top-20 p-bottom-20">
+                    <div class="col-12 text-white p-top-20 p-bottom-20 d-block d-md-none">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="mb-2"><span class="target-blue r-999">28</span></div>
+                                <div><span class="f-16">Toplam<br />Hedefler</span></div>
+                            </div>
+                            <div class="col-4">
+                                <div class="mb-2"><span class="target-orange r-999">28</span></div>
+                                <div><span class="f-16">Kalan<br />Hedefler</span></div>
+                            </div>
+                            <div class="col-4">
+                                <div class="mb-2"><span class="target-green r-999">28</span></div>
+                                <div><span class="f-16">Tamamlanan Hedefler</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-white p-top-20 p-bottom-20 d-none d-md-block">
                         <span class="target-blue r-999">28</span>
                         <span class="f-16">Toplam Hedefler</span>
                         <span class="target-seperator pt-2 pb-2 ml-5 mr-5"></span>
@@ -97,21 +113,37 @@
                     </div>
                     <div class="clearfix"></div>
                 </div>
-                <div class="row row-padding">
-                    <form class="form-inline" style="position:relative; top:30px;">
-                        <div class="card r-15 p-10 p-right-40 m-right-20">
-                            <input id="radio-1" class="radio-custom" name="radio-group" type="radio" checked>
-                            <label for="radio-1" class="radio-custom-label">Özgeçmişini<br />Tamamla</label>
+                <div class="row row-padding p-3 d-block d-md-none">
+                        <div>
+                            <div class="card r-15 p-2 pr-2 mr-2 mb-2">
+                                <input id="radio-1" class="radio-custom" name="radio-group" type="radio" checked>
+                                <label for="radio-1" class="radio-custom-label">Özgeçmişini Tamamla</label>
+                            </div>
+                            <div class="card r-15 p-2 pr-2 mr-2 mb-2">
+                                <input id="radio-2" class="radio-custom"name="radio-group" type="radio">
+                                <label for="radio-2" class="radio-custom-label">Kariyer Testini Çöz</label>
+                            </div>
+                            <div class="card r-15 p-2 pr-2 mr-2 mb-2">
+                                <input id="radio-3" class="radio-custom" name="radio-group" type="radio">
+                                <label for="radio-3" class="radio-custom-label">İş İlanlarına Başvur</label>
+                            </div>
                         </div>
-                        <div class="card r-15 p-10 p-right-40 m-right-20">
-                            <input id="radio-2" class="radio-custom"name="radio-group" type="radio">
-                            <label for="radio-2" class="radio-custom-label">Kariyer<br />Testini Çöz</label>
+                    </div>
+                    <div class="row row-padding d-none d-md-block">
+                        <div class="form-inline" style="position:relative; top:30px;">
+                            <div class="card r-15 p-10 p-right-40 m-right-20">
+                                <input id="radio-4" class="radio-custom" name="radio-group" type="radio" checked>
+                                <label for="radio-4" class="radio-custom-label">Özgeçmişini<br />Tamamla</label>
+                            </div>
+                            <div class="card r-15 p-10 p-right-40 m-right-20">
+                                <input id="radio-5" class="radio-custom"name="radio-group" type="radio">
+                                <label for="radio-5" class="radio-custom-label">Kariyer<br />Testini Çöz</label>
+                            </div>
+                            <div class="card r-15 p-10 p-right-40 m-right-20">
+                                <input id="radio-6" class="radio-custom" name="radio-group" type="radio">
+                                <label for="radio-6" class="radio-custom-label">İş İlanlarına<br />Başvur</label>
+                            </div>
                         </div>
-                        <div class="card r-15 p-10 p-right-40 m-right-20">
-                            <input id="radio-3" class="radio-custom" name="radio-group" type="radio">
-                            <label for="radio-3" class="radio-custom-label">İş İlanlarına<br />Başvur</label>
-                        </div>
-                    </form>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -132,24 +164,24 @@
                             <table id="table-card" class="table table-borderless">
                                 <tbody>
                                     <tr>
-                                        <td class="fw-600">Pazarlama Uzmanı pozisyonu görev tanımını keşfet   </td>
-                                        <td class="w-150px"><span class="badge-circle-red r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
-                                        <td class="w-50px">
+                                        <td class="align-middle fw-600">Pazarlama Uzmanı pozisyonu görev tanımını keşfet</td>
+                                        <td class="align-middle"><span class="badge-circle-red r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
+                                        <td class="align-middle">
                                             <input id="radio-gr-1-1" class="radio-custom" name="radio-group" type="radio" checked>
                                             <label for="radio-gr-1-1" class="radio-custom-label"></label>
                                         </td>
-                                        <td class="table-card-r-right w-100px pt-4">
+                                        <td class="align-middle table-card-r-right w-75px pt-4">
                                             <a href="#" class="link-gray-l">Sil<i class="fas fa-times ml-3"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="fw-600">Marketing Specialist Program sertifikası al</td>
-                                        <td class="w-150px"><span class="badge-circle-orange r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
-                                        <td class="w-50px">
+                                        <td class="align-middle fw-600">Marketing Specialist Program sertifikası al</td>
+                                        <td class="align-middle"><span class="badge-circle-orange r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
+                                        <td class="align-middle">
                                             <input id="radio-gr-1-2" class="radio-custom" name="radio-group" type="radio" checked>
                                             <label for="radio-gr-1-2" class="radio-custom-label"></label>
                                         </td>
-                                        <td class="table-card-r-right w-100px pt-4">
+                                        <td class="table-card-r-right w-75px align-middle">
                                             <a href="#" class="link-gray-l">Sil<i class="fas fa-times ml-3"></i></a>
                                         </td>
                                     </tr>
@@ -168,24 +200,24 @@
                             <table id="table-card" class="table table-borderless">
                                 <tbody>
                                     <tr>
-                                        <td class="fw-600">Pazarlama Uzmanı pozisyonu görev tanımını keşfet   </td>
-                                        <td class="w-150px"><span class="badge-circle-red r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
-                                        <td class="w-50px">
+                                        <td class="align-middle fw-600">Pazarlama Uzmanı pozisyonu görev tanımını keşfet   </td>
+                                        <td class="align-middle"><span class="badge-circle-red r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
+                                        <td class="align-middle">
                                             <input id="radio-gr-2-1" class="radio-custom" name="radio-group" type="radio" checked>
                                             <label for="radio-gr-2-1" class="radio-custom-label"></label>
                                         </td>
-                                        <td class="table-card-r-right w-100px pt-4">
+                                        <td class="align-middle table-card-r-right w-75px pt-4">
                                             <a href="#" class="link-gray-l">Sil<i class="fas fa-times ml-3"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="fw-600">Marketing Specialist Program sertifikası al</td>
-                                        <td class="w-150px"><span class="badge-circle-orange r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
-                                        <td class="w-50px">
+                                        <td class="align-middle fw-600">Marketing Specialist Program sertifikası al</td>
+                                        <td class="align-middle"><span class="badge-circle-orange r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
+                                        <td class="align-middle">
                                             <input id="radio-gr-2-2" class="radio-custom" name="radio-group" type="radio" checked>
                                             <label for="radio-gr-2-2" class="radio-custom-label"></label>
                                         </td>
-                                        <td class="table-card-r-right w-100px pt-4">
+                                        <td class="align-middle table-card-r-right w-75px pt-4">
                                             <a href="#" class="link-gray-l">Sil<i class="fas fa-times ml-3"></i></a>
                                         </td>
                                     </tr>
@@ -204,24 +236,24 @@
                             <table id="table-card" class="table table-borderless">
                                 <tbody>
                                     <tr>
-                                        <td class="fw-600">Pazarlama Uzmanı pozisyonu görev tanımını keşfet   </td>
-                                        <td class="w-150px"><span class="badge-circle-red r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
-                                        <td class="w-50px">
+                                        <td class="align-middle fw-600">Pazarlama Uzmanı pozisyonu görev tanımını keşfet   </td>
+                                        <td class="align-middle"><span class="badge-circle-red r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
+                                        <td class="align-middle">
                                             <input id="radio-gr-3-1" class="radio-custom" name="radio-group" type="radio" checked>
                                             <label for="radio-gr-3-1" class="radio-custom-label"></label>
                                         </td>
-                                        <td class="table-card-r-right w-100px pt-4">
+                                        <td class="align-middle table-card-r-right w-75px pt-4">
                                             <a href="#" class="link-gray-l">Sil<i class="fas fa-times ml-3"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="fw-600">Marketing Specialist Program sertifikası al</td>
-                                        <td class="w-150px"><span class="badge-circle-orange r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
-                                        <td class="w-50px">
+                                        <td class="align-middle fw-600">Marketing Specialist Program sertifikası al</td>
+                                        <td class="align-middle"><span class="badge-circle-orange r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
+                                        <td class="align-middle">
                                             <input id="radio-gr-3-2" class="radio-custom" name="radio-group" type="radio" checked>
                                             <label for="radio-gr-3-2" class="radio-custom-label"></label>
                                         </td>
-                                        <td class="table-card-r-right w-100px pt-4">
+                                        <td class="align-middle table-card-r-right w-75px pt-4">
                                             <a href="#" class="link-gray-l">Sil<i class="fas fa-times ml-3"></i></a>
                                         </td>
                                     </tr>
@@ -240,24 +272,24 @@
                             <table id="table-card" class="table table-borderless">
                                 <tbody>
                                     <tr>
-                                        <td class="fw-600">Pazarlama Uzmanı pozisyonu görev tanımını keşfet   </td>
-                                        <td class="w-150px"><span class="badge-circle-red r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
-                                        <td class="w-50px">
+                                        <td class="align-middle fw-600">Pazarlama Uzmanı pozisyonu görev tanımını keşfet   </td>
+                                        <td class="align-middle"><span class="badge-circle-red r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
+                                        <td class="align-middle">
                                             <input id="radio-gr-4-1" class="radio-custom" name="radio-group" type="radio" checked>
                                             <label for="radio-gr-4-1" class="radio-custom-label"></label>
                                         </td>
-                                        <td class="table-card-r-right w-100px pt-4">
+                                        <td class="align-middle table-card-r-right w-75px pt-4">
                                             <a href="#" class="link-gray-l">Sil<i class="fas fa-times ml-3"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="fw-600">Marketing Specialist Program sertifikası al</td>
-                                        <td class="w-150px"><span class="badge-circle-orange r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
-                                        <td class="w-50px">
+                                        <td class="align-middle fw-600">Marketing Specialist Program sertifikası al</td>
+                                        <td class="align-middle"><span class="badge-circle-orange r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
+                                        <td class="align-middle">
                                             <input id="radio-gr-4-2" class="radio-custom" name="radio-group" type="radio" checked>
                                             <label for="radio-gr-4-2" class="radio-custom-label"></label>
                                         </td>
-                                        <td class="table-card-r-right w-100px pt-4">
+                                        <td class="align-middle table-card-r-right w-75px pt-4">
                                             <a href="#" class="link-gray-l">Sil<i class="fas fa-times ml-3"></i></a>
                                         </td>
                                     </tr>
@@ -276,24 +308,24 @@
                             <table id="table-card" class="table table-borderless">
                                 <tbody>
                                     <tr>
-                                        <td class="fw-600">Pazarlama Uzmanı pozisyonu görev tanımını keşfet   </td>
-                                        <td class="w-150px"><span class="badge-circle-red r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
-                                        <td class="w-50px">
+                                        <td class="align-middle fw-600">Pazarlama Uzmanı pozisyonu görev tanımını keşfet   </td>
+                                        <td class="align-middle"><span class="badge-circle-red r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
+                                        <td class="align-middle">
                                             <input id="radio-gr-5-1" class="radio-custom" name="radio-group" type="radio" checked>
                                             <label for="radio-gr-5-1" class="radio-custom-label"></label>
                                         </td>
-                                        <td class="table-card-r-right w-100px pt-4">
+                                        <td class="align-middle table-card-r-right w-75px pt-4">
                                             <a href="#" class="link-gray-l">Sil<i class="fas fa-times ml-3"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="fw-600">Marketing Specialist Program sertifikası al</td>
-                                        <td class="w-150px"><span class="badge-circle-orange r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
-                                        <td class="w-50px">
+                                        <td class="align-middle fw-600">Marketing Specialist Program sertifikası al</td>
+                                        <td class="align-middle"><span class="badge-circle-orange r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
+                                        <td class="align-middle">
                                             <input id="radio-gr-5-2" class="radio-custom" name="radio-group" type="radio" checked>
                                             <label for="radio-gr-5-2" class="radio-custom-label"></label>
                                         </td>
-                                        <td class="table-card-r-right w-100px pt-4">
+                                        <td class="align-middle table-card-r-right w-75px pt-4">
                                             <a href="#" class="link-gray-l">Sil<i class="fas fa-times ml-3"></i></a>
                                         </td>
                                     </tr>
@@ -312,24 +344,24 @@
                             <table id="table-card" class="table table-borderless">
                                 <tbody>
                                     <tr>
-                                        <td class="fw-600">Pazarlama Uzmanı pozisyonu görev tanımını keşfet   </td>
-                                        <td class="w-150px"><span class="badge-circle-red r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
-                                        <td class="w-50px">
+                                        <td class="align-middle fw-600">Pazarlama Uzmanı pozisyonu görev tanımını keşfet   </td>
+                                        <td class="align-middle"><span class="badge-circle-red r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
+                                        <td class="align-middle">
                                             <input id="radio-gr-7-1" class="radio-custom" name="radio-group" type="radio" checked>
                                             <label for="radio-gr-7-1" class="radio-custom-label"></label>
                                         </td>
-                                        <td class="table-card-r-right w-100px pt-4">
+                                        <td class="align-middle table-card-r-right w-75px pt-4">
                                             <a href="#" class="link-gray-l">Sil<i class="fas fa-times ml-3"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="fw-600">Marketing Specialist Program sertifikası al</td>
-                                        <td class="w-150px"><span class="badge-circle-orange r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
-                                        <td class="w-50px">
+                                        <td class="align-middle fw-600">Marketing Specialist Program sertifikası al</td>
+                                        <td class="align-middle"><span class="badge-circle-orange r-999 d-block f-11 fw-600 p-1 pl-3 pr-3">Son 2 Gün</span></td>
+                                        <td class="align-middle">
                                             <input id="radio-gr-7-2" class="radio-custom" name="radio-group" type="radio" checked>
                                             <label for="radio-gr-7-2" class="radio-custom-label"></label>
                                         </td>
-                                        <td class="table-card-r-right w-100px pt-4">
+                                        <td class="align-middle table-card-r-right w-75px pt-4">
                                             <a href="#" class="link-gray-l">Sil<i class="fas fa-times ml-3"></i></a>
                                         </td>
                                     </tr>
@@ -344,8 +376,8 @@
                                 <a href="#" class="link-black fw-600">+ Hedef Ekle</a>
                             </div>
                         </div>
-                        <div class="card card-noborder r-15 p-30 m-bottom-15">
-                            <div class="d-inline p-top-20">
+                        <div class="card card-noborder r-15 p-4 mb-3">
+                            <div class="d-inline pt-4">
                                 <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Proje Çizimi" />
                                 <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="Lojistik" />
                                 <input type="button" class="btn btn-ghost p-left-15 p-right-15 m-right-10 m-bottom-10" value="İK Yönetimi" />
