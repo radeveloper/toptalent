@@ -701,12 +701,12 @@ a.menu-link:hover {color: #12141A; text-decoration:none;}
     border-radius: 999px !important;
 }
 .rl-999 {
-    -webkit-border-top-left-radius: 999px;
-    -webkit-border-bottom-left-radius: 999px;
-    -moz-border-radius-topleft: 999px;
-    -moz-border-radius-bottomleft: 999px;
-    border-top-left-radius: 999px;
-    border-bottom-left-radius: 999px;    
+    -webkit-border-top-left-radius: 999px !important;
+    -webkit-border-bottom-left-radius: 999px !important;
+    -moz-border-radius-topleft: 999px !important;
+    -moz-border-radius-bottomleft: 999px !important;
+    border-top-left-radius: 999px !important;
+    border-bottom-left-radius: 999px !important;
 }
 table { 
     border-collapse: separate; 
