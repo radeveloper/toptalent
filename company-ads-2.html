@@ -110,10 +110,13 @@
                                 <div class="col-12">
                                     <h3 class="f-20 fw-600">
                                         İş Tanımı
-                                        <a href="#" class="f-14 link-black float-right text-underline">Temizle</a>
-                                        <span class="float-right f-12 pr-5"><img src="../toptalent/img/cmn/icon-flag-tr.png" class="pr-2" /><a href="#" class="link-blue">Türkçe Şablon Kullan</a></span>
-                                        <span class="float-right f-12 pr-3 text-muted"><img src="../toptalent/img/cmn/icon-flag-uk.png" class="pr-2" />İngilizce Şablon Kullan</span>
+                                        <div class="float-right"><a href="#" class="f-14 link-black text-underline">Temizle</a></div>
+                                        <div class="float-right">
+                                            <span class="f-12 pr-5"><img src="../toptalent/img/cmn/icon-flag-tr.png" class="pr-2" /><a href="#" class="link-blue">Türkçe Şablon Kullan</a></span>
+                                            <span class="f-12 pr-3 text-muted"><img src="../toptalent/img/cmn/icon-flag-uk.png" class="pr-2" />İngilizce Şablon Kullan</span>
+                                        </div>
                                     </h3>
+                                    <div class="clearfix"></div>
                                     <p>Dilerseniz hazır iş ilanı şablonumuzu kullanın, isterseniz kendi iş ilanı açıklamanızı ekleyin</p>
                                     <br /><strong>Bu alana dinamik Text Editör Gelecektir.</strong>
                                 </div>
@@ -167,7 +170,7 @@
                                 <div class="menu-seperator w-100"></div>
                             </div>
                             <div class="row p-5">
-                                <div class="col-6">
+                                <div class="col-md-6 mb-3">
                                     <h3 class="f-20 fw-600">İlan Başlangıç Tarihi</h3>
                                     <div class="row">
                                         <div class="col-auto">
@@ -179,7 +182,7 @@
                                         <div class="col-auto"><input type="time" class="form-control r-999 mb-2 mr-sm-2 pl-4" style="letter-spacing: 3px;" id="eventTimeStart" value="13:45:00"></div>
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-md-6 mb-3">
                                     <h3 class="f-20 fw-600">İlan Bitiş Tarihi</h3>
                                     <div class="row">
                                         <div class="col-auto">
@@ -274,63 +277,61 @@
                 </div>
             </div>
             <div class="col-12 d-block d-sm-none pl-0 pr-0">
-                <div class="row">
-                    <div class="accordion text-white col-12" id="accordionFooter">
-                        <div class="card card-noborder bg-grey">
-                            <div class="card-header pl-0" id="headingOne">
-                                <h2 class="mb-0">
-                                    <a class="btn btn-block text-left text-white link-white f-16 fw-600" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Toptalent<i class="fas fa-plus float-right pt-1"></i>
-                                    </a>
-                                </h2>
-                            </div>
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionFooter">
-                                <div class="card-body">
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Hakkımızda<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Şartlar ve Koşullar<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Gizlilik Politikası<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Kişisel Verilerin Korunması ve İşlenmesi Politikası<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Aydınlatma Metni<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">İletişim<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Business School<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                </div>
+                <div class="accordion text-white col-12" id="accordionFooter">
+                    <div class="card card-noborder bg-grey">
+                        <div class="card-header pl-0" id="headingOne">
+                            <h2 class="mb-0">
+                                <a class="btn btn-block text-left text-white link-white f-16 fw-600" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Toptalent<i class="fas fa-plus float-right pt-1"></i>
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionFooter">
+                            <div class="card-body">
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Hakkımızda<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Şartlar ve Koşullar<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Gizlilik Politikası<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Kişisel Verilerin Korunması ve İşlenmesi Politikası<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Aydınlatma Metni<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">İletişim<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Business School<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
                             </div>
                         </div>
-                        <div class="card card-noborder bg-grey">
-                            <div class="card-header pl-0" id="headingTwo">
-                                <h2 class="mb-0">
-                                    <a class="btn btn-block text-left text-white link-white f-16 fw-600" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Yetenek<i class="fas fa-plus float-right pt-1"></i>
-                                    </a>
-                                </h2>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionFooter">
-                                <div class="card-body">
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">İş İlanları<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">İşe Alım Programları<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Etkinlikler<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Sertifika Programları<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Şirketler<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Akademi<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">İnsan Kaynakları Programları<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Kariyer Araçları<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                </div>
+                    </div>
+                    <div class="card card-noborder bg-grey">
+                        <div class="card-header pl-0" id="headingTwo">
+                            <h2 class="mb-0">
+                                <a class="btn btn-block text-left text-white link-white f-16 fw-600" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Yetenek<i class="fas fa-plus float-right pt-1"></i>
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionFooter">
+                            <div class="card-body">
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">İş İlanları<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">İşe Alım Programları<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Etkinlikler<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Sertifika Programları<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Şirketler<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Akademi<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">İnsan Kaynakları Programları<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Kariyer Araçları<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
                             </div>
                         </div>
-                        <div class="card card-noborder bg-grey">
-                            <div class="card-header pl-0" id="headingThree">
-                                <h2 class="mb-0">
-                                    <a class="btn btn-block text-left text-white link-white f-16 fw-600" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Şirket<i class="fas fa-plus float-right pt-1"></i>
-                                    </a>
-                                </h2>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionFooter">
-                                <div class="card-body">
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Şirket Girişi<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">İş İlan Yayınla<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                    <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Bize Ulaşın<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
-                                </div>
+                    </div>
+                    <div class="card card-noborder bg-grey">
+                        <div class="card-header pl-0" id="headingThree">
+                            <h2 class="mb-0">
+                                <a class="btn btn-block text-left text-white link-white f-16 fw-600" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Şirket<i class="fas fa-plus float-right pt-1"></i>
+                                </a>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionFooter">
+                            <div class="card-body">
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Şirket Girişi<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">İş İlan Yayınla<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
+                                <p class="pb-3 pl-3 mb-0"><a href="#" class="link-white f-11">Bize Ulaşın<i class="fas fa-chevron-right float-right pt-1 pr-3"></i></a></p>
                             </div>
                         </div>
                     </div>
